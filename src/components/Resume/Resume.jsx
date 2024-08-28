@@ -66,7 +66,7 @@ const Resume = () => {
                         alt="Course certificate for course on codedamn"
                     />
                 </a>
-                <a href="" className="tile">
+                <a href="https://codedamn.com/certificate/verify/3ad9470f80a65aeb4f4a79bb59eaae1ef17604dd" className="tile">
                     <img
                         src="./UC-08c2b5df-c591-4184-b064-1acadb373a66.jpg"
                         alt="Course certificate for course on codedamn"
