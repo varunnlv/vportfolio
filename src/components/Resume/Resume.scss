@@ -95,7 +95,7 @@
          .imageGrid {
             animation: scrollY 60s linear infinite; /* Adjusted duration */
             position: relative;
-            height: 220%; /* Ensure the container is tall enough to scroll all items */
+            height: 200%; /* Ensure the container is tall enough to scroll all items */
         }
     }
 }
