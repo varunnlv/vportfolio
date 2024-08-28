@@ -1,0 +1,102 @@
+@keyframes scrollY {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.services1 {
+    background: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    max-height: 100vh;
+    overflow-y: hidden;
+
+    .titleContainer1 {
+        flex: 0 0 auto;
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        z-index: 1;
+        /* Keeps the titleContainer1 above scrolling content */
+
+        .title {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                font-size: 3rem;
+                font-weight: 100;
+                margin: 0;
+            }
+
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+
+            @media (max-width: 480px) {
+                h1 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    .imageGrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        justify-items: center;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        /* Adjust positioning relative to .services1 */
+
+
+        .tile {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            overflow: hidden;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.15);
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                border-radius: 8px;
+            }
+        }
+    }
+
+    @media (max-width: 982px) {
+        .titleContainer1 {
+            margin-top: 0;
+        }
+
+        .imageGrid {
+            animation: scrollY 40s linear infinite;
+            position: relative;
+        }
+    }
+}
