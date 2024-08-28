@@ -59,6 +59,15 @@ const items = [
             "./ExTracker3.png",
         ],
     },
+    {
+        id: 7,
+        title: "Filmpire",
+       images: [
+            "./FLMPIRE1.png",
+            "./FLMPIRE2.png",
+            "./FLMPIRE3.png",
+        ],
+    },
 ];
 
 // ... (Your existing components)
@@ -801,10 +810,62 @@ const Portfolio = () => {
             </ul>
         </div>
 
+        <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
+        <div class="slider-container">
+                    <Slider {...settings}>
+                        {items[6].images.map((image, index) => (
+                            <img key={index} src={image} alt="" />
+                        ))}
+                    </Slider>
+        </div>        
+        <h2 style={{ marginTop: '20px' }}>FILMPIRE</h2>
 
             
-
+        <div id="projectSectionh8" class="hidden fade-in-top" style="margin-top: 20px;">
+            <h3 style={{ marginTop: '20px' }}>Summary</h3>
+            <p style={{ marginTop: '20px' }} class="card-text">
+                Filmpire is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
+            </p>
+        
+            <h3 style={{ marginTop: '20px' }}>Features</h3>
+            <ul style={{ marginTop: '20px' }}>
+                <li>
+                    <b>Secure Authentication:</b> Users can register and log in with secure authentication mechanisms to protect their accounts.
+                </li>
+                <li>
+                    <b>Real-Time Seat Updates:</b> The system provides real-time updates on seat availability to ensure accurate booking information.
+                </li>
+                <li>
+                    <b>Efficient State Management:</b> Utilizes advanced state management techniques to ensure smooth user interactions and data consistency.
+                </li>
+                <li>
+                    <b>Scalable Backend:</b> The backend services are designed to handle high traffic and scale according to demand.
+                </li>
+                <li>
+                    <b>Responsive Design:</b> The layout adapts to different screen sizes, providing a seamless experience across devices.
+                </li>
+            </ul>
+        
+            <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+            <ul style={{ marginTop: '20px' }}>
+                <li>
+                    <b>HTML & CSS:</b> For structuring and styling the web pages.
+                </li>
+                <li>
+                    <b>JavaScript:</b> For adding dynamic functionality and handling user interactions.
+                </li>
+                <li>
+                    <b>React:</b> For building the frontend user interface.
+                </li>
+                <li>
+                    <b>Node.js & Express:</b> For backend services and handling server-side logic.
+                </li>
+                <li>
+                    <b>WebSocket:</b> For real-time communication and updates.
+                </li>
+            </ul>
+        </div>
 
 
 {/*             <div class="ui-container">
