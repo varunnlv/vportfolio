@@ -45,20 +45,18 @@ const items = [
         id: 5,
         title: "Filmpire",
        images: [
-            "./VPORTFOLIO1.png",
-            "./VPORTFOLIO2.png",
-            "./VPORTFOLIO3.png",
-            "./VPORTFOLIO4.png",
+            "./PF1.png",
+            "./PF2.png",
+            "./PF3.png",
         ],
     },
     {
         id: 6,
         title: "Filmpire",
        images: [
-            "./VPORTFOLIO1.png",
-            "./VPORTFOLIO2.png",
-            "./VPORTFOLIO3.png",
-            "./VPORTFOLIO4.png",
+            "./ExTracker1.png",
+            "./ExTracker2.png",
+            "./ExTracker3.png",
         ],
     },
 ];
