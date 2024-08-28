@@ -81,23 +81,17 @@ const Portfolio = () => {
 
             <hr/>
             <div class="ui-container">
-{/*                 <div class="slider-container">
-                    <Slider {...settings}>
-                        {items[0].images.map((image, index) => (
-                            <img key={index} src={image} alt="" />
-                        ))}
-                    </Slider>
-                </div> */}
+
                 <h2>{items[0].title}</h2>
 
                  <div id="projectSectionh1" className="projectdata hidden fade-in-top" style={{ marginTop: '20px' }}>
                     <h3>Summary</h3>
-                    <p className="card-text">
+                    <p className="card-text" >
                         The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
                     </p>
                     
-                    <h3>Features</h3>
-                    <ul>
+                    <h3 style={{ marginTop: '20px' }}>Features</h3>
+                    <ul style={{ marginTop: '20px' }}>
                         <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
                             <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                             <div>
@@ -134,8 +128,8 @@ const Portfolio = () => {
                         </li>
                     </ul>
             
-                    <h3>Technologies Used</h3>
-                    <ul>
+                    <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+                    <ul style={{ marginTop: '20px' }}>
                         <li style={{ display: 'flex', alignItems: 'center' }}>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png" alt="JavaFX" style={{ width: '80px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
                             <div>
@@ -174,8 +168,8 @@ const Portfolio = () => {
                         </li>
                     </ul>
             
-                    <h3>Learning Outcomes</h3>
-                    <ul>
+                    <h3 style={{ marginTop: '20px' }}>Learning Outcomes</h3>
+                    <ul style={{ marginTop: '20px' }}>
                         <li style={{ display: 'flex', alignItems: 'center' }}>
                             <div>
                                 <b>User Authentication and Security:</b> Gained experience in implementing secure user authentication, registration, and forgot password service functionalities. Understood best practices for storing and managing user credentials securely.
@@ -200,13 +194,6 @@ const Portfolio = () => {
                 </div>
             
             </div>
-
-
-
-
-            {/* {items.map((item) => (
-                <Single item={item} key={item.id} />
-            ))} */}
         </div>
     );
 };
