@@ -217,7 +217,7 @@
     margin-top: 30px;
     border: none;
     max-width: 90%;
-
+    animation: scrollY 40s linear infinite;
 }
 
 .skill,
@@ -288,7 +288,7 @@
     margin-right: 2%;
     /* Adjust based on your design */
 
-    animation: scrollY 40s linear infinite;
+
     position: relative;
 }
 
