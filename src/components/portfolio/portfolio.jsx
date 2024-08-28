@@ -17,11 +17,29 @@ const items = [
     {
         id: 2,
         title: "Filmpire",
-        images: [
-            "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-            // Add more image URLs as needed
+       images: [
+            "./VGRID1.png",
+            "./VGRID2.png",
+            "./VGRID3.png",
         ],
-        desc: "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    },
+    {
+        id: 3,
+        title: "Filmpire",
+       images: [
+            "./VKANBAN1.png",
+            "./VKANBAN2.png",
+        ],
+    },
+    {
+        id: 4,
+        title: "Filmpire",
+       images: [
+            "./VPORTFOLIO1.png",
+            "./VPORTFOLIO2.png",
+            "./VPORTFOLIO3.png",
+            "./VPORTFOLIO4.png",
+        ],
     },
 ];
 
@@ -496,7 +514,7 @@ const Portfolio = () => {
             
             <div class="slider-container">
                     <Slider {...settings}>
-                        {items[0].images.map((image, index) => (
+                        {items[1].images.map((image, index) => (
                             <img key={index} src={image} alt="" />
                         ))}
                     </Slider>
@@ -552,7 +570,7 @@ const Portfolio = () => {
             
             <div class="slider-container">
                     <Slider {...settings}>
-                        {items[0].images.map((image, index) => (
+                        {items[2].images.map((image, index) => (
                             <img key={index} src={image} alt="" />
                         ))}
                     </Slider>
@@ -593,7 +611,7 @@ const Portfolio = () => {
 
         <div class="slider-container">
                     <Slider {...settings}>
-                        {items[0].images.map((image, index) => (
+                        {items[3].images.map((image, index) => (
                             <img key={index} src={image} alt="" />
                         ))}
                     </Slider>
