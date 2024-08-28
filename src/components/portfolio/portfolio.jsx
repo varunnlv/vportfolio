@@ -41,6 +41,26 @@ const items = [
             "./VPORTFOLIO4.png",
         ],
     },
+    {
+        id: 5,
+        title: "Filmpire",
+       images: [
+            "./VPORTFOLIO1.png",
+            "./VPORTFOLIO2.png",
+            "./VPORTFOLIO3.png",
+            "./VPORTFOLIO4.png",
+        ],
+    },
+    {
+        id: 6,
+        title: "Filmpire",
+       images: [
+            "./VPORTFOLIO1.png",
+            "./VPORTFOLIO2.png",
+            "./VPORTFOLIO3.png",
+            "./VPORTFOLIO4.png",
+        ],
+    },
 ];
 
 // ... (Your existing components)
@@ -652,6 +672,141 @@ const Portfolio = () => {
                 </li>
             </ul>
         </div>
+
+        <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
+
+{/*         <div class="slider-container">
+                    <Slider {...settings}>
+                        {items[3].images.map((image, index) => (
+                            <img key={index} src={image} alt="" />
+                        ))}
+                    </Slider>
+        </div>         */}
+        <h2 style={{ marginTop: '20px' }}>PATH FINDER</h2>
+
+        <div id="projectSectionh10" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
+            <h3 style={{ marginTop: '20px' }}>Summary</h3>
+            <p style={{ marginTop: '20px' }} className="card-text">
+                Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
+            </p>
+        
+            <h3 style={{ marginTop: '20px' }}>Features</h3>
+            <ul style={{ marginTop: '20px' }}>
+                <li>
+                    <b>Interactive Grid Board:</b> Users can click to set start and end points.
+                </li>
+                <li>
+                    <b>Pathfinding Algorithms:</b> Implement and visualize various pathfinding algorithms such as Dijkstra’s Algorithm and Depth-First Search (DFS).
+                </li>
+                <li>
+                    <b>Animation Speed Control:</b> Allows users to control the speed of the visualization.
+                </li>
+            </ul>
+        
+            <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+            <ul style={{ marginTop: '20px' }}>
+                <li>
+                    <b>Frontend:</b> React, HTML, CSS, JavaScript.
+                </li>
+                <li>
+                    <b>Algorithm Implementations:</b> JavaScript (for implementing the pathfinding algorithms).
+                </li>
+            </ul>
+        </div>
+
+
+         <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
+
+        <div class="slider-container">
+                    <Slider {...settings}>
+                        {items[4].images.map((image, index) => (
+                            <img key={index} src={image} alt="" />
+                        ))}
+                    </Slider>
+        </div>        
+        <h2 style={{ marginTop: '20px' }}>PORTFOLIO</h2>
+
+        <div id="projectSectionh11" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
+            <h3 style={{ marginTop: '20px' }}>Summary</h3>
+            <p style={{ marginTop: '20px' }} className="card-text">
+                The Portfolio Website is a personal web-based application designed to showcase your personal and professional information, projects, and skills. It provides a platform to display project details with screenshots and interactive features to engage visitors.
+            </p>
+        
+            <h3 style={{ marginTop: '20px' }}>Features</h3>
+            <ul style={{ marginTop: '20px' }}>
+                <li>
+                    <b>Personal Information:</b> A section to display your personal details, including your bio, skills, and contact information.
+                </li>
+                <li>
+                    <b>Projects Showcase:</b> Sections to highlight your personal and professional projects with descriptions and screenshots.
+                </li>
+                <li>
+                    <b>Interactive Elements:</b> Utilizes Framer Motion for interactive animations and transitions, enhancing the user experience.
+                </li>
+                <li>
+                    <b>Contact Form:</b> Integrated contact form using Nodemailer for sending emails directly from the website.
+                </li>
+                <li>
+                    <b>Modern Design:</b> A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.
+                </li>
+            </ul>
+        </div>
+
+        <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
+
+        <div class="slider-container">
+                    <Slider {...settings}>
+                        {items[5].images.map((image, index) => (
+                            <img key={index} src={image} alt="" />
+                        ))}
+                    </Slider>
+        </div>        
+        <h2 style={{ marginTop: '20px' }}>EXPENSE TRACKER</h2>
+
+
+        <div id="projectSectionh12" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
+            <h3 style={{ marginTop: '20px' }}>Summary</h3>
+            <p style={{ marginTop: '20px' }} className="card-text">
+                Expense Tracker is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
+            </p>
+        
+            <h3 style={{ marginTop: '20px' }}>Features</h3>
+            <ul>
+                <li>
+                    <b>User Management:</b> Secure login system to store and retrieve user profiles and their associated expenses.
+                </li>
+                <li>
+                    <b>Expense Management:</b> Intuitive forms for users to input expense details, including date, category, amount, and description.
+                </li>
+                <li>
+                    <b>Expense Retrieval:</b> Users can view and retrieve their past expenses after logging in.
+                </li>
+                <li>
+                    <b>Data Storage:</b> Uses JSON Server to store user data and expenses, ensuring easy data management and retrieval.
+                </li>
+            </ul>
+        
+            <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+            <ul style={{ marginTop: '20px' }}>
+                <li>
+                    <b>React:</b> For building the frontend web application.
+                </li>
+                <li>
+                    <b>HTML & CSS:</b> For structuring and styling the web pages.
+                </li>
+                <li>
+                    <b>React Router:</b> For handling client-side routing and navigation within the web application.
+                </li>
+                <li>
+                    <b>JSON Server:</b> For storing and retrieving user data and expenses.
+                </li>
+            </ul>
+        </div>
+
+
+
+            
+
 
 
 {/*             <div class="ui-container">
