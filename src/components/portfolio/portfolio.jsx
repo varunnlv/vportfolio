@@ -590,9 +590,9 @@ const Portfolio = () => {
             </ul>
         </div>
 
-            <hr/>
+        <hr/>
 
-            <div class="ui-container">
+{/*             <div class="ui-container">
                 <div class="slider-container">
                     <Slider {...settings}>
                         {items[0].images.map((image, index) => (
@@ -608,7 +608,7 @@ const Portfolio = () => {
                 <p>{items[0].desc}</p>
                 <p>{items[0].desc}</p>
                 <button>See Demo</button>
-            </div>
+            </div> */}
 
 
             
