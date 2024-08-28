@@ -1,26 +1,26 @@
-// @keyframes scrollY {
-//     0% {
-//         transform: translateY(0);
-//     }
-
-//     50% {
-//         transform: translateY(-50%);
-//     }
-
-//     100% {
-//         transform: translateY(0);
-//     }
-// }
-
 @keyframes scrollY {
     0% {
         transform: translateY(0);
     }
 
+    50% {
+        transform: translateY(-50%);
+    }
+
     100% {
-        transform: translateY(-100%);
+        transform: translateY(0);
     }
 }
+
+// @keyframes scrollY {
+//     0% {
+//         transform: translateY(0);
+//     }
+
+//     100% {
+//         transform: translateY(-100%);
+//     }
+// }
 
 
 .services1 {
@@ -107,7 +107,7 @@
          .imageGrid {
             animation: scrollY 60s linear infinite; /* Adjusted duration */
             position: relative;
-            height: 200%; /* Ensure the container is tall enough to scroll all items */
+            height: 120%; /* Ensure the container is tall enough to scroll all items */
         }
     }
 }
