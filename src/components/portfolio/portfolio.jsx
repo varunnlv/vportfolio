@@ -822,9 +822,9 @@ const Portfolio = () => {
         <h2 style={{ marginTop: '20px' }}>FILMPIRE</h2>
 
             
-        <div id="projectSectionh8" class="hidden fade-in-top" style="margin-top: 20px;">
+        <div id="projectSectionh8" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
             <h3 style={{ marginTop: '20px' }}>Summary</h3>
-            <p style={{ marginTop: '20px' }} class="card-text">
+            <p style={{ marginTop: '20px' }} className="card-text">
                 Filmpire is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
             </p>
         
@@ -866,6 +866,7 @@ const Portfolio = () => {
                 </li>
             </ul>
         </div>
+
 
 
 {/*             <div class="ui-container">
