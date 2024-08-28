@@ -86,7 +86,7 @@ const Portfolio = () => {
                                             </li>
     
                                             <li style="display: flex; align-items: center; margin-bottom:5px">
-                                                <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;"/>
                                                 <div>
                                                     <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style="color:green; font-weight: bold;">visual and textual outputs</span>.
                                                 </div>
@@ -94,7 +94,7 @@ const Portfolio = () => {
     
     
                                             <li style="display: flex; align-items: center; margin-bottom:5px">
-                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;"/>
                                                 <div>
                                                     <b>Dynamic Canvas:</b> A <span style="color:green; font-weight: bold;">graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
                                                 </div>
