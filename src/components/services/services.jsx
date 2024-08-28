@@ -110,6 +110,10 @@ const Services = () => {
                         <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Angular" /></div>
                         <p>Javascript</p>
                     </div>
+                         <div className="skill">
+                        <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" alt="Anaconda" /></div>
+                        <p>TypeScript</p>
+                    </div>
                     <div className="skill">
                         <div className="icon-container"><img src="https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png" alt="Anaconda" /></div>
                         <p>React</p>
@@ -118,9 +122,13 @@ const Services = () => {
                         <div className="icon-container"><img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Android" /></div>
                         <p>Redux</p>
                     </div>
+                     <div className="skill">
+                        <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ803r_FTGrMlWpKJqOWmQgwv0BkQaDWy8q1Q&s" alt="Android" /></div>
+                        <p>Scss</p>
+                    </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://cdn.iconscout.com/icon/free/png-256/free-mysql-3628940-3030165.png?f=webp&w=256" alt="Angular" /></div>
-                        <p>MySql</p>
+                        <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhoXisDruJMDAq3Ltd-wuaMW2lGxck9wAKw&s" alt="Angular" /></div>
+                        <p>Tailwind</p>
                     </div>
                     <div className="skill">
                         <div className="icon-container"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png" alt="Anaconda" /></div>
@@ -130,6 +138,10 @@ const Services = () => {
                         <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png" alt="Android" /></div>
                         <p>Java Fx</p>
                     </div>
+                     <div className="skill">
+                        <div className="icon-container"><img src="https://cdn.iconscout.com/icon/free/png-256/free-mysql-3628940-3030165.png?f=webp&w=256" alt="Angular" /></div>
+                        <p>MySql</p>
+                    </div>
                     <div className="skill">
                         <div className="icon-container"><img src="https://i.pinimg.com/originals/b2/31/7e/b2317e8174e5fcef57c74c662f57d155.png" alt="Angular" /></div>
                         <p>Mongo DB</p>
@@ -138,18 +150,8 @@ const Services = () => {
                         <div className="icon-container"><img src="https://cdn.prod.website-files.com/601064f495f4b4967f921aa9/635884ad45bd4b4723f4bc39_202210-rds-logo.png" alt="Anaconda" /></div>
                         <p>AWS RDS</p>
                     </div>
-                    <div className="skill">
-                        <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ803r_FTGrMlWpKJqOWmQgwv0BkQaDWy8q1Q&s" alt="Android" /></div>
-                        <p>Scss</p>
-                    </div>
-                    <div className="skill">
-                        <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhoXisDruJMDAq3Ltd-wuaMW2lGxck9wAKw&s" alt="Angular" /></div>
-                        <p>Tailwind</p>
-                    </div>
-                    <div className="skill">
-                        <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" alt="Anaconda" /></div>
-                        <p>TypeScript</p>
-                    </div>
+                   
+               
                     <div className="skill">
                         <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8i4zPog-0j0JR_yZglxPhTPZXxN2iMTQ3Dw&s" alt="Android" /></div>
                         <p>Spring Boot</p>
@@ -180,7 +182,7 @@ const Services = () => {
                     </div>
                     <div className="skill">
                         <div className="icon-container"><img src="https://repository-images.githubusercontent.com/1272424/d1995000-0ab7-11ea-8ed3-04a082c36b0d" alt="Angular" /></div>
-                        <p>Nodemailer</p>
+                        <p>EmailJS</p>
                     </div>
                     <div className="skill">
                         <div className="icon-container"><img src="https://www.docker.com/wp-content/uploads/2023/08/logo-dont-stretch.svg" alt="Anaconda" /></div>
@@ -190,6 +192,39 @@ const Services = () => {
                         <div className="icon-container"><img src="https://miro.medium.com/v2/resize:fit:1300/1*4BtGcPz3JauG9qsNXzLMXA.gif" alt="Android" /></div>
                         <p>WebSocket</p>
                     </div>
+
+
+                    
+
+                    <div className="skill">
+                        <div className="icon-container"><img src="https://miro.medium.com/v2/resize:fit:1300/1*4BtGcPz3JauG9qsNXzLMXA.gif" alt="Android" /></div>
+                        <p>Linux</p>
+                    </div>
+                       <div className="skill">
+                        <div className="icon-container"><img src="https://thumbs.dreamstime.com/b/linux-logo-vector-format-available-illustrator-ai-linux-logo-136767231.jpg" alt="Android" /></div>
+                        <p>Jiira</p>
+                    </div>
+                       <div className="skill">
+                        <div className="icon-container"><img src="https://banner2.cleanpng.com/20180425/bxe/ave8vhl4c.webp" alt="Android" /></div>
+                        <p>Git</p>
+                    </div>
+                       <div className="skill">
+                        <div className="icon-container"><img src="https://cdn.fs.teachablecdn.com/L2rtxPaRxa4am1VtNegg" alt="Android" /></div>
+                        <p>Maven</p>
+                    </div>
+                    <div className="skill">
+                        <div className="icon-container"><img src="https://avatars.githubusercontent.com/u/874086?s=280&v=4" alt="Android" /></div>
+                        <p>JUnit</p>
+                    </div>
+                    <div className="skill">
+                        <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png" alt="Android" /></div>
+                        <p>Jenkins</p>
+                    </div>
+                    <div className="skill">
+                        <div className="icon-container"><img src="https://download.logo.wine/logo/Kubernetes/Kubernetes-Logo.wine.png" alt="Android" /></div>
+                        <p>Kubernetes</p>
+                    </div>
+
 
                 </section>
 
