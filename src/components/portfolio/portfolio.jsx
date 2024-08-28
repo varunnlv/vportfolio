@@ -592,6 +592,51 @@ const Portfolio = () => {
 
         <hr/>
 
+        <div class="slider-container">
+                    <Slider {...settings}>
+                        {items[0].images.map((image, index) => (
+                            <img key={index} src={image} alt="" />
+                        ))}
+                    </Slider>
+        </div>        
+        <h2>VPORTFOLIO</h2>
+        <div id="projectSectionh7" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
+            <h3 style={{ marginTop: '20px' }}>Summary</h3>
+            <p className="card-text">
+                The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
+            </p>
+        
+            <h3 style={{ marginTop: '20px' }}>Features</h3>
+            <ul style={{ marginTop: '20px' }}>
+                <li>
+                    <b>Project Summaries:</b> Each project includes a brief overview summarizing its purpose and goals.
+                </li>
+                <li>
+                    <b>Detailed Descriptions:</b> In-depth explanations of the features, technologies used, challenges faced, and solutions implemented for each project.
+                </li>
+                <li>
+                    <b>Learning Outcomes:</b> Clear documentation of the skills and knowledge gained from each project.
+                </li>
+                <li>
+                    <b>Interactive UI:</b> A user-friendly and visually appealing interface to navigate through different projects.
+                </li>
+            </ul>
+        
+            <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+            <ul style={{ marginTop: '20px' }}>
+                <li>
+                    <b>HTML & CSS:</b> For structuring and styling the web pages.
+                </li>
+                <li>
+                    <b>JavaScript:</b> For adding dynamic functionality, such as handling user interactions.
+                </li>
+                <li>
+                    <b>React:</b> For building the frontend web application.
+                </li>
+            </ul>
+        </div>
+
+
 {/*             <div class="ui-container">
                 <div class="slider-container">
                     <Slider {...settings}>
