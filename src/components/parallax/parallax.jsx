@@ -73,10 +73,10 @@ const Parallax = ({ type }) => {
                         INTERNATIONAL DESIGN AND ENGINEERING SOLUTIONS PVT.LTD, PUNE
                     </p>
                     <ul className="font-light leading-7 mb-6 list-disc list-inside">
+                        <li>Worked as a Senior Software Engineer, coordinating team efforts, managing projects, and utilizing Git, GitHub, and GitHub Actions for version control and CI/CD pipelines, and agile project management.</li>
                         <li>Developed standalone applications for the connection of cold-formed steel members using Java, JavaFX and few projects using C# and MYSQL database management.</li>
                         <li>Gained expertise in web development with a focus on HTML, CSS, JavaScript, and React for frontend, and Java with Spring Boot for backend, utilizing AWS RDS for database management.</li>
                         <li>Designed reusable and reliable code for use within distributed cloud environments.</li>
-                        <li>Worked as a Senior Software Engineer, coordinating team efforts, managing projects, and utilizing Git, GitHub, and GitHub Actions for version control and CI/CD pipelines, and agile project management.</li>
                     </ul>
                 </div>
                 {/* Additional Experience Content */}
