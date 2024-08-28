@@ -438,6 +438,52 @@ const Portfolio = () => {
 
             <hr/>
 
+            <h2>VFLEX</h2>
+            <div id="projectSectionh4" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
+                <h3 style={{ marginTop: '20px' }}>Summary</h3>
+                <p className="card-text">
+                    VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
+                </p>
+            
+                <h3 style={{ marginTop: '20px' }}>Features</h3>
+                <ul style={{ marginTop: '20px' }}>
+                    <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
+                        <div>
+                            <b>Dynamic Card Addition:</b> Users can add cards with custom descriptions and headings.
+                        </div>
+                    </li>
+            
+                    <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
+                        <div>
+                            <b>Flexbox Layout:</b> Cards are arranged using the Flexbox layout, demonstrating various Flexbox properties and behaviors.
+                        </div>
+                    </li>
+            
+                    <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
+                        <div>
+                            <b>Responsive Design:</b> The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.
+                        </div>
+                    </li>
+            
+                    <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
+                        <div>
+                            <b>Random Colors:</b> Each card is assigned a random color to enhance visual variety and appeal.
+                        </div>
+                    </li>
+                </ul>
+            
+                <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+                <ul style={{ marginTop: '20px' }}>
+                    <li>
+                        <b>HTML & CSS:</b> For structuring and styling the web pages.
+                    </li>
+                    <li>
+                        <b>JavaScript:</b> For adding dynamic functionality, such as generating random colors and handling user input.
+                    </li>
+                </ul>
+            </div>
+            <hr/>
+
             <div class="ui-container">
                 <div class="slider-container">
                     <Slider {...settings}>
