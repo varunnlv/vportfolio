@@ -619,7 +619,7 @@ const Portfolio = () => {
         <h2 style={{ marginTop: '20px' }}>VPORTFOLIO</h2>
         <div id="projectSectionh7" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
             <h3 style={{ marginTop: '20px' }}>Summary</h3>
-            <p className="card-text">
+            <p style={{ marginTop: '20px' }} className="card-text">
                 The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
             </p>
         
