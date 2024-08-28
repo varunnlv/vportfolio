@@ -67,9 +67,9 @@ const Parallax = ({ type }) => {
             <div className="Righttab1">
                 {/* Your Experience Content */}
                 <div className="experience-item">
-                    <h3 className="font-bold text-2xl mb-6">May 2022 - Present</h3>
-                    <p className="font-light leading-7 mb-6">Software Engineer</p>
-                    <p className="font-light leading-7 mb-6">
+                    <h3 className="font-bold text-2xl mb-6"  style={{display: 'flex', alignItems: 'center', marginBottom: '10px', marginTop: '20px' }}>May 2022 - Present</h3>
+                    <p className="font-light leading-7 mb-6" style={{display: 'flex', marginBottom: '5px', marginTop: '5px' }}>Software Engineer</p>
+                    <p className="font-light leading-7 mb-6" style={{display: 'flex', marginBottom: '5px', marginTop: '5px' }}>
                         INTERNATIONAL DESIGN AND ENGINEERING SOLUTIONS PVT.LTD, PUNE
                     </p>
                     <ul className="font-light leading-7 mb-6 list-disc list-inside">
@@ -81,9 +81,9 @@ const Parallax = ({ type }) => {
                 </div>
                 {/* Additional Experience Content */}
                 <div className="experience-item">
-                    <h3 className="font-bold text-2xl mb-6">JAN 2022 - APR 2022</h3>
-                    <p className="font-light leading-7 mb-6">Software Developer Intern</p>
-                    <p className="font-light leading-7 mb-6">EON Designers, Hyderabad</p>
+                    <h3 className="font-bold text-2xl mb-6" style={{display: 'flex', alignItems: 'center', marginBottom: '10px', marginTop: '20px' }}>JAN 2022 - APR 2022</h3>
+                    <p className="font-light leading-7 mb-6" style={{display: 'flex', marginBottom: '5px', marginTop: '5px' }}>Software Developer Intern</p>
+                    <p className="font-light leading-7 mb-6" style={{display: 'flex', marginBottom: '5px', marginTop: '5px' }}>EON Designers, Hyderabad</p>
                     <ul className="font-light leading-7 mb-6 list-disc list-inside">
                         <li>Developed automation of shear wall design, Estimation, and Detailing project using Python programming language.</li>
                         <li>Learned about some python predefined modules i.e., ezdxf, Docx, Openpyxl.</li>
