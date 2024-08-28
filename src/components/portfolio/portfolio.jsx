@@ -213,12 +213,7 @@ const Portfolio = () => {
                             <b>MongoDB</b> NoSQL database for storing user data and project data.
                         </div>
                     </li>
-                    <li style={{ display: 'flex', alignItems: 'center' }}>
-                        <img src="https://cdn.sanity.io/images/ss02266c/production/806fba67631087cd76ed2a963210feadd164c7fa-64x64.svg" alt="Redis" style={{ width: '80px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
-                        <div>
-                            <b>Redis</b> for distributed caching.
-                        </div>
-                    </li>
+              
                     <li style={{ display: 'flex', alignItems: 'center' }}>
                         <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="Email Service" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                         <div>
@@ -251,6 +246,130 @@ const Portfolio = () => {
                     </li>
                 </ul>
             </div>
+            <hr/>
+
+               <div id="projectSectionh3" class="hidden fade-in-top" style="margin-top: 20px;">
+                                        <h6>Summary</h6>
+                                        <p class="card-text">
+                                            The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly web interface with User Management that automates the design process, enhancing efficiency and accuracy, and generating reports in different file formats.
+                                        </p>
+                                        
+                                        <h6 style={{ marginTop: '20px' }}>Features</h6>
+                                        
+                                        <ul style={{ marginTop: '20px' }}>
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 10px;">
+                                                <div>
+                                                    <b>User Management:</b> Secure <span style="color:green; font-weight: bold;">login</span> and <span style="color:green; font-weight: bold;">registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style="color:green; font-weight: bold;">forgot password service</span> to ensure account recovery and accessibility.
+                                                </div>
+                                            </li>
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style="color:green; font-weight: bold;">visual and textual outputs</span>.
+                                                </div>
+                                            </li>
+    
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Dynamic Canvas:</b> A <span style="color:green; font-weight: bold;">graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
+                                                </div>
+                                            </li>
+    
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
+                                                </div>
+                                            </li>
+    
+                                            
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 5px;">
+                                                <div>
+                                                    <b>Api Management:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                                                </div>
+                                            </li>
+    
+                                            <li style="display: flex; align-items: center; margin-bottom:5px">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 10px;">
+                                                <div>
+                                                    <b>Output Formats:</b> Ability to export design outputs as <span style="color:green; font-weight: bold;">bitmaps for graphical representation</span> and <span style="color:green; font-weight: bold;">text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                                                </div>
+                                            </li>
+    
+                                        </ul>
+                                        
+                                        <h6 style={{ marginTop: '20px' }}>Technologies Used</h6>
+                                        <ul style={{ marginTop: '20px' }}>
+                                    
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>React</b> for building the frontend web application.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>MongoDB</b> NoSQL database for storing user data and project data.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn.sanity.io/images/ss02266c/production/806fba67631087cd76ed2a963210feadd164c7fa-64x64.svg" alt="JavaFX" style="width: 80px; height: 54px; vertical-align: middle; margin-right: 5px;">
+                                                <div>
+                                                    <b>Redis</b> for distributed caching.
+                                                </div>
+                                            </li>
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Email Service</b> for forgot password recovery.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Apache POI and iText</b> for generating .txt and .pdf reports.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>JavaFX Drawing APIs</b> for rendering real-time graphical outputs on the canvas.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Rest Api</b> for rendering real-time graphical outputs on the canvas.
+                                                </div>
+                                            </li>
+
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>Spring Boot REST API</b> Instead of using JDBC, a Spring Boot REST API approach is adopted for backend database connections.
+                                                </div>
+                                            </li>  
+                                            <li style="display: flex; align-items: center;">
+                                                <img src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" alt="JavaFX" style="width: 60px; height: 54px; vertical-align: middle; margin-right: 25px;">
+                                                <div>
+                                                    <b>HTML,CSS,SCSS,TAILWIND</b> for frontend UI.
+                                                </div>
+                                            </li>     
+
+                                        </ul>
+                                                                      
+                                    </div>
+
             <hr/>
 
             <div class="ui-container">
