@@ -151,7 +151,7 @@ const Portfolio = () => {
                 </div>               
             </div>
 
-            <hr/>
+            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
              <h2>Stand Alone Project 2 </h2>
 
@@ -249,7 +249,7 @@ const Portfolio = () => {
                     </li>
                 </ul>
             </div>
-            <hr/>
+            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
             <h2>Web Based Project</h2>
 
@@ -436,7 +436,7 @@ const Portfolio = () => {
             
             </div>
 
-            <hr/>
+            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
             <div class="slider-container">
                     <Slider {...settings}>
@@ -445,7 +445,7 @@ const Portfolio = () => {
                         ))}
                     </Slider>
             </div>
-            <h2>VFLEX</h2>
+            <h2 style={{ marginTop: '20px' }}>VFLEX</h2>
             <div id="projectSectionh4" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
                 <h3 style={{ marginTop: '20px' }}>Summary</h3>
                 <p className="card-text">
@@ -489,7 +489,7 @@ const Portfolio = () => {
                     </li>
                 </ul>
             </div>
-            <hr/>
+            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
 
 
@@ -502,7 +502,7 @@ const Portfolio = () => {
                         ))}
                     </Slider>
             </div>
-            <h2>VGRID</h2>
+            <h2 style={{ marginTop: '20px' }}>VGRID</h2>
             <div id="projectSectionh5" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
                 <h3 style={{ marginTop: '20px' }}>Summary</h3>
                 <p className="card-text">
@@ -546,7 +546,7 @@ const Portfolio = () => {
                     </li>
                 </ul>
             </div>
-            <hr/>
+            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
 
 
@@ -558,7 +558,7 @@ const Portfolio = () => {
                         ))}
                     </Slider>
             </div>
-            <h2>VKANBAN</h2>
+            <h2 style={{ marginTop: '20px' }}>VKANBAN</h2>
             
             <div id="projectSectionh6" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
             <h3 style={{ marginTop: '20px' }}>Summary</h3>
@@ -590,7 +590,7 @@ const Portfolio = () => {
             </ul>
         </div>
 
-        <hr/>
+        <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
         <div class="slider-container">
                     <Slider {...settings}>
@@ -599,7 +599,7 @@ const Portfolio = () => {
                         ))}
                     </Slider>
         </div>        
-        <h2>VPORTFOLIO</h2>
+        <h2 style={{ marginTop: '20px' }}>VPORTFOLIO</h2>
         <div id="projectSectionh7" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
             <h3 style={{ marginTop: '20px' }}>Summary</h3>
             <p className="card-text">
