@@ -94,9 +94,10 @@
             margin-top: 0;
         }
 
-        .imageGrid {
-            animation: scrollY 50s linear infinite;
+         .imageGrid {
+            animation: scrollY 60s linear infinite; /* Adjusted duration */
             position: relative;
+            height: 200%; /* Ensure the container is tall enough to scroll all items */
         }
     }
 }
