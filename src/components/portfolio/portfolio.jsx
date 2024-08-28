@@ -89,14 +89,7 @@ const Portfolio = () => {
                 <h2>{items[0].title}</h2>
                 <p> The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.</p>
                 <h6>Features</h6>
-                <ul>
-                  <li>
-                    <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style="width: 50px; height: 44px; vertical-align: middle;  margin-right: 10px;"/>
-                         <div>
-                           <b>User Management:</b> Secure <span style="color:green; font-weight: bold;">login</span> and <span style="color:green; font-weight: bold;">registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style="color:green; font-weight: bold;">forgot password service</span> to ensure account recovery and accessibility.
-                         </div>
-                 </li>
-                </ul>
+            
                 <p>{items[0].desc}</p>
                 <p>{items[0].desc}</p>
                 <p>{items[0].desc}</p>
