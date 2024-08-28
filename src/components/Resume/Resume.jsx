@@ -48,6 +48,7 @@ const Resume = () => {
                         alt="Course certificate for course on codedamn"
                     />
                 </a>
+               
                 <a href="https://codedamn.com/certificate/verify/89bdf28b27ddc594c2506ce827fe4e8da186f708" className="tile">
                     <img
                         src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/89bdf28b27ddc594c2506ce827fe4e8da186f708.jpeg"
@@ -77,6 +78,13 @@ const Resume = () => {
                         src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/13f9f6093919f5285b1b2a81c08e8ac3b0f6a7fc.jpeg"
                         alt="Course certificate for course on codedamn"
                     />
+                </a>
+                 <a href="https://codedamn.com/certificate/verify/c9fa32e0df939b831bbd74ed49d88b96f6b41d77">
+                	<img
+                		src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/c9fa32e0df939b831bbd74ed49d88b96f6b41d77.jpeg"
+                		alt="Course certificate for course on codedamn"
+                		style="width:1280px;height:720px;"
+                	/>
                 </a>
             </div>
         </motion.div>
