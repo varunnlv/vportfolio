@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+ficationsimport { motion } from "framer-motion";
 
 const variants = {
     open: {
@@ -25,7 +25,7 @@ const itemVariants = {
 };
 
 const Links = () => {
-    const items = ["Homepage", "Skills", "Resume", "Education", "Projects", "Contact"];
+    const items = ["Homepage", "Skills", "Certifications", "Education", "Projects", "Contact"];
 
     return (
         <motion.div className="links" variants={variants}>
