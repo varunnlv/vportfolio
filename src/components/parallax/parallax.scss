@@ -163,39 +163,46 @@
 }
 
     // .background-text {
-    //     position: absolute;
-    //     top: 35%;
-    //     /* Adjust this value to position the text vertically */
-    //     left: 12%;
-    //     transform: translate(-50%, -65%);
-    //     /* Correctly centers the text */
-    //     font-size: 14rem;
-    //     /* Adjust the size as needed */
-    //     font-weight: bold;
-    //     color: rgba(0, 0, 0, 0.1);
-    //     /* Light color to appear as a background */
-    //     z-index: 1;
-    //     /* Ensure it stays behind the content */
-    //     pointer-events: none;
-    //     /* Prevents text from interfering with user interactions */
-    //     text-transform: uppercase;
-    //     /* Make text uppercase for visual effect */
-    //     animation: slideInFromBottom2 2s ease-out forwards;
+        position: absolute;
+        top: 35%;
+        /* Adjust this value to position the text vertically */
+        left: 12%;
+        transform: translate(-50%, -65%);
+        /* Correctly centers the text */
+        font-size: 14rem;
+        /* Adjust the size as needed */
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.1);
+        /* Light color to appear as a background */
+        z-index: 1;
+        /* Ensure it stays behind the content */
+        pointer-events: none;
+        /* Prevents text from interfering with user interactions */
+        text-transform: uppercase;
+        /* Make text uppercase for visual effect */
+        animation: slideInFromBottom2 2s ease-out forwards;
     //     /* Add delay of 2s for text */
     // }
 
     .background-text {
     position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -65%);
-    font-size: 14rem;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.1);
-    z-index: 1;
-    pointer-events: none;
-    text-transform: uppercase;
-    animation: slideInFromBottom2 2s ease-out forwards;
+        top: 35%;
+        /* Adjust this value to position the text vertically */
+        left: 12%;
+        transform: translate(-50%, -65%);
+        /* Correctly centers the text */
+        font-size: 14rem;
+        /* Adjust the size as needed */
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.1);
+        /* Light color to appear as a background */
+        z-index: 1;
+        /* Ensure it stays behind the content */
+        pointer-events: none;
+        /* Prevents text from interfering with user interactions */
+        text-transform: uppercase;
+        /* Make text uppercase for visual effect */
+        animation: slideInFromBottom2 2s ease-out forwards;
 
     @media (max-width: 1024px) {
         font-size: 10rem;
@@ -210,7 +217,7 @@
     @media (max-width: 480px) {
         font-size: 5rem;
         top: 50%;
-        left: 50%;
+        left: 12%;
         transform: translate(-30%, -50%);
     }
 }
