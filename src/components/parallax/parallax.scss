@@ -163,24 +163,24 @@
 }
 
     // .background-text {
-        position: absolute;
-        top: 35%;
-        /* Adjust this value to position the text vertically */
-        left: 12%;
-        transform: translate(-50%, -65%);
-        /* Correctly centers the text */
-        font-size: 14rem;
-        /* Adjust the size as needed */
-        font-weight: bold;
-        color: rgba(0, 0, 0, 0.1);
-        /* Light color to appear as a background */
-        z-index: 1;
-        /* Ensure it stays behind the content */
-        pointer-events: none;
-        /* Prevents text from interfering with user interactions */
-        text-transform: uppercase;
-        /* Make text uppercase for visual effect */
-        animation: slideInFromBottom2 2s ease-out forwards;
+        // position: absolute;
+        // top: 35%;
+        // /* Adjust this value to position the text vertically */
+        // left: 12%;
+        // transform: translate(-50%, -65%);
+        // /* Correctly centers the text */
+        // font-size: 14rem;
+        // /* Adjust the size as needed */
+        // font-weight: bold;
+        // color: rgba(0, 0, 0, 0.1);
+        // /* Light color to appear as a background */
+        // z-index: 1;
+        // /* Ensure it stays behind the content */
+        // pointer-events: none;
+        // /* Prevents text from interfering with user interactions */
+        // text-transform: uppercase;
+        // /* Make text uppercase for visual effect */
+        // animation: slideInFromBottom2 2s ease-out forwards;
     //     /* Add delay of 2s for text */
     // }
 
