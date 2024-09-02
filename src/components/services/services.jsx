@@ -46,13 +46,7 @@ const Services = () => {
             ref={ref}
             animate={"animate"}
         >
-            {/* <motion.div className="textContainer" variants={variants}>
-                <p className="quotation">
-                    I focus on helping your brand grow
-                    <br /> and move forward
-                </p>
-                <hr />
-            </motion.div> */}
+        
             <motion.div className="titleContainer" variants={variants}>
                 <div className="title">
                     <h2>
