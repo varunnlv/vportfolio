@@ -46,8 +46,14 @@ const Services = () => {
             ref={ref}
             animate={"animate"}
         >
-        
-            <motion.div className="titleContainer" variants={variants}>
+
+            <div className="titleContainer">
+                    <h1>
+                        <motion.b whileHover={{ color: "orange" }}>Technologies I Know</motion.b>
+                    </h1>
+                </div>
+            
+{/*             <motion.div className="titleContainer" variants={variants}>
                 <div className="title">
                     <h1>
                         <motion.b whileHover={{ color: "orange" }}>Technologies I Know</motion.b>
@@ -56,7 +62,7 @@ const Services = () => {
 
 
 
-            </motion.div>
+            </motion.div> */}
 
 {/*             <motion.div
                 className="slidingTextContainer"
