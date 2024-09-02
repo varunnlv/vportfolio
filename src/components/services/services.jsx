@@ -82,7 +82,7 @@ const Services = () => {
             </motion.div>
  */}
 
-{/*             <div className="container"> */}
+            <div className="container">
 
                 <section className="skills">
                     <div className="skill">
@@ -233,7 +233,7 @@ const Services = () => {
 
 
 
-{/*             </div> */}
+            </div>
 
 
 
