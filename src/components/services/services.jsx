@@ -49,9 +49,9 @@ const Services = () => {
         
             <motion.div className="titleContainer" variants={variants}>
                 <div className="title">
-                    <h2>
+                    <h1>
                         <motion.b whileHover={{ color: "orange" }}>Technologies I Know</motion.b>
-                    </h2>
+                    </h1>
                 </div>
 
 
