@@ -19,19 +19,19 @@ const variants = {
     },
 };
 
-const sliderVariants2 = {
-    initial: {
-        x: 0,
-    },
-    animate: {
-        x: "-20%",
-        transition: {
-            repeat: Infinity,
-            repeatType: "mirror",
-            duration: 20,
-        },
-    },
-};
+// const sliderVariants2 = {
+//     initial: {
+//         x: 0,
+//     },
+//     animate: {
+//         x: "-20%",
+//         transition: {
+//             repeat: Infinity,
+//             repeatType: "mirror",
+//             duration: 20,
+//         },
+//     },
+// };
 
 const Services = () => {
     const ref = useRef();
