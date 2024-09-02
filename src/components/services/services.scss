@@ -322,13 +322,14 @@
 
 .services {
     background: white;
-    height:100vh;
+    height:100%;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
     .titleContainer {
         flex: 2;
         display: flex;
+              height:auto;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -342,6 +343,7 @@
         justify-content: center; /* Center content horizontally */
         margin-top: 20px;
         max-width: 90%;
+              height:200%;
         animation: scrollY 50s linear infinite;
     }
     .skill {
