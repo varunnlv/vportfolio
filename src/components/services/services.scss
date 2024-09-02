@@ -340,7 +340,7 @@
         flex-wrap: wrap;
         justify-content: center; /* Center content horizontally */
         max-width: 90%;
-              margin-top:20px;
+              margin-top:20%;
               height:120%;
               
     
@@ -402,5 +402,6 @@
     .skills {
         max-width: 100%;
               animation: scrollY 50s linear infinite;
+              margin-top:2%;
     }
 }
