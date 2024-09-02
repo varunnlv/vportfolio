@@ -55,13 +55,6 @@ const Services = () => {
                 </div>
 
 
-                {/* <div className="title">
-                    <h1>
-                        <motion.b whileHover={{ color: "orange" }}></motion.b>.
-                    </h1>
-                    <button>WHAT WE DO?</button>
-                </div> */}
-
 
             </motion.div>
 
