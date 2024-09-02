@@ -343,7 +343,7 @@
         margin-top: 20px;
         max-width: 90%;
               height:120%;
-        animation: scrollY 50s linear infinite;
+    
     }
     .skill {
         background: transparent;
@@ -390,6 +390,7 @@
         }
         .skills {
             justify-content: center;
+                      animation: scrollY 50s linear infinite;
         }
     }
 }
