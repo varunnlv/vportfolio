@@ -71,7 +71,7 @@ const Services = () => {
 
             </motion.div>
 
-            <motion.div
+{/*             <motion.div
                 className="slidingTextContainer"
                 variants={sliderVariants2}
                 initial="initial"
@@ -93,7 +93,7 @@ const Services = () => {
                 <img alt="" src="./spring-boot.png" height={100} width={100} />
 
             </motion.div>
-
+ */}
 
             <div className="container">
 
