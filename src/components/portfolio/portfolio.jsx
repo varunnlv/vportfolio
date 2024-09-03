@@ -114,7 +114,17 @@ const Portfolio = () => {
                  <div className="small-gallery-container">
                   <div className="gallery-content">
                     <div className="gallery-images">
+                        <div className="image-row">
+                          
+                        <div className="image-item">
+                          <img src="./VPORTFOLIO1.png" alt="Office Scene 1" />
+                        </div>
+                        <div className="image-item">
+                          <img src="./VPORTFOLIO2.png" alt="Office Scene 2" />
+                        </div>
+                      </div>
                       <div className="image-row">
+                          
                         <div className="image-item">
                           <img src="./VPORTFOLIO1.png" alt="Office Scene 1" />
                         </div>
