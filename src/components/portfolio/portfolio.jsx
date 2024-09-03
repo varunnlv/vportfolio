@@ -117,7 +117,6 @@ const Portfolio = () => {
                         <div className="image-row">
                           
                         <div className="image-item">
-{/*                           <img src="./VPORTFOLIO1.png" alt="Office Scene 1" /> */}
                             <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                             <div>
                                 <b>User Management</b>   
@@ -126,7 +125,6 @@ const Portfolio = () => {
                             
                         </div>
                         <div className="image-item">
-{/*                           <img src="./VPORTFOLIO2.png" alt="Office Scene 2" /> */}
                              <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                             <div>
                                 <b>Input/Output Interface</b> 
@@ -138,7 +136,6 @@ const Portfolio = () => {
                       <div className="image-row">
                           
                         <div className="image-item">
-{/*                           <img src="./VPORTFOLIO1.png" alt="Office Scene 1" /> */}
                              <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                             <div>
                                 <b>Dynamic Canvas</b> 
@@ -147,7 +144,6 @@ const Portfolio = () => {
                             
                         </div>
                         <div className="image-item">
-{/*                           <img src="./VPORTFOLIO2.png" alt="Office Scene 2" /> */}
                             <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                             <div>
                                 <b>Data Management</b>
@@ -158,8 +154,7 @@ const Portfolio = () => {
                       </div>
                       <div className="experience">
                         <div className="experience-text">
-{/*                           <h2>25</h2>
-                          <p>YEARS OF EXPERIENCE</p> */}
+
                             <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                             <div>
                                 <b>Output Formats</b> 
@@ -181,15 +176,15 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                <h2>{items[0].title}</h2>
+{/*                 <h2>{items[0].title}</h2> */}
         
                  <div id="projectSectionh1" className="projectdata hidden fade-in-top" style={{ marginTop: '20px' }}>
-                    <h3>Summary</h3>
+{/*                     <h3>Summary</h3>
                     <p className="card-text" >
                         The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
-                    </p>
+                    </p> */}
                     
-                    <h3 style={{ marginTop: '20px' }}>Features</h3>
+{/*                     <h3 style={{ marginTop: '20px' }}>Features</h3>
                     <ul style={{ marginTop: '20px' }}>
                         <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
                             <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
@@ -225,7 +220,7 @@ const Portfolio = () => {
                                 <b>Output Formats:</b> Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.
                             </div>
                         </li>
-                    </ul>
+                    </ul> */}
             
                     <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
                     <ul style={{ marginTop: '20px' }}>
