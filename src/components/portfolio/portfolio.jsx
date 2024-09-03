@@ -96,6 +96,32 @@ const Portfolio = () => {
 
     return (
         <div  id='Projects' className="portfolio" ref={ref}>
+
+             <div class="gallery">
+        <div class="gallery-item">
+            <img src="image1.jpg" alt="Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="image4.jpg" alt="Image 4">
+        </div>
+        <div class="gallery-item">
+            <img src="image5.jpg" alt="Image 5">
+        </div>
+        <div class="gallery-item">
+            <img src="image6.jpg" alt="Image 6">
+        </div>
+        <div class="experience">
+            <h2>25</h2>
+            <p>YEARS OF EXPERIENCE</p>
+        </div>
+    </div>
+            
             <div className="progress">
                 <h1>Featured Works</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
