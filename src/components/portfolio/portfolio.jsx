@@ -102,10 +102,10 @@ const Portfolio = () => {
         <div className="gallery-images">
           <div className="image-row">
             <div className="image-item">
-              <img src="image1.jpg" alt="Office Scene 1" />
+              <img src="./VPORTFOLIO1.png" alt="Office Scene 1" />
             </div>
             <div className="image-item">
-              <img src="image2.jpg" alt="Office Scene 2" />
+              <img src="./VPORTFOLIO2.png" alt="Office Scene 2" />
             </div>
           </div>
           <div className="experience">
