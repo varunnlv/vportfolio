@@ -108,7 +108,7 @@ const Portfolio = () => {
             <hr/>
             <div class="ui-container">
   
-                <h2>{items[0].title}</h2>
+                
 
 
                  <div className="small-gallery-container">
@@ -117,7 +117,12 @@ const Portfolio = () => {
                         <div className="image-row">
                           
                         <div className="image-item">
-                          <img src="./VPORTFOLIO1.png" alt="Office Scene 1" />
+{/*                           <img src="./VPORTFOLIO1.png" alt="Office Scene 1" /> */}
+                            <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                            <div>
+                                <b>User Management:</b> Secure <span style={{ color: 'green', fontWeight: 'bold' }}>login</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style={{ color: 'green', fontWeight: 'bold' }}>forgot password service</span> to ensure account recovery and accessibility.
+                            </div>
+                            
                         </div>
                         <div className="image-item">
                           <img src="./VPORTFOLIO2.png" alt="Office Scene 2" />
@@ -150,7 +155,8 @@ const Portfolio = () => {
                   </div>
                 </div>
 
-                
+                <h2>{items[0].title}</h2>
+        
                  <div id="projectSectionh1" className="projectdata hidden fade-in-top" style={{ marginTop: '20px' }}>
                     <h3>Summary</h3>
                     <p className="card-text" >
