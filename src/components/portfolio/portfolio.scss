@@ -47,6 +47,10 @@
   display: block;
 }
 
+.image-item p {
+  font-size: 2rem;
+}
+
 .experience {
   display: flex;
   justify-content: center;
@@ -58,7 +62,7 @@
 }
 
 .experience-text h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #0ea47d;
   margin: 0;
 }
