@@ -130,8 +130,8 @@ const Portfolio = () => {
                       </div>
                     </div>
                     <div className="gallery-text">
-                      <h1>{items[0].title}</h1>
-                      <h2>Summary</h2>
+                      <h2>{items[0].title}</h2>
+                      <h3>Summary</h3>
                       <p>
                         The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
                       </p>
