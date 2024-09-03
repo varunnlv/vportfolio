@@ -96,38 +96,7 @@ const Portfolio = () => {
 
     return (
         <div  id='Projects' className="portfolio" ref={ref}>
-
-            <div className="small-gallery-container">
-      <div className="gallery-content">
-        <div className="gallery-images">
-          <div className="image-row">
-            <div className="image-item">
-              <img src="./VPORTFOLIO1.png" alt="Office Scene 1" />
-            </div>
-            <div className="image-item">
-              <img src="./VPORTFOLIO2.png" alt="Office Scene 2" />
-            </div>
-          </div>
-          <div className="experience">
-            <div className="experience-text">
-              <h2>25</h2>
-              <p>YEARS OF EXPERIENCE</p>
-            </div>
-          </div>
-        </div>
-        <div className="gallery-text">
-          <h3>ABOUT OUR COMPANY</h3>
-          <h2>Solutions that accelerate construction</h2>
-          <p>
-            Our operations span various civil disciplines, providing tailored, end-to-end solutions for a variety of projects.
-          </p>
-          <p>
-            With over a decade of expertise, BuildNow delivers top-tier solutions globally, meeting unique market needs and earning trust as a partner for construction professionals.
-          </p>
-        </div>
-      </div>
-    </div>
-            
+       
             <div className="progress">
                 <h1>Featured Works</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
@@ -138,9 +107,40 @@ const Portfolio = () => {
 
             <hr/>
             <div class="ui-container">
-
+  
                 <h2>{items[0].title}</h2>
 
+
+                 <div className="small-gallery-container">
+                  <div className="gallery-content">
+                    <div className="gallery-images">
+                      <div className="image-row">
+                        <div className="image-item">
+                          <img src="./VPORTFOLIO1.png" alt="Office Scene 1" />
+                        </div>
+                        <div className="image-item">
+                          <img src="./VPORTFOLIO2.png" alt="Office Scene 2" />
+                        </div>
+                      </div>
+                      <div className="experience">
+                        <div className="experience-text">
+                          <h2>25</h2>
+                          <p>YEARS OF EXPERIENCE</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="gallery-text">
+                      <h3>Summary</h3>
+{/*                       <h2>Solutions that accelerate construction</h2> */}
+                      <p>
+                        The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
+                      </p>
+                 
+                    </div>
+                  </div>
+                </div>
+
+                
                  <div id="projectSectionh1" className="projectdata hidden fade-in-top" style={{ marginTop: '20px' }}>
                     <h3>Summary</h3>
                     <p className="card-text" >
