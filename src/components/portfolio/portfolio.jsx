@@ -179,7 +179,7 @@ const Portfolio = () => {
                         <div className="image-row">
                           
                         <div className="image-item" >
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png" alt="JavaFX" style={{ width: '80px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
                             <div>
                                 <b>JavaFX</b>   
                                 <p>for GUI design and development.</p>
@@ -187,7 +187,7 @@ const Portfolio = () => {
                             
                         </div>
                         <div className="image-item">
-                             <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="JavaFX" style={{ width: '80px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
+                             <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
                             <div>
                                 <b>MongoDB</b> 
                                 <p>NoSQL database for storing user data and project data.</p>
@@ -198,7 +198,7 @@ const Portfolio = () => {
                       <div className="image-row">
                           
                         <div className="image-item">
-                             <img src="https://cdn.sanity.io/images/ss02266c/production/806fba67631087cd76ed2a963210feadd164c7fa-64x64.svg" alt="JavaFX" style={{ width: '80px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
+                             <img src="https://cdn.sanity.io/images/ss02266c/production/806fba67631087cd76ed2a963210feadd164c7fa-64x64.svg" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
                             <div>
                                 <b>Redis</b>                         
                                 <p>for distributed caching.</p>
