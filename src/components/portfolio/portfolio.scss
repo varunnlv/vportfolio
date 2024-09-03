@@ -47,10 +47,14 @@
   display: block;
 }
 
-.image-item p {
-  font-size: 5px;
+  .image-item p {
+   font-size: 0.8rem;
 }
 
+.image-item b {
+font-size: 1rem;
+}
+    
 .experience {
   display: flex;
   justify-content: center;
@@ -67,9 +71,13 @@
   margin: 0;
 }
 
+.experience-text b {
+ font-size: 1rem;
+}
+    
 .experience-text p {
   margin: 0;
-  font-size: 5px;
+  font-size: 0.8rem;
 }
 
 .gallery-text {
@@ -112,8 +120,22 @@
     font-size: 2rem;
   }
 
+  .image-item p {
+   font-size: 0.5rem;
+}
+
+.image-item b {
+font-size: 0.8rem;
+}
+
+    
+
+  .experience-text b {
+    font-size: 0.8rem;
+  }
+
   .experience-text p {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   .gallery-text h2 {
