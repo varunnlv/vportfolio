@@ -125,23 +125,43 @@ const Portfolio = () => {
                             
                         </div>
                         <div className="image-item">
-                          <img src="./VPORTFOLIO2.png" alt="Office Scene 2" />
+{/*                           <img src="./VPORTFOLIO2.png" alt="Office Scene 2" /> */}
+                             <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                            <div>
+                                <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style={{ color: 'green', fontWeight: 'bold' }}>visual and textual outputs</span>.
+                            </div>
+                            
                         </div>
                       </div>
                       <div className="image-row">
                           
                         <div className="image-item">
-                          <img src="./VPORTFOLIO1.png" alt="Office Scene 1" />
+{/*                           <img src="./VPORTFOLIO1.png" alt="Office Scene 1" /> */}
+                             <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                            <div>
+                                <b>Dynamic Canvas:</b> A <span style={{ color: 'green', fontWeight: 'bold' }}>graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
+                            </div>
+                            
                         </div>
                         <div className="image-item">
-                          <img src="./VPORTFOLIO2.png" alt="Office Scene 2" />
+{/*                           <img src="./VPORTFOLIO2.png" alt="Office Scene 2" /> */}
+                            <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                            <div>
+                                <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
+                            </div>
+                            
                         </div>
                       </div>
                       <div className="experience">
                         <div className="experience-text">
-                          <h2>25</h2>
-                          <p>YEARS OF EXPERIENCE</p>
+{/*                           <h2>25</h2>
+                          <p>YEARS OF EXPERIENCE</p> */}
+                            <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                            <div>
+                                <b>Output Formats:</b> Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.
+                            </div>
                         </div>
+                          
                       </div>
                     </div>
                     <div className="gallery-text">
@@ -150,6 +170,7 @@ const Portfolio = () => {
                       <p>
                         The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
                       </p>
+                        
                  
                     </div>
                   </div>
