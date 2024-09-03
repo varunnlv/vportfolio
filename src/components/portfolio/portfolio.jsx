@@ -116,7 +116,7 @@ const Portfolio = () => {
                     <div className="gallery-images">
                         <div className="image-row">
                           
-                        <div className="image-item" style={{ border: '3px solid #d3d3d3' }}>
+                        <div className="image-item" >
                             <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                             <div>
                                 <b>User Management</b>   
@@ -143,7 +143,7 @@ const Portfolio = () => {
                             </div>
                             
                         </div>
-                        <div className="image-item" style={{ border: '3px solid #d3d3d3' }}>
+                        <div className="image-item">
                             <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                             <div>
                                 <b>Data Management</b>
