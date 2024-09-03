@@ -208,7 +208,7 @@ const Portfolio = () => {
                         <div className="image-item">
                             <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                             <div>
-                                <b>Email Service</b 
+                                <b>Email Service</b> 
                                 <p>for forgot password recovery.</p>
                             </div>
                             
