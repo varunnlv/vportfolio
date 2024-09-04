@@ -244,165 +244,168 @@ const Portfolio = () => {
 
             <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
-
-            <div className="small-gallery-container">
-                  <div className="gallery-content">
-                    <div className="gallery-images">
-                        <div className="image-row">
-                          
-                        <div className="image-item" >
-                            <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
-                            <div>
-                                <b>User Management</b>   
-                                <p>Secure <span style={{ color: 'green', fontWeight: 'bold' }}>login</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style={{ color: 'green', fontWeight: 'bold' }}>forgot password service</span> to ensure account recovery and accessibility.</p>
-                            </div>
-                            
-                        </div>
-                        <div className="image-item">
-                             <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
-                            <div>
-                                <b>Input/Output Interface</b> 
-                                <p>Intuitive forms for users to input design parameters and dynamically generate <span style={{ color: 'green', fontWeight: 'bold' }}>visual and textual outputs</span>.</p>
-                            </div>
-                            
-                        </div>
-                      </div>
-                      <div className="image-row">
-                          
-                        <div className="image-item">
-                             <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
-                            <div>
-                                <b>Dynamic Canvas</b> 
-                                <p>A <span style={{ color: 'green', fontWeight: 'bold' }}>graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.</p>
-                            </div>
-                            
-                        </div>
-                        <div className="image-item">
-                            <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
-                            <div>
-                                <b>Data Management</b>
-                                <p>Capability to save input data and user sessions, ensuring continuity and ease of use.</p>
-                            </div>
-                            
-                        </div>
-                      </div>
-                      <div className="experience">
-                        <div className="experience-text">
-
-                            <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
-                            <div>
-                                <b>Api Management</b> 
-                                <p>Ability to genbrate design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation as response by taking inputs as request.</p>
-                            </div>
-                        </div>
-                          
-                      </div>                 
-                      <div className="experience">
-                        <div className="experience-text">
-
-                            <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
-                            <div>
-                                <b>Output Formats</b> 
-                                <p>Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.</p>
-                            </div>
-                        </div>
-                          
-                      </div>
-                    </div>
-                    <div className="gallery-text">
-                      <h2>Stand Alone Project 2</h2>
-                      <h3>Summary</h3>
-                      <p>
-                        The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
-                      </p>
-                        
-                    </div>
-                  </div>
-                </div>
+             <div class="ui-container">
 
                 <div className="small-gallery-container">
-                  <div className="gallery-content">
-                    <div className="gallery-images">
-                        <div className="image-row">
-                          
-                        <div className="image-item" >
-                            <img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2021/07/communityIcon_4v21sx0aiam41.png?fit=256%2C171&ssl=1" alt="JavaFX" style={{ width: '60px',height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
-                            <div>
-                                <b>JavaFX</b>   
-                                <p>for GUI design and development.</p>
+                      <div className="gallery-content">
+                        <div className="gallery-images">
+                            <div className="image-row">
+                              
+                            <div className="image-item" >
+                                <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                <div>
+                                    <b>User Management</b>   
+                                    <p>Secure <span style={{ color: 'green', fontWeight: 'bold' }}>login</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style={{ color: 'green', fontWeight: 'bold' }}>forgot password service</span> to ensure account recovery and accessibility.</p>
+                                </div>
+                                
                             </div>
-                            
+                            <div className="image-item">
+                                 <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                <div>
+                                    <b>Input/Output Interface</b> 
+                                    <p>Intuitive forms for users to input design parameters and dynamically generate <span style={{ color: 'green', fontWeight: 'bold' }}>visual and textual outputs</span>.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                          <div className="image-row">
+                              
+                            <div className="image-item">
+                                 <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                <div>
+                                    <b>Dynamic Canvas</b> 
+                                    <p>A <span style={{ color: 'green', fontWeight: 'bold' }}>graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.</p>
+                                </div>
+                                
+                            </div>
+                            <div className="image-item">
+                                <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                <div>
+                                    <b>Data Management</b>
+                                    <p>Capability to save input data and user sessions, ensuring continuity and ease of use.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                          <div className="experience">
+                            <div className="experience-text">
+    
+                                <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                <div>
+                                    <b>Api Management</b> 
+                                    <p>Ability to genbrate design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation as response by taking inputs as request.</p>
+                                </div>
+                            </div>
+                              
+                          </div>                 
+                          <div className="experience">
+                            <div className="experience-text">
+    
+                                <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                <div>
+                                    <b>Output Formats</b> 
+                                    <p>Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.</p>
+                                </div>
+                            </div>
+                              
+                          </div>
                         </div>
-                        <div className="image-item">
-                             <img src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
-                            <div>
-                                <b>MongoDB</b> 
-                                <p>NoSQL database for storing user data and project data.</p>
-                            </div>
+                        <div className="gallery-text">
+                          <h2>Stand Alone Project 2</h2>
+                          <h3>Summary</h3>
+                          <p>
+                            The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
+                          </p>
                             
                         </div>
                       </div>
-                      <div className="image-row">
-                          
-                        <div className="image-item">
-                            <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
-                            <div>
-                                <b>Rest Api</b>                         
-                                <p>ffor rendering real-time graphical outputs on the canvas.</p>
-                            </div>
-                            
-                        </div>
-                        <div className="image-item">
-                            <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
-                            <div>
-                                <b>Email Service</b> 
-                                <p>for forgot password recovery.</p>
-                            </div>
-                            
-                        </div>
-                      </div>
-
-                      <div className="image-row">
-                          
-                        <div className="image-item">
-                             <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
-                            <div>
-                                <b>Apache POI and iText</b>
-                                <p>for generating .txt and .pdf reports</p>
-                            </div>
-                            
-                        </div>
-                        <div className="image-item">
-                             <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
-                            <div>
-                                <b>JavaFX Drawing APIs</b>
-                                <p>for rendering real-time graphical outputs on the canvas.</p>
-                            </div>
-                            
-                        </div>
-                      </div>
-
-                     <div className="image-row">
-                          
-                        <div className="image-item">
-                             <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="Spring Boot" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
-                            <div>
-                                <b>Spring Boot</b>
-                                <p>for rendering real-time graphical outputs on the canvas.</p>
-                            </div>
-                            
-                        </div>
-                
-                      </div>
-                     
                     </div>
-                   
-                  </div>
-                </div>
+    
+                    <div className="small-gallery-container">
+                      <div className="gallery-content">
+                        <div className="gallery-images">
+                            <div className="image-row">
+                              
+                            <div className="image-item" >
+                                <img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2021/07/communityIcon_4v21sx0aiam41.png?fit=256%2C171&ssl=1" alt="JavaFX" style={{ width: '60px',height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                <div>
+                                    <b>JavaFX</b>   
+                                    <p>for GUI design and development.</p>
+                                </div>
+                                
+                            </div>
+                            <div className="image-item">
+                                 <img src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                <div>
+                                    <b>MongoDB</b> 
+                                    <p>NoSQL database for storing user data and project data.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                          <div className="image-row">
+                              
+                            <div className="image-item">
+                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                <div>
+                                    <b>Rest Api</b>                         
+                                    <p>ffor rendering real-time graphical outputs on the canvas.</p>
+                                </div>
+                                
+                            </div>
+                            <div className="image-item">
+                                <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                <div>
+                                    <b>Email Service</b> 
+                                    <p>for forgot password recovery.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+    
+                          <div className="image-row">
+                              
+                            <div className="image-item">
+                                 <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                <div>
+                                    <b>Apache POI and iText</b>
+                                    <p>for generating .txt and .pdf reports</p>
+                                </div>
+                                
+                            </div>
+                            <div className="image-item">
+                                 <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                <div>
+                                    <b>JavaFX Drawing APIs</b>
+                                    <p>for rendering real-time graphical outputs on the canvas.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+    
+                         <div className="image-row">
+                              
+                            <div className="image-item">
+                                 <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="Spring Boot" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                <div>
+                                    <b>Spring Boot</b>
+                                    <p>for rendering real-time graphical outputs on the canvas.</p>
+                                </div>
+                                
+                            </div>
+                    
+                          </div>
+                         
+                        </div>
+                       
+                      </div>
+                    </div>
+                 </div>
 
             <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
 
+            <div class="ui-container">
              <div className="small-gallery-container">
                   <div className="gallery-content">
                     <div className="gallery-images">
@@ -574,10 +577,10 @@ const Portfolio = () => {
                    
                   </div>
                 </div>
-
             </div>
-            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
             
+        
+            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
             <div class="ui-container">
                 <div class="slider-container">
                         <Slider {...settings}>
