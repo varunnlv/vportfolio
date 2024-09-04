@@ -612,16 +612,16 @@ const Portfolio = () => {
             <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
              <div class="ui-container">
+
+                <div class="slider-container">
+                            <Slider {...settings}>
+                                {items[0].images.map((image, index) => (
+                                    <img key={index} src={image} alt="" />
+                                ))}
+                            </Slider>
+                </div>
              <div className="small-gallery-container">
                   <div className="gallery-content">
-                    <div class="slider-container">
-                        <Slider {...settings}>
-                            {items[0].images.map((image, index) => (
-                                <img key={index} src={image} alt="" />
-                            ))}
-                        </Slider>
-                    </div>
-            
                     <div className="gallery-text5">
                           <h2>VFLEX</h2>
                           <h3>Summary</h3>
