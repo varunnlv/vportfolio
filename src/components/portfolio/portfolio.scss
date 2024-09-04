@@ -114,9 +114,38 @@ font-size: 1rem;
   }
 
   .gallery-text {
-    padding-left: 0;
-    padding-top: 20px; /* Adds spacing between images and text on smaller screens */
-  }
+    display: none;
+    
+  }     
+    .gallery-text5 {
+        display:flex;
+      padding-left: 0;
+      padding-top: 20px; /* Adds spacing between images and text on smaller screens */
+    }
+    
+    .gallery-text5 h2 {
+      font-size: 1rem;
+      color: #0ea47d;
+      text-transform: uppercase;
+      margin: 0 0 10px 0;
+    }
+    
+    .gallery-text5 h3 {
+      font-size: 2rem;
+      margin: 0 0 10px 0;
+    }
+    
+    .gallery-text5 p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: 10px 0;
+    }
+
+
+
+
+
+    
 }
 
 @media (max-width: 480px) {
