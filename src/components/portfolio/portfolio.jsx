@@ -402,191 +402,179 @@ const Portfolio = () => {
 
             <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
-            <div class="ui-container">
-                <h2>Web Based Project</h2>
-    
-    
-                <div id="projectSectionh3" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-                    <h3 style={{ marginTop: '20px' }}>Summary</h3>
-    
-                    <p className="card-text">
+
+             <div className="small-gallery-container">
+                  <div className="gallery-content">
+                    <div className="gallery-images">
+                        <div className="image-row">
+                          
+                        <div className="image-item" >
+                            <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                            <div>
+                                <b>User Management</b>   
+                                <p>Secure <span style={{ color: 'green', fontWeight: 'bold' }}>login</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style={{ color: 'green', fontWeight: 'bold' }}>forgot password service</span> to ensure account recovery and accessibility.</p>
+                            </div>
+                            
+                        </div>
+                        <div className="image-item">
+                             <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                            <div>
+                                <b>Input/Output Interface</b> 
+                                <p>Intuitive forms for users to input design parameters and dynamically generate <span style={{ color: 'green', fontWeight: 'bold' }}>visual and textual outputs</span>.</p>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <div className="image-row">
+                          
+                        <div className="image-item">
+                             <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                            <div>
+                                <b>Dynamic Canvas</b> 
+                                <p>A <span style={{ color: 'green', fontWeight: 'bold' }}>graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.</p>
+                            </div>
+                            
+                        </div>
+                        <div className="image-item">
+                            <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                            <div>
+                                <b>Data Management</b>
+                                <p>Capability to save input data and user sessions, ensuring continuity and ease of use.</p>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <div className="experience">
+                        <div className="experience-text">
+
+                            <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                            <div>
+                                <b>Api Management</b> 
+                                <p>Ability to genbrate design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation as response by taking inputs as request.</p>
+                            </div>
+                        </div>
+                          
+                      </div>                 
+                      <div className="experience">
+                        <div className="experience-text">
+
+                            <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                            <div>
+                                <b>Output Formats</b> 
+                                <p>Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.</p>
+                            </div>
+                        </div>
+                          
+                      </div>
+                    </div>
+                    <div className="gallery-text">
+                      <h2>Web Based Project</h2>
+                      <h3>Summary</h3>
+                      <p>
                         The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly web interface with User Management that automates the design process, enhancing efficiency and accuracy, and generating reports in different file formats.
-                    </p>
-                    
-                    <h3 style={{ marginTop: '20px' }}>Features</h3>
-                    
-                    <ul style={{ marginTop: '20px' }}>
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <img 
-                                src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" 
-                                alt="User Management" 
-                                style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} 
-                            />
-                            <div>
-                                <b>User Management:</b> Secure <span style={{ color: 'green', fontWeight: 'bold' }}>login</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style={{ color: 'green', fontWeight: 'bold' }}>forgot password service</span> to ensure account recovery and accessibility.
-                            </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <img 
-                                src="https://friconix.com/png/fi-xnluxx-gui.png" 
-                                alt="JavaFX" 
-                                style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} 
-                            />
-                            <div>
-                                <b>Input/Output Interface:</b> Intuitive forms for users to input design parameters and dynamically generate <span style={{ color: 'green', fontWeight: 'bold' }}>visual and textual outputs</span>.
-                            </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <img 
-                                src="https://cdn-icons-png.flaticon.com/512/73/73812.png" 
-                                alt="JavaFX" 
-                                style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} 
-                            />
-                            <div>
-                                <b>Dynamic Canvas:</b> A <span style={{ color: 'green', fontWeight: 'bold' }}>graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.
-                            </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <img 
-                                src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" 
-                                alt="JavaFX" 
-                                style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} 
-                            />
-                            <div>
-                                <b>Data Management:</b> Capability to save input data and user sessions, ensuring continuity and ease of use.
-                            </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <img 
-                                src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" 
-                                alt="JavaFX" 
-                                style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} 
-                            />
-                            <div>
-                                <b>Api Management:</b> Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.
-                            </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <img 
-                                src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" 
-                                alt="JavaFX" 
-                                style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} 
-                            />
-                            <div>
-                                <b>Output Formats:</b> Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.
-                            </div>
-                        </li>
-                    </ul>
-    
-    
-                    <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-                    <ul style={{ marginTop: '20px' }}>
-                        <li style={{ display: 'flex', alignItems: 'center' }}>
+                      </p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+                <div className="small-gallery-container">
+                  <div className="gallery-content">
+                    <div className="gallery-images">
+                        <div className="image-row">
+                          
+                        <div className="image-item" >
                             <img 
                                 src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
                                 alt="React" 
                                 style={{ width: '80px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                             />
                             <div>
-                                <b>React</b> for building the frontend web application.
+                                <b>React</b>   
+                                <p>for building the frontend web application.</p>
                             </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center' }}>
-                            <img 
-                                src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" 
-                                alt="MongoDB" 
-                                style={{ width: '80px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
-                            />
+                            
+                        </div>
+                        <div className="image-item">
+                             <img src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
                             <div>
-                                <b>MongoDB</b> NoSQL database for storing user data and project data.
+                                <b>MongoDB</b> 
+                                <p>NoSQL database for storing user data and project data.</p>
                             </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center' }}>
-                            <img 
-                                src="https://cdn.sanity.io/images/ss02266c/production/806fba67631087cd76ed2a963210feadd164c7fa-64x64.svg" 
-                                alt="Redis" 
-                                style={{ width: '80px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
-                            />
+                            
+                        </div>
+                      </div>
+                      <div className="image-row">
+                          
+                        <div className="image-item">
+                            <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                             <div>
-                                <b>Redis</b> for distributed caching.
+                                <b>Rest Api</b>                         
+                                <p>ffor rendering real-time graphical outputs on the canvas.</p>
                             </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center' }}>
-                            <img 
-                                src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" 
-                                alt="Email Service" 
-                                style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
-                            />
+                            
+                        </div>
+                        <div className="image-item">
+                            <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                             <div>
-                                <b>Email Service</b> for forgot password recovery.
+                                <b>Email Service</b> 
+                                <p>for forgot password recovery.</p>
                             </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center' }}>
-                            <img 
-                                src="https://cdn-icons-png.flaticon.com/512/337/337946.png" 
-                                alt="Apache POI and iText" 
-                                style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
-                            />
+                            
+                        </div>
+                      </div>
+
+                      <div className="image-row">
+                          
+                        <div className="image-item">
+                             <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                             <div>
-                                <b>Apache POI and iText</b> for generating .txt and .pdf reports.
+                                <b>Apache POI and iText</b>
+                                <p>for generating .txt and .pdf reports</p>
                             </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center' }}>
-                            <img 
-                                src="https://cdn-icons-png.flaticon.com/512/73/73812.png" 
-                                alt="JavaFX Drawing APIs" 
-                                style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
-                            />
+                            
+                        </div>
+                        <div className="image-item">
+                             <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                             <div>
-                                <b>JavaFX Drawing APIs</b> for rendering real-time graphical outputs on the canvas.
+                                <b>JavaFX Drawing APIs</b>
+                                <p>for rendering real-time graphical outputs on the canvas.</p>
                             </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center' }}>
-                            <img 
-                                src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" 
-                                alt="Rest API" 
-                                style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
-                            />
+                            
+                        </div>
+                      </div>
+
+                     <div className="image-row">
+                          
+                        <div className="image-item">
+                             <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="Spring Boot" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                             <div>
-                                <b>Rest API</b> for rendering real-time graphical outputs on the canvas.
+                                <b>Spring Boot</b>
+                                <p>Instead of using JDBC, a Spring Boot REST API approach is adopted for backend database connections.</p>
                             </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center' }}>
-                            <img 
-                                src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" 
-                                alt="Spring Boot REST API" 
-                                style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
-                            />
-                            <div>
-                                <b>Spring Boot REST API</b> Instead of using JDBC, a Spring Boot REST API approach is adopted for backend database connections.
-                            </div>
-                        </li>
-                    
-                        <li style={{ display: 'flex', alignItems: 'center' }}>
-                            <img 
+                            
+                        </div>
+
+                           <div className="image-item">
+                              <img 
                                 src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
                                 alt="HTML,CSS,SCSS,TAILWIND" 
                                 style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
                             />
                             <div>
-                                <b>HTML,CSS,SCSS,TAILWIND</b> for frontend UI.
+                                <b>HTML,CSS,SCSS,TAILWIND</b>
+                                <p>for frontend UI.</p>
                             </div>
-                        </li>
-                    </ul>
+                            
+                        </div>
                 
+                      </div>
+                     
+                    </div>
+                   
+                  </div>
                 </div>
+
             </div>
             <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
             
