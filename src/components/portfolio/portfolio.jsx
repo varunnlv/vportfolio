@@ -610,7 +610,117 @@ const Portfolio = () => {
             
         
             <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
-            <div class="ui-container">
+
+             <div class="ui-container">
+             <div className="small-gallery-container">
+                  <div className="gallery-content">
+                    <div class="slider-container">
+                        <Slider {...settings}>
+                            {items[0].images.map((image, index) => (
+                                <img key={index} src={image} alt="" />
+                            ))}
+                        </Slider>
+                    </div>
+            
+                    <div className="gallery-text5">
+                          <h2>VFLEX</h2>
+                          <h3>Summary</h3>
+                          <p>
+                            VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
+                          </p>  
+                         </div>
+                      
+                    <div className="gallery-images">
+                        <div className="image-row">
+                          
+                        <div className="image-item" >
+                            <div>
+                                <b>Dynamic Card Addition</b>   
+                                <p>Users can add cards with custom descriptions and headings.</p>
+                            </div>
+                            
+                        </div>
+                        <div className="image-item">
+                            
+                            <div>
+                                <b>Flexbox Layoute</b> 
+                                <p>Cards are arranged using the Flexbox layout, demonstrating various Flexbox properties and behaviors.</p>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      <div className="image-row">
+                          
+                        <div className="image-item">
+                             
+                            <div>
+                                <b>Responsive Design</b> 
+                                <p>The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.</p>
+                            </div>
+                            
+                        </div>
+                        <div className="image-item">
+                            
+                            <div>
+                                <b>Random Colors</b>
+                                <p>Each card is assigned a random color to enhance visual variety and appeal.</p>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div className="gallery-text">
+                      <h2>VFLEX</h2>
+                      <h3>Summary</h3>
+                      <p>
+                        VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
+                      </p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+                <div className="small-gallery-container">
+                  <div className="gallery-content">
+                    <div className="gallery-images">
+                        <div className="image-row">
+                          
+                        <div className="image-item" >
+                
+                            <div>
+                                <b>HTML & CSS</b>   
+                                <p>for structuring and styling the web pages.</p>
+                            </div>
+                            
+                        </div>
+                        <div className="image-item">
+                            
+                            <div>
+                                <b>JavaScript</b> 
+                                <p>for adding dynamic functionality, such as generating random colors and handling user input.</p>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            
+{/*             <div class="ui-container">
                 <div class="slider-container">
                         <Slider {...settings}>
                             {items[0].images.map((image, index) => (
@@ -662,7 +772,7 @@ const Portfolio = () => {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
             <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
 
