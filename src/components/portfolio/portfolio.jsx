@@ -490,7 +490,7 @@ const Portfolio = () => {
                             <img 
                                 src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
                                 alt="React" 
-                                style={{ width: '80px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                             />
                             <div>
                                 <b>React</b>   
