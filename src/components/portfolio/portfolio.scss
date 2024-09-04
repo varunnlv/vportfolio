@@ -81,7 +81,7 @@ font-size: 1rem;
 }
 
 .gallery-text5 {
-  visibility: hidden;
+  display: none;
 }
    
 .gallery-text {
@@ -114,11 +114,11 @@ font-size: 1rem;
   }
 
   .gallery-text {
-    visibility: hidden;
+    display: none;
     
   }     
     .gallery-text5 {
-      visibility: visible;
+      display: block;
       padding-left: 0;
       padding-top: 20px; /* Adds spacing between images and text on smaller screens */
     }
