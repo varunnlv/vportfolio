@@ -649,24 +649,25 @@ const Portfolio = () => {
                             
                         </div>
                       </div>
-                      <div className="image-row">
-                          
-                        <div className="image-item">
-                             
+
+
+                      <div className="experience">
+                        <div className="experience-text">
                             <div>
                                 <b>Responsive Design</b> 
                                 <p>The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.</p>
                             </div>
-                            
                         </div>
-                        <div className="image-item">
-                            
+                          
+                      </div>
+
+                      <div className="experience">
+                        <div className="experience-text">
                             <div>
-                                <b>Random Colors</b>
+                                <b>Random Colors</b> 
                                 <p>Each card is assigned a random color to enhance visual variety and appeal.</p>
                             </div>
-                            
-                        </div>
+                        </div>                          
                       </div>
                       
                     </div>
