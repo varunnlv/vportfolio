@@ -8,7 +8,7 @@ const Navbar = () => {
             <Sidebar />
             <div className="wrapper">
                 
-                <img src="https://logos.textgiraffe.com/logos/logo-name/Varun-designstyle-boots-m.png" width="200px" alt="Angular" />
+{/*                 <img src="https://logos.textgiraffe.com/logos/logo-name/Varun-designstyle-boots-m.png" width="200px" alt="Angular" /> */}
                 
                 <div className="social">
 
