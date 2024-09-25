@@ -1,6 +1,32 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+.visit-website-btn {
+ background-color: #45a049; /* Green */
+  border: 2px solid #3d8e42; /* Slightly darker green border */
+  color: black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.visit-website-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.visit-website-btn:active {
+  transform: scale(0.98); /* Slightly shrink when clicked */
+}
+
+
+
 .portfolio {
     background: white;
 
@@ -104,30 +130,6 @@ font-size: 1rem;
   font-size: 1rem;
   line-height: 1.5;
   margin: 10px 0;
-}
-
-.visit-website-btn {
- background-color: #45a049; /* Green */
-  border: 2px solid #3d8e42; /* Slightly darker green border */
-  color: black;
-  padding: 12px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 20px;
-  cursor: pointer;
-  border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.visit-website-btn:hover {
-  background-color: #45a049; /* Darker green on hover */
-  transform: scale(1.05); /* Slightly enlarge on hover */
-}
-
-.visit-website-btn:active {
-  transform: scale(0.98); /* Slightly shrink when clicked */
 }
 
 
