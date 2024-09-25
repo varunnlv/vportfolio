@@ -168,7 +168,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                           
-                      </div>
+                      </div>                                    
                     </div>
 
                       
@@ -611,168 +611,7 @@ const Portfolio = () => {
         
             <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
-             <div class="ui-container">
-
-                <div class="slider-container">
-                            <Slider {...settings}>
-                                {items[0].images.map((image, index) => (
-                                    <img key={index} src={image} alt="" />
-                                ))}
-                            </Slider>
-                </div>
-             <div className="small-gallery-container">
-                  <div className="gallery-content">
-                    <div className="gallery-text5">
-                          <h2>VFLEX</h2>
-                          <h3>Summary</h3>
-                          <p>
-                            VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
-                          </p>  
-                         </div>
-                      
-                    <div className="gallery-images">
-                        <div className="image-row">
-                          
-                        <div className="image-item" >
-                            <div>
-                                <b>Dynamic Card Addition</b>   
-                                <p>Users can add cards with custom descriptions and headings.</p>
-                            </div>
-                            
-                        </div>
-                        <div className="image-item">
-                            
-                            <div>
-                                <b>Flexbox Layout</b> 
-                                <p>Cards are arranged using the Flexbox layout, demonstrating various Flexbox properties and behaviors.</p>
-                            </div>
-                            
-                        </div>
-                      </div>
-
-
-                      <div className="experience">
-                        <div className="experience-text">
-                            <div>
-                                <b>Responsive Design</b> 
-                                <p>The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.</p>
-                            </div>
-                        </div>
-                          
-                      </div>
-
-                      <div className="experience">
-                        <div className="experience-text">
-                            <div>
-                                <b>Random Colors</b> 
-                                <p>Each card is assigned a random color to enhance visual variety and appeal.</p>
-                            </div>
-                        </div>                          
-                      </div>
-                      
-                    </div>
-                    <div className="gallery-text">
-                      <h2>VFLEX</h2>
-                      <h3>Summary</h3>
-                      <p>
-                        VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
-                      </p>
-                        
-                    </div>
-                  </div>
-                </div>
-
-                <div className="small-gallery-container">
-                  <div className="gallery-content">
-                    <div className="gallery-images">
-                        <div className="image-row">
-                          
-                        <div className="image-item" >
-                
-                            <div>
-                                <b>HTML & CSS</b>   
-                                <p>for structuring and styling the web pages.</p>
-                            </div>
-                            
-                        </div>
-                        <div className="image-item">
-                            
-                            <div>
-                                <b>JavaScript</b> 
-                                <p>for adding dynamic functionality, such as generating random colors and handling user input.</p>
-                            </div>
-                            
-                        </div>
-                      </div>
-                      
-                    </div>
-                   
-                  </div>
-                </div>
-            </div>
-
-            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
-
-
-
-
-            <div class="ui-container">
-                <div class="slider-container">
-                        <Slider {...settings}>
-                            {items[1].images.map((image, index) => (
-                                <img key={index} src={image} alt="" />
-                            ))}
-                        </Slider>
-                </div>
-                <h2 style={{ marginTop: '20px' }}>VGRID</h2>
-                <div id="projectSectionh5" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-                    <h3 style={{ marginTop: '20px' }}>Summary</h3>
-                    <p className="card-text">
-                        VGRID is a Static UI website designed to practice and master the CSS Grid layout concept. It allows users to dynamically add content, which is arranged using CSS Grid. The site demonstrates the flexibility and power of CSS Grid in creating responsive and complex layouts.
-                    </p>
-                
-                    <h3 style={{ marginTop: '20px' }}>Features</h3>
-                    <ul style={{ marginTop: '20px' }}>
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <div>
-                                <b>Dynamic Card Addition:</b> Users can add cards with custom descriptions and headings.
-                            </div>
-                        </li>
-                
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <div>
-                                <b>CSS Grid Layout:</b> Items are arranged using CSS Grid, showcasing various grid properties and layouts.
-                            </div>
-                        </li>
-                
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <div>
-                                <b>Responsive Design:</b> The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.
-                            </div>
-                        </li>
-                
-                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
-                            <div>
-                                <b>Random Colors:</b> Each card is assigned a random color to enhance visual variety and appeal.
-                            </div>
-                        </li>
-                    </ul>
-                
-                    <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-                    <ul style={{ marginTop: '20px' }}>
-                        <li>
-                            <b>HTML & CSS:</b> For structuring and styling the web pages.
-                        </li>
-                        <li>
-                            <b>JavaScript:</b> For adding dynamic functionality, such as generating random colors and handling user input.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
-
-
-
+        
             <div class="ui-container">
            
                 <div class="slider-container">
@@ -814,7 +653,6 @@ const Portfolio = () => {
                 </ul>
             </div>
          </div>
-        <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
         <div class="ui-container">
             <div class="slider-container">
@@ -1010,13 +848,13 @@ const Portfolio = () => {
                             ))}
                         </Slider>
             </div>        
-            <h2 style={{ marginTop: '20px' }}>FILMPIRE</h2>
+            <h2 style={{ marginTop: '20px' }}>FILMBOOK</h2>
     
                 
             <div id="projectSectionh8" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
                 <h3 style={{ marginTop: '20px' }}>Summary</h3>
                 <p style={{ marginTop: '20px' }} className="card-text">
-                    Filmpire is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
+                    Filmbook is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
                 </p>
             
                 <h3 style={{ marginTop: '20px' }}>Features</h3>
@@ -1058,6 +896,179 @@ const Portfolio = () => {
                 </ul>
             </div>
          </div>
+
+
+
+
+
+
+            
+        <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
+
+         <div class="ui-container">
+
+                <div class="slider-container">
+                            <Slider {...settings}>
+                                {items[0].images.map((image, index) => (
+                                    <img key={index} src={image} alt="" />
+                                ))}
+                            </Slider>
+                </div>
+             <div className="small-gallery-container">
+                  <div className="gallery-content">
+                    <div className="gallery-text5">
+                          <h2>VFLEX</h2>
+                          <h3>Summary</h3>
+                          <p>
+                            VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
+                          </p>  
+                         </div>
+                      
+                    <div className="gallery-images">
+                        <div className="image-row">
+                          
+                        <div className="image-item" >
+                            <div>
+                                <b>Dynamic Card Addition</b>   
+                                <p>Users can add cards with custom descriptions and headings.</p>
+                            </div>
+                            
+                        </div>
+                        <div className="image-item">
+                            
+                            <div>
+                                <b>Flexbox Layout</b> 
+                                <p>Cards are arranged using the Flexbox layout, demonstrating various Flexbox properties and behaviors.</p>
+                            </div>
+                            
+                        </div>
+                      </div>
+
+
+                      <div className="experience">
+                        <div className="experience-text">
+                            <div>
+                                <b>Responsive Design</b> 
+                                <p>The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.</p>
+                            </div>
+                        </div>
+                          
+                      </div>
+
+                      <div className="experience">
+                        <div className="experience-text">
+                            <div>
+                                <b>Random Colors</b> 
+                                <p>Each card is assigned a random color to enhance visual variety and appeal.</p>
+                            </div>
+                        </div>                          
+                      </div>
+                      
+                    </div>
+                    <div className="gallery-text">
+                      <h2>VFLEX</h2>
+                      <h3>Summary</h3>
+                      <p>
+                        VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
+                      </p>
+                        
+                    </div>
+                  </div>
+                </div>
+
+                <div className="small-gallery-container">
+                  <div className="gallery-content">
+                    <div className="gallery-images">
+                        <div className="image-row">
+                          
+                        <div className="image-item" >
+                
+                            <div>
+                                <b>HTML & CSS</b>   
+                                <p>for structuring and styling the web pages.</p>
+                            </div>
+                            
+                        </div>
+                        <div className="image-item">
+                            
+                            <div>
+                                <b>JavaScript</b> 
+                                <p>for adding dynamic functionality, such as generating random colors and handling user input.</p>
+                            </div>
+                            
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+            </div>
+
+            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
+
+
+
+
+            <div class="ui-container">
+                <div class="slider-container">
+                        <Slider {...settings}>
+                            {items[1].images.map((image, index) => (
+                                <img key={index} src={image} alt="" />
+                            ))}
+                        </Slider>
+                </div>
+                <h2 style={{ marginTop: '20px' }}>VGRID</h2>
+                <div id="projectSectionh5" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
+                    <h3 style={{ marginTop: '20px' }}>Summary</h3>
+                    <p className="card-text">
+                        VGRID is a Static UI website designed to practice and master the CSS Grid layout concept. It allows users to dynamically add content, which is arranged using CSS Grid. The site demonstrates the flexibility and power of CSS Grid in creating responsive and complex layouts.
+                    </p>
+                
+                    <h3 style={{ marginTop: '20px' }}>Features</h3>
+                    <ul style={{ marginTop: '20px' }}>
+                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
+                            <div>
+                                <b>Dynamic Card Addition:</b> Users can add cards with custom descriptions and headings.
+                            </div>
+                        </li>
+                
+                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
+                            <div>
+                                <b>CSS Grid Layout:</b> Items are arranged using CSS Grid, showcasing various grid properties and layouts.
+                            </div>
+                        </li>
+                
+                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
+                            <div>
+                                <b>Responsive Design:</b> The layout adapts to different screen sizes, ensuring a seamless user experience on all devices.
+                            </div>
+                        </li>
+                
+                        <li style={{ display: 'flex', alignItems: 'center', marginBottom: '5px' }}>
+                            <div>
+                                <b>Random Colors:</b> Each card is assigned a random color to enhance visual variety and appeal.
+                            </div>
+                        </li>
+                    </ul>
+                
+                    <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+                    <ul style={{ marginTop: '20px' }}>
+                        <li>
+                            <b>HTML & CSS:</b> For structuring and styling the web pages.
+                        </li>
+                        <li>
+                            <b>JavaScript:</b> For adding dynamic functionality, such as generating random colors and handling user input.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
+
+
+            
+
+        
 
 
 {/*             <div class="ui-container">
