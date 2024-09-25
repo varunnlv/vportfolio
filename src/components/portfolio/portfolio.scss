@@ -2,17 +2,15 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .visit-website-btn {
-  background-color: #007BFF; /* Bright blue */
-  border: 2px solid #0056b3; /* Darker blue border */
+  background-color: black; /* Bright blue */
+  border: 2px solid black; /* Darker blue border */
   color: white; /* White text */
   padding: 12px 24px;
   text-align: center;
-  display: inline-block;
   font-size: 16px;
   margin-top: 20px;
   cursor: pointer;
   border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .visit-website-btn:hover {
