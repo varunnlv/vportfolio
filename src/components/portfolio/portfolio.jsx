@@ -619,7 +619,7 @@ const Portfolio = () => {
                         </Slider>
             </div>        
             <h2 style={{ marginTop: '20px' }}>VPORTFOLIO</h2>
-            <button className="visit-website-btn" onClick={() => window.open('https://www.example.com', '_blank')}>
+            <button className="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
               Visit Website
             </button>
             <div id="projectSectionh7" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
