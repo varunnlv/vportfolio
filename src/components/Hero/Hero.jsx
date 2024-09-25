@@ -90,11 +90,13 @@ const Hero = () => {
                     animate="animate"
                 >
                     <div className="wrapper3">
+                        <div className="wrapper33">
                             <video autoPlay loop muted className="background-video">
                                 <source src="./background1.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
-                        <h1 className="animated-text">VARUN NLV</h1>
+                            <h1 className="animated-text">VARUN NLV</h1>
+                        </div>
                     </div>
                     <motion.h1 variants={textVariants}> Web Developer</motion.h1>
                     <motion.div variants={textVariants} className="buttons"></motion.div>
