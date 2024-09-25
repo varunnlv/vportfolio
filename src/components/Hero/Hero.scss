@@ -34,15 +34,8 @@
                         font-size: clamp(3rem, 10vw, 10rem);
                         color: gray;
                         text-transform: uppercase;
-                        position: absolute;
-                        left:0;
-                        top:0;
-                       mix-blend-mode: screen;
-                        
-                        
-                        text-shadow: 
-                        1px 1px 2px rgba(0, 0, 0, 0.7);
-        
+                       
+                
                         @media (max-width: 768px) {
                             font-size: clamp(2rem, 6vw, 6rem);
                         }
