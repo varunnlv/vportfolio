@@ -17,12 +17,6 @@
             align-items: center;
             justify-content: center;
 
-            .wrapper33{
-
-                position: relative;
-                height: 100vh; /* Full height */
-                overflow: hidden; /* Hide overflow */
-
                 .background-video {
                     position: absolute;
                     top: 50%;
@@ -48,12 +42,7 @@
                         @media (max-width: 768px) {
                             font-size: clamp(2rem, 6vw, 6rem);
                         }
-                    } 
-
-                
-            }
-
-        
+                    }       
 
         }
 
