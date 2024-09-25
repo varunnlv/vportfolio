@@ -664,6 +664,10 @@ const Portfolio = () => {
         <div class="ui-container">
      
             <h2 style={{ marginTop: '20px' }}>PATH FINDER</h2>
+
+            <button className="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+              Visit Website
+            </button>
     
             <div id="projectSectionh10" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
                 <h3 style={{ marginTop: '20px' }}>Summary</h3>
@@ -748,6 +752,10 @@ const Portfolio = () => {
                         </Slider>
             </div>        
             <h2 style={{ marginTop: '20px' }}>EXPENSE TRACKER</h2>
+            
+            <button className="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+              Visit Website
+            </button>
     
     
             <div id="projectSectionh12" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
@@ -801,6 +809,10 @@ const Portfolio = () => {
                         </Slider>
             </div>        
             <h2 style={{ marginTop: '20px' }}>FILMBOOK</h2>
+            
+            <button className="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+              Visit Website
+            </button>
     
                 
             <div id="projectSectionh8" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
@@ -862,6 +874,10 @@ const Portfolio = () => {
                         </Slider>
                 </div>
                 <h2 style={{ marginTop: '20px' }}>VKANBAN</h2>
+
+                <button className="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+              Visit Website
+            </button>
                 
                 <div id="projectSectionh6" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
                 <h3 style={{ marginTop: '20px' }}>Summary</h3>
@@ -910,6 +926,9 @@ const Portfolio = () => {
                   <div className="gallery-content">
                     <div className="gallery-text5">
                           <h2>VFLEX</h2>
+                             <button className="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                              Visit Website
+                            </button>
                           <h3>Summary</h3>
                           <p>
                             VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
@@ -1011,6 +1030,9 @@ const Portfolio = () => {
                         </Slider>
                 </div>
                 <h2 style={{ marginTop: '20px' }}>VGRID</h2>
+                <button className="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                  Visit Website
+                </button>
                 <div id="projectSectionh5" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
                     <h3 style={{ marginTop: '20px' }}>Summary</h3>
                     <p className="card-text">
