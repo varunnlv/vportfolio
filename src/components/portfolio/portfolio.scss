@@ -318,8 +318,8 @@ font-size: 0.8rem;
 }
 
 
-button {
-  background: transparent; /* Bright blue */
+.visit-website-btn {
+  background: green; /* Bright blue */
   border: 2px solid black; /* Darker blue border */
   color: white; /* White text */
   padding: 12px 24px;
@@ -330,12 +330,12 @@ button {
   border-radius: 8px;
 }
 
-.ui-container button:hover {
+.visit-website-btn:hover {
   background-color: #45a049; /* Darker green on hover */
   transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
-.ui-container button:active {
+.visit-website-btn:active {
   transform: scale(0.98); /* Slightly shrink when clicked */
 }
 
