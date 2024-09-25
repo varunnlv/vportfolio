@@ -608,51 +608,7 @@ const Portfolio = () => {
                 </div>
             </div>
             
-        
-            <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
-
-        
-            <div class="ui-container">
-           
-                <div class="slider-container">
-                        <Slider {...settings}>
-                            {items[2].images.map((image, index) => (
-                                <img key={index} src={image} alt="" />
-                            ))}
-                        </Slider>
-                </div>
-                <h2 style={{ marginTop: '20px' }}>VKANBAN</h2>
-                
-                <div id="projectSectionh6" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-                <h3 style={{ marginTop: '20px' }}>Summary</h3>
-                <p className="card-text">
-                    VKANBAN is a static UI website designed to provide a visual task management system using the Kanban methodology. Similar to Jira, this application allows users to drag tasks between columns to track their status, making it easy to manage and visualize workflow.
-                </p>
-            
-                <h3 style={{ marginTop: '20px' }}>Features</h3>
-                <ul style={{ marginTop: '20px' }}>
-                    <li>
-                        <b>Task Management:</b> Users can create tasks with descriptions and assign them to columns representing different stages of a workflow (e.g., To Do, In Progress, Done).
-                    </li>
-                    <li>
-                        <b>Drag and Drop:</b> Tasks can be dragged and dropped between columns to update their status.
-                    </li>
-                    <li>
-                        <b>Dynamic UI:</b> The interface updates in real-time to reflect the current status of tasks.
-                    </li>
-                </ul>
-            
-                <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-                <ul style={{ marginTop: '20px' }}>
-                    <li>
-                        <b>HTML & CSS:</b> For structuring and styling the web pages.
-                    </li>
-                    <li>
-                        <b>JavaScript:</b> For adding dynamic functionality, such as enabling drag-and-drop interactions and handling user input.
-                    </li>
-                </ul>
-            </div>
-         </div>
+        <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
         <div class="ui-container">
             <div class="slider-container">
@@ -702,13 +658,6 @@ const Portfolio = () => {
         </div>
         <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
 
-{/*         <div class="slider-container">
-                    <Slider {...settings}>
-                        {items[3].images.map((image, index) => (
-                            <img key={index} src={image} alt="" />
-                        ))}
-                    </Slider>
-        </div>         */}
         <div class="ui-container">
      
             <h2 style={{ marginTop: '20px' }}>PATH FINDER</h2>
@@ -897,13 +846,53 @@ const Portfolio = () => {
             </div>
          </div>
 
-
-
-
-
-
-            
         <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
+
+           
+            <div class="ui-container">
+           
+                <div class="slider-container">
+                        <Slider {...settings}>
+                            {items[2].images.map((image, index) => (
+                                <img key={index} src={image} alt="" />
+                            ))}
+                        </Slider>
+                </div>
+                <h2 style={{ marginTop: '20px' }}>VKANBAN</h2>
+                
+                <div id="projectSectionh6" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
+                <h3 style={{ marginTop: '20px' }}>Summary</h3>
+                <p className="card-text">
+                    VKANBAN is a static UI website designed to provide a visual task management system using the Kanban methodology. Similar to Jira, this application allows users to drag tasks between columns to track their status, making it easy to manage and visualize workflow.
+                </p>
+            
+                <h3 style={{ marginTop: '20px' }}>Features</h3>
+                <ul style={{ marginTop: '20px' }}>
+                    <li>
+                        <b>Task Management:</b> Users can create tasks with descriptions and assign them to columns representing different stages of a workflow (e.g., To Do, In Progress, Done).
+                    </li>
+                    <li>
+                        <b>Drag and Drop:</b> Tasks can be dragged and dropped between columns to update their status.
+                    </li>
+                    <li>
+                        <b>Dynamic UI:</b> The interface updates in real-time to reflect the current status of tasks.
+                    </li>
+                </ul>
+            
+                <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+                <ul style={{ marginTop: '20px' }}>
+                    <li>
+                        <b>HTML & CSS:</b> For structuring and styling the web pages.
+                    </li>
+                    <li>
+                        <b>JavaScript:</b> For adding dynamic functionality, such as enabling drag-and-drop interactions and handling user input.
+                    </li>
+                </ul>
+            </div>
+         </div>
+
+        <hr style={{ marginTop: '20px', marginBottom: '20px'}}/>
+        
 
          <div class="ui-container">
 
