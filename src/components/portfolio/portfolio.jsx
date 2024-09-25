@@ -981,6 +981,9 @@ const Portfolio = () => {
                     </div>
                     <div className="gallery-text">
                       <h2>VFLEX</h2>
+                      <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                              Visit Website
+                            </button>
                       <h3>Summary</h3>
                       <p>
                         VFLEX is a Static UI website designed to practice and demonstrate the Flexbox layout concept. It allows users to dynamically add cards with their own descriptions and headings, which are arranged using Flexbox. The site is responsive, with each card featuring a randomly assigned color.
