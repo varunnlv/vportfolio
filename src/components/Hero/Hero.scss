@@ -17,16 +17,43 @@
             align-items: center;
             justify-content: center;
 
-           .animated-text {
-                font-family: "Space Mono", monospace;
-                font-size: clamp(3rem, 10vw, 10rem);
-                color: gray;
-                text-transform: uppercase;
+            .wrapper33{
 
-                @media (max-width: 768px) {
-                    font-size: clamp(2rem, 6vw, 6rem);
+                position: relative;
+                height: 100vh; /* Full height */
+                overflow: hidden; /* Hide overflow */
+
+                .background-video {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    min-width: 100%;
+                    min-height: 100%;
+                    width: auto;
+                    height: auto;
+                    z-index: -1; /* Send the video behind the text */
+                    transform: translate(-50%, -50%); /* Center the video */
                 }
-            } 
+
+                   .animated-text {
+                        font-family: "Space Mono", monospace;
+                        font-size: clamp(3rem, 10vw, 10rem);
+                        color: gray;
+                        text-transform: uppercase;
+                        position: relative;
+                        z-index: 1; /* Keep the text on top */
+                        text-shadow: 
+                        1px 1px 2px rgba(0, 0, 0, 0.7);
+        
+                        @media (max-width: 768px) {
+                            font-size: clamp(2rem, 6vw, 6rem);
+                        }
+                    } 
+
+                
+            }
+
+        
 
         }
 
