@@ -542,7 +542,7 @@ const Portfolio = () => {
                             <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                             <div>
                                 <b>Rest Api</b>                         
-                                <p>ffor rendering real-time graphical outputs on the canvas.</p>
+                                <p>for rendering real-time graphical outputs on the canvas.</p>
                             </div>
                             
                         </div>
