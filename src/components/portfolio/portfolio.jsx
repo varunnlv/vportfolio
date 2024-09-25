@@ -756,7 +756,7 @@ const Portfolio = () => {
             </div>        
             <h2 style={{ marginTop: '20px' }}>EXPENSE TRACKER</h2>
             
-            <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+            <button class="visit-website-btn" onClick={() => window.open('https://expense-v-tracker.netlify.app/', '_blank')}>
               Visit Website
             </button>
     
@@ -813,7 +813,7 @@ const Portfolio = () => {
             </div>        
             <h2 style={{ marginTop: '20px' }}>FILMBOOK</h2>
             
-            <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+            <button class="visit-website-btn" onClick={() => window.open('https://filmpire-v.netlify.app/', '_blank')}>
               Visit Website
             </button>
     
@@ -878,7 +878,7 @@ const Portfolio = () => {
                 </div>
                 <h2 style={{ marginTop: '20px' }}>VKANBAN</h2>
 
-                <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vprojecttracker/', '_blank')}>
               Visit Website
             </button>
                 
@@ -929,7 +929,7 @@ const Portfolio = () => {
                   <div className="gallery-content">
                     <div className="gallery-text5">
                           <h2>VFLEX</h2>
-                             <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                             <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vflex/', '_blank')}>
                               Visit Website
                             </button>
                           <h3>Summary</h3>
@@ -981,7 +981,7 @@ const Portfolio = () => {
                     </div>
                     <div className="gallery-text">
                       <h2>VFLEX</h2>
-                      <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                      <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vflex/', '_blank')}>
                               Visit Website
                             </button>
                       <h3>Summary</h3>
@@ -1036,7 +1036,7 @@ const Portfolio = () => {
                         </Slider>
                 </div>
                 <h2 style={{ marginTop: '20px' }}>VGRID</h2>
-                <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vgrid/', '_blank')}>
                   Visit Website
                 </button>
                 <div id="projectSectionh5" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
