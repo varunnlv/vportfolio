@@ -16,17 +16,17 @@
             width: 70vw;
             align-items: center;
             justify-content: center;
+            position: absolute;
 
                 .background-video {
                     position: absolute;
-                    top: 50%;
-                    left: 50%;
+                    top: 0%;
+                    left: 0%;
                     min-width: 100%;
                     min-height: 100%;
                     width: auto;
                     height: auto;
-                    z-index: -1; /* Send the video behind the text */
-                    transform: translate(-50%, -50%); /* Center the video */
+                    object-fit: cover;
                 }
 
                    .animated-text {
@@ -34,8 +34,12 @@
                         font-size: clamp(3rem, 10vw, 10rem);
                         color: gray;
                         text-transform: uppercase;
-                        // position: relative;
-                        // z-index: 1; /* Keep the text on top */
+                        position: absolute;
+                        left:0;
+                        top:0;
+                       mix-blend-mode: screen;
+                        
+                        
                         text-shadow: 
                         1px 1px 2px rgba(0, 0, 0, 0.7);
         
