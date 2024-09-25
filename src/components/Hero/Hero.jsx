@@ -91,10 +91,10 @@ const Hero = () => {
                 >
                     <div className="wrapper3">
 {/*                       <div className="wrapper33"> */}
-                            <video autoPlay loop muted className="background-video">
+{/*                             <video autoPlay loop muted className="background-video">
                                 <source src="./background1.mp4" type="video/mp4" />
                                 Your browser does not support the video tag.
-                            </video> 
+                            </video>  */}
                             <h1 className="animated-text">VARUN NLV</h1>
 {/*                         </div> */}
                     </div>
