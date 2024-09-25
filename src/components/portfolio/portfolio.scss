@@ -313,7 +313,13 @@ font-size: 0.8rem;
     }
 
     .ui-container button {
-  background: black; /* Bright blue */
+  background: transparent; /* Bright blue */
+        z-index:19;
+}
+
+
+button {
+  background: transparent; /* Bright blue */
   border: 2px solid black; /* Darker blue border */
   color: white; /* White text */
   padding: 12px 24px;
