@@ -18,17 +18,23 @@
             justify-content: center;
 
             .animated-text {
-                    font-family: "Space Mono", monospace;
-                    font-size: clamp(3rem, 10vw, 10rem);
-                    color: gray;
-                    text-transform: uppercase;
-                    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5); /* Shadow to the bottom-right */
-                    
-                    @media (max-width: 768px) {
-                        font-size: clamp(2rem, 6vw, 6rem);
-                        text-shadow: -2px -2px 5px rgba(0, 0, 0, 0.4); /* Shadow to the top-left */
-                    }
+                font-family: "Space Mono", monospace;
+                font-size: clamp(3rem, 10vw, 10rem);
+                color: transparent; /* Make text color transparent */
+                text-transform: uppercase;
+                background: gray; /* Background color to create block effect */
+                -webkit-background-clip: text; /* Clip background to text */
+                background-clip: text;
+                position: relative;
                 
+                /* Shadow to enhance block effect */
+                text-shadow: 
+                    2px 2px 0 rgba(0, 0, 0, 0.5), 
+                    4px 4px 0 rgba(0, 0, 0, 0.4);
+                
+                @media (max-width: 768px) {
+                    font-size: clamp(2rem, 6vw, 6rem);
+                }
             }
         }
 
