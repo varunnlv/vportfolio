@@ -17,22 +17,16 @@
             align-items: center;
             justify-content: center;
 
-            .animated-text {
+           .animated-text {
                 font-family: "Space Mono", monospace;
                 font-size: clamp(3rem, 10vw, 10rem);
-                color: gray; /* Main text color */
+                color: gray;
                 text-transform: uppercase;
-                position: relative;
-                
-                /* Simulating 3D effect */
-                text-shadow: 
-                    3px 3px 0 rgba(0, 0, 0, 0.5), 
-                    6px 6px 0 rgba(0, 0, 0, 0.3);
-                
+
                 @media (max-width: 768px) {
                     font-size: clamp(2rem, 6vw, 6rem);
                 }
-            }
+            } 
 
         }
 
