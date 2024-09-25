@@ -106,6 +106,36 @@ font-size: 1rem;
   margin: 10px 0;
 }
 
+.visit-website-btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.visit-website-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.visit-website-btn:active {
+  transform: scale(0.98); /* Slightly shrink when clicked */
+}
+
+
+
+
+
+
+    
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   .gallery-content {
