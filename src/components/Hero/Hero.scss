@@ -20,22 +20,20 @@
             .animated-text {
                 font-family: "Space Mono", monospace;
                 font-size: clamp(3rem, 10vw, 10rem);
-                color: transparent; /* Make text color transparent */
+                color: gray; /* Main text color */
                 text-transform: uppercase;
-                background: gray; /* Background color to create block effect */
-                -webkit-background-clip: text; /* Clip background to text */
-                background-clip: text;
                 position: relative;
                 
-                /* Shadow to enhance block effect */
+                /* Simulating 3D effect */
                 text-shadow: 
-                    2px 2px 0 rgba(0, 0, 0, 0.5), 
-                    4px 4px 0 rgba(0, 0, 0, 0.4);
+                    3px 3px 0 rgba(0, 0, 0, 0.5), 
+                    6px 6px 0 rgba(0, 0, 0, 0.3);
                 
                 @media (max-width: 768px) {
                     font-size: clamp(2rem, 6vw, 6rem);
                 }
             }
+
         }
 
         .textContainer {
