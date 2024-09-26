@@ -8,21 +8,21 @@ const textVariants = {
         opacity: 0,
     },
     animate: {
-        x: 0,
+        x: -10,
         opacity: 1,
         transition: {
             duration: 1,
             staggerChildren: 0.1,
         },
     },
-    scrollButton: {
-        opacity: 0,
-        y: 10,
-        transition: {
-            duration: 2,
-            repeat: Infinity,
-        },
-    },
+    // scrollButton: {
+    //     opacity: 0,
+    //     y: 10,
+    //     transition: {
+    //         duration: 2,
+    //         repeat: Infinity,
+    //     },
+    // },
 };
 const sliderVariants = {
     initial: {
