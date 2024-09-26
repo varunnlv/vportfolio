@@ -10,6 +10,7 @@
         max-width: 1500px;
         height: 100%;
         margin: auto;
+        position: relative;
 
         .wrapper3 {
             display: flex;
@@ -66,6 +67,7 @@
             flex-direction: column;
             justify-content: center;
             gap: 40px;
+            position: relative;
 
             @media (max-width: 768px) {
                 height: 50%;
