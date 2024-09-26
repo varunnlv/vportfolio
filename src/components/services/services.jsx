@@ -51,18 +51,8 @@ const Services = () => {
                     <p>
                         <motion.b whileHover={{ color: "orange" }}>Technologies I Know</motion.b>
                     </p>
-                </div>
-            
-{/*             <motion.div className="titleContainer" variants={variants}>
-                <div className="title">
-                    <h1>
-                        <motion.b whileHover={{ color: "orange" }}>Technologies I Know</motion.b>
-                    </h1>
-                </div>
+            </div>
 
-
-
-            </motion.div> */}
 
 {/*             <motion.div
                 className="slidingTextContainer"
@@ -220,38 +210,10 @@ const Services = () => {
 
 
                 </section>
-
-                {/* <section className="experience">
-                    <div class="job-tile">
-                        <div class="job-title">Http Listener</div>
-                    </div>
-                    <div class="job-tile">
-                        <div class="job-title">InterService Communication - WebClient</div>
-                    </div>
-                    <div class="job-tile">
-                        <div class="job-title">Spring Cloud Gateway - Api Gateway</div>
-                    </div>
-                    <div class="job-tile">
-                        <div class="job-title">Service Discovery and Registry - Netflix Eureka</div>
-                    </div>
-
-                </section> */}
-
-
-
+ 
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
+            
 
 
 
