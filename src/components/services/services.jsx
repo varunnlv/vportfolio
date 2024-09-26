@@ -213,6 +213,10 @@ const Services = () => {
  
             </div>
 
+              <div className="imageContainer">
+                <img src="/cog1.png" alt="" />
+              </div>
+
             
 
 
