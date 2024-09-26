@@ -10,7 +10,7 @@ const Navbar = () => {
                 
 {/*                 <img src="https://logos.textgiraffe.com/logos/logo-name/Varun-designstyle-boots-m.png" width="200px" alt="Angular" /> */}
                 
-                <div className="social">
+{/*                 <div className="social">
 
                     <a href="https://expense-v-tracker.netlify.app/">
                         <img src="/github.png" alt="" />
@@ -18,7 +18,7 @@ const Navbar = () => {
                     <a href="https://filmpire-v.netlify.app/">
                         <img src="/linkedin.png" alt="" />
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     );
