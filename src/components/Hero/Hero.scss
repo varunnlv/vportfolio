@@ -80,6 +80,7 @@
                 color: rgb(83, 71, 95);
                 letter-spacing: 10px;
                 position:absolute;
+                magin-top: 30px;
 
                 @media (max-width: 768px) {
                     font-size: 24px;
@@ -89,7 +90,7 @@
             h1 {
                 font-size: 88px;
                 position:absolute;
-
+                magin-top: 30px;
                 @media (max-width: 768px) {
                     font-size: 46px;
                 }
