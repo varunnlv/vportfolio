@@ -384,6 +384,54 @@
     }
 }
 
+.imageContainer {
+        // height: 100%;
+        // position: absolute;
+        // top: 0;
+        // right: 0;
+        animation: bounce 4s linear infinite;
+
+        @media (max-width: 768px) {
+            // height: 50%;
+            // width: 100%;
+            // top: unset;
+            // bottom: 0;
+            display:none;
+        }
+
+        img {
+            // width: 100%;
+            // height: 100%;
+            // object-fit: cover;
+            // max-width: 100%; /* Ensure it doesn’t exceed the container */
+            // max-height: 100%; /* Ensure it doesn’t exceed the container */
+        }
+    }
+
+    /* Keyframes for the bounce animation */
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0); /* Default position */
+        }
+        50% {
+            transform: translateY(-20px); /* Move up by 20px */
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .services {
         .titleContainer {
