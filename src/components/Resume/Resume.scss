@@ -82,7 +82,7 @@
             img {
                 width: 100%;
                 height: 70%;
-                min-height: 300px;
+                min-height: 250px;
                 display: block;
                 border-radius: 8px;
             }
@@ -98,6 +98,9 @@
             animation: scrollY 60s linear infinite; /* Adjusted duration */
             position: relative;
             height: 200%; /* Ensure the container is tall enough to scroll all items */
+
+             img {
+                 height: 100%;
         }
     }
 }
