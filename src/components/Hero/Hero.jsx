@@ -8,7 +8,7 @@ const textVariants = {
         opacity: 0,
     },
     animate: {
-        x: -2,
+        x: 0,
         opacity: 1,
         transition: {
             duration: 1,
