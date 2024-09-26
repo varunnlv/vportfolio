@@ -322,10 +322,11 @@
 
 .services {
     background: white;
-    height:100vh;
+    height:95vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+          overflow-y:hidden;
     .titleContainer {
         display: flex;
         align-items: center;
