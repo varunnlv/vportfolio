@@ -6,91 +6,194 @@
     overflow-x: hidden;
 
     .wrapper {
-        max-width: 1366px;
-        height: 100%;
-        margin: auto;
+    max-width: 1366px;
+    height: 100vh; /* Full viewport height */
+    margin: auto;
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    position: relative; /* Ensure the wrapper is positioned relative for z-index control */
 
-        .wrapper3 {
-            display: flex;
-            flex-direction: column;
-            width: 70vw;
-            align-items: center;
-            justify-content: center;
+    .wrapper3 {
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        align-items: center;
+        justify-content: center;
+        position: relative; /* Make wrapper3 relative for absolute child positioning */
 
-            .wrapper33 {
+        .wrapper33 {
             width: 100%;
-            height:100vh;
-            overflow:hidden;
-            display:flex;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
             align-items: center;
             justify-content: center;
             position: absolute;
-                .background-video {
-                    position: absolute;
-                    top: 0%;
-                    left: 0%;
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
+            top: 0;
+            left: 0;
 
-                   .animated-text {
-                        font-family: "Space Mono", monospace;
-                        font-size: clamp(3rem, 10vw, 10rem);
-                        color: gray;
-                        text-transform: uppercase;
-                        background: #fff;
-                       line-height:100vh;
-                       top:0;
-                       left:0;
-                       width:100%;
-                       height:100%;
-                       mix-blend-mode: screen;
-                       position: absolute;
-                       
-                
-                        @media (max-width: 768px) {
-                            font-size: clamp(2rem, 6vw, 6rem);
-                        }
-                    }   
+            .background-video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -1; /* Ensure the video is behind everything */
             }
 
+            .animated-text {
+                font-family: "Space Mono", monospace;
+                font-size: clamp(3rem, 10vw, 10rem);
+                color: gray;
+                text-transform: uppercase;
+                background: #fff;
+                line-height: 100vh; /* Vertically centers text */
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                mix-blend-mode: screen;
+                position: absolute;
+                display: flex;
+                align-items: center; /* Ensure the text stays centered */
+                justify-content: center; /* Horizontally center */
+                z-index: 1; /* Text stays above video */
+
+                @media (max-width: 768px) {
+                    font-size: clamp(2rem, 6vw, 6rem);
+                }
+            }
+        }
+    }
+
+    .textContainer {
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        position: relative;
+        z-index: 2; /* Ensure the text container stays above video */
+
+        @media (max-width: 768px) {
+            height: 50%;
+            width: 100%;
+            gap: 20px;
+            align-items: center;
+            text-align: center;
         }
 
-        .textContainer {
-            width: 50vw;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 40px;
-
+        .web-title {
+            font-size: 88px;
+            color: rgb(83, 71, 95);
+            letter-spacing: 10px;
 
             @media (max-width: 768px) {
-                height: 50%;
-                width: 100%;
-                gap: 20px;
-                align-items: center;
-                text-align: center
+                font-size: 46px;
             }
+        }
 
-            h2 {
-                font-size: 30px;
-                color: rgb(83, 71, 95);
-                letter-spacing: 10px;
+        h2 {
+            font-size: 30px;
+            color: rgb(83, 71, 95);
+            letter-spacing: 10px;
 
-                @media (max-width: 768px) {
-                    font-size: 24px;
-                }
+            @media (max-width: 768px) {
+                font-size: 24px;
             }
+        }
+    }
+}
 
-            h1 {
-                font-size: 88px;
+    // .wrapper {
+    //     max-width: 1366px;
+    //     height: 100%;
+    //     margin: auto;
 
-                @media (max-width: 768px) {
-                    font-size: 46px;
-                }
-            }
+    //     .wrapper3 {
+    //         display: flex;
+    //         flex-direction: column;
+    //         width: 70vw;
+    //         align-items: center;
+    //         justify-content: center;
+
+    //         .wrapper33 {
+    //         width: 100%;
+    //         height:100vh;
+    //         overflow:hidden;
+    //         display:flex;
+    //         align-items: center;
+    //         justify-content: center;
+    //         position: absolute;
+    //             .background-video {
+    //                 position: absolute;
+    //                 top: 0%;
+    //                 left: 0%;
+    //                 width: 100%;
+    //                 height: 100%;
+    //                 object-fit: cover;
+    //             }
+
+    //                .animated-text {
+    //                     font-family: "Space Mono", monospace;
+    //                     font-size: clamp(3rem, 10vw, 10rem);
+    //                     color: gray;
+    //                     text-transform: uppercase;
+    //                     background: #fff;
+    //                    line-height:100vh;
+    //                    top:0;
+    //                    left:0;
+    //                    width:100%;
+    //                    height:100%;
+    //                    mix-blend-mode: screen;
+    //                    position: absolute;
+                       
+                
+    //                     @media (max-width: 768px) {
+    //                         font-size: clamp(2rem, 6vw, 6rem);
+    //                     }
+    //                 }   
+    //         }
+
+    //     }
+
+    //     .textContainer {
+    //         width: 50vw;
+    //         height: 100%;
+    //         display: flex;
+    //         flex-direction: column;
+    //         justify-content: center;
+    //         gap: 40px;
+
+
+    //         @media (max-width: 768px) {
+    //             height: 50%;
+    //             width: 100%;
+    //             gap: 20px;
+    //             align-items: center;
+    //             text-align: center
+    //         }
+
+    //         h2 {
+    //             font-size: 30px;
+    //             color: rgb(83, 71, 95);
+    //             letter-spacing: 10px;
+
+    //             @media (max-width: 768px) {
+    //                 font-size: 24px;
+    //             }
+    //         }
+
+    //         h1 {
+    //             font-size: 88px;
+
+    //             @media (max-width: 768px) {
+    //                 font-size: 46px;
+    //             }
+    //         }
 
             .buttons {
                 button {
