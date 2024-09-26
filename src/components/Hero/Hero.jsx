@@ -96,10 +96,10 @@ const Hero = () => {
                                 Your browser does not support the video tag.
                             </video> 
                             <h1 className="animated-text">VARUN NLV</h1>
-                            <motion.h1 variants={textVariants}> Web Developer</motion.h1>
+                            
                         </div>
                     </div>
-                
+                    <motion.h1 variants={textVariants}> Web Developer</motion.h1>
                     <motion.div variants={textVariants} className="buttons"></motion.div>
                 </motion.div>
             </div>
