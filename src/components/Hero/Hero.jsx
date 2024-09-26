@@ -61,8 +61,8 @@ const Hero = () => {
                 iteration = 0; // Reset iteration for continuous loop
             }
 
-            iteration += 1 / 10;
-        }, 50);
+            iteration += 1 / 20;
+        }, 100);
 
         return interval; // Return the interval ID for cleanup
     };
