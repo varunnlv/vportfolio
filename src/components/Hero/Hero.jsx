@@ -118,7 +118,7 @@ const Hero = () => {
                 Front End | Back End | Full Stack
             </motion.div>
              <div className="imageContainer">
-        <img src="/heroo4.png" alt="" />
+        <img src="/hero.png" alt="" />
       </div>
         </div>
     );
