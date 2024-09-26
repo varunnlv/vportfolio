@@ -68,45 +68,6 @@
         }
     }
 
-    .textContainer {
-        width: 50vw;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 40px;
-        position: relative;
-        z-index: 2; /* Ensure the text container stays above video */
-
-        @media (max-width: 768px) {
-            height: 50%;
-            width: 100%;
-            gap: 20px;
-            align-items: center;
-            text-align: center;
-        }
-
-        .web-title {
-            font-size: 88px;
-            color: rgb(83, 71, 95);
-            letter-spacing: 10px;
-
-            @media (max-width: 768px) {
-                font-size: 46px;
-            }
-        }
-
-        h2 {
-            font-size: 30px;
-            color: rgb(83, 71, 95);
-            letter-spacing: 10px;
-
-            @media (max-width: 768px) {
-                font-size: 24px;
-            }
-        }
-    }
-
 
     // .wrapper {
     //     max-width: 1366px;
@@ -160,40 +121,40 @@
 
     //     }
 
-    //     .textContainer {
-    //         width: 50vw;
-    //         height: 100%;
-    //         display: flex;
-    //         flex-direction: column;
-    //         justify-content: center;
-    //         gap: 40px;
+        .textContainer {
+            width: 50vw;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
 
 
-    //         @media (max-width: 768px) {
-    //             height: 50%;
-    //             width: 100%;
-    //             gap: 20px;
-    //             align-items: center;
-    //             text-align: center
-    //         }
+            @media (max-width: 768px) {
+                height: 50%;
+                width: 100%;
+                gap: 20px;
+                align-items: center;
+                text-align: center
+            }
 
-    //         h2 {
-    //             font-size: 30px;
-    //             color: rgb(83, 71, 95);
-    //             letter-spacing: 10px;
+            h2 {
+                font-size: 30px;
+                color: rgb(83, 71, 95);
+                letter-spacing: 10px;
 
-    //             @media (max-width: 768px) {
-    //                 font-size: 24px;
-    //             }
-    //         }
+                @media (max-width: 768px) {
+                    font-size: 24px;
+                }
+            }
 
-    //         h1 {
-    //             font-size: 88px;
+            h1 {
+                font-size: 88px;
 
-    //             @media (max-width: 768px) {
-    //                 font-size: 46px;
-    //             }
-    //         }
+                @media (max-width: 768px) {
+                    font-size: 46px;
+                }
+            }
 
             .buttons {
                 button {
