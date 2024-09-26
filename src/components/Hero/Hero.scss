@@ -130,6 +130,7 @@
         position: absolute;
         top: 0;
         right: 0;
+        animation: bounce 4s linear infinite;
 
         @media (max-width: 768px) {
             height: 50%;
