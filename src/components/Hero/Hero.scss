@@ -65,8 +65,6 @@
             flex-direction: column;
             justify-content: center;
             gap: 40px;
-            position: absolute;
-            z-index: 2; /* Ensure the text container stays above video */
 
             @media (max-width: 768px) {
                 height: 50%;
