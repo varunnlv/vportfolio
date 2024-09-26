@@ -146,6 +146,16 @@
         }
     }
 
+    /* Keyframes for the bounce animation */
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0); /* Default position */
+        }
+        50% {
+            transform: translateY(-20px); /* Move up by 20px */
+        }
+    }
+
     .slidingTextContainer {
         position: absolute;
         font-size: 50vh;
