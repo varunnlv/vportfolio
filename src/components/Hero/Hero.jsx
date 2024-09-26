@@ -45,8 +45,10 @@ const Hero = () => {
         let iteration = 0;
         const initText = element.innerText;
         const textLength = initText.length;
+        let isHolding = false;
 
         const interval = setInterval(() => {
+             if (isHolding) return;
             element.innerText = initText
                 .split('')
                 .map((letter, index) => {
@@ -58,7 +60,11 @@ const Hero = () => {
                 .join('');
 
             if (iteration >= textLength) {
-                iteration = 0; // Reset iteration for continuous loop
+                isHolding = true;
+                setTimeout(() => {
+                    iteration = 0; // Reset iteration after holding for 3 seconds
+                    isHolding = false;
+                }, 3000); // Hold for 3000 milliseconds (3 seconds)
             }
 
             iteration += 1 / 10;
