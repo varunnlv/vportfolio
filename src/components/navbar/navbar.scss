@@ -32,6 +32,7 @@
         .social {
             display: flex;
             gap: 20px;
+            float: right;
 
             @media (max-width: 768px) {
                 order: 2;
