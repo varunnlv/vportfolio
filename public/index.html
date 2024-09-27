@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="./heroo1.png" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
@@ -20,6 +20,7 @@
       bottom: 0;
       background-color: #fff;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       z-index: 9999;
@@ -33,6 +34,7 @@
       width: 60px;
       height: 60px;
       animation: spin 1s linear infinite;
+      margin-bottom: 20px;
     }
 
     @keyframes spin {
@@ -43,6 +45,30 @@
         transform: rotate(360deg);
       }
     }
+
+    /* Progress bar container */
+    .progress-container {
+      width: 80%;
+      height: 10px;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    /* Progress bar */
+    .progress-bar {
+      height: 100%;
+      background-color: #3498db;
+      width: 0;
+      border-radius: 5px;
+    }
+
+    /* Percentage text */
+    .percentage {
+      font-size: 20px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
   </style>
 </head>
 
@@ -52,16 +78,42 @@
   <!-- Preloader -->
   <div id="preloader">
     <div class="spinner"></div>
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div class="percentage" id="percentage">0%</div>
   </div>
 
   <!-- React app root -->
   <div id="root"></div>
 
   <script>
-    // JavaScript to hide the preloader when the page has fully loaded
-    window.addEventListener('load', function () {
-      const preloader = document.getElementById('preloader');
-      preloader.style.display = 'none'; // Hide preloader
+    // JavaScript to handle the progress of loading
+    document.addEventListener("DOMContentLoaded", function () {
+      let progressBar = document.getElementById('progress-bar');
+      let percentageText = document.getElementById('percentage');
+      let loaded = 0;
+      let interval = setInterval(function () {
+        if (loaded < 100) {
+          loaded += 1; // Simulate loading progress
+          progressBar.style.width = loaded + '%';
+          percentageText.textContent = loaded + '%';
+        } else {
+          clearInterval(interval);
+        }
+      }, 50); // Adjust this timing to match actual loading
+
+      // Hide the preloader when the page has fully loaded
+      window.addEventListener('load', function () {
+        clearInterval(interval); // Ensure loading stops at 100%
+        progressBar.style.width = '100%';
+        percentageText.textContent = '100%';
+
+        const preloader = document.getElementById('preloader');
+        setTimeout(function () {
+          preloader.style.display = 'none'; // Hide preloader after a short delay
+        }, 500); // Add delay to ensure 100% is shown
+      });
     });
   </script>
 </body>
