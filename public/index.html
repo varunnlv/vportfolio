@@ -20,7 +20,6 @@
       bottom: 0;
       background-color: #fff;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
       z-index: 9999;
@@ -28,13 +27,12 @@
 
     /* Spinner styles */
     .spinner {
-      border: 8px solid #f3f3f3;
+      border: 8px solid #f3f3f3; /* Light grey */
       border-top: 8px solid #3498db; /* Blue */
       border-radius: 50%;
       width: 60px;
       height: 60px;
       animation: spin 1s linear infinite;
-      margin-bottom: 20px;
     }
 
     @keyframes spin {
@@ -45,30 +43,6 @@
         transform: rotate(360deg);
       }
     }
-
-    /* Progress bar container */
-    .progress-container {
-      width: 80%;
-      height: 10px;
-      background-color: #e0e0e0;
-      border-radius: 5px;
-      margin-top: 20px;
-    }
-
-    /* Progress bar */
-    .progress-bar {
-      height: 100%;
-      background-color: #3498db;
-      width: 0;
-      border-radius: 5px;
-    }
-
-    /* Percentage text */
-    .percentage {
-      font-size: 20px;
-      margin-top: 10px;
-      font-weight: bold;
-    }
   </style>
 </head>
 
@@ -78,15 +52,18 @@
   <!-- Preloader -->
   <div id="preloader">
     <div class="spinner"></div>
-    <div class="progress-container">
-      <div class="progress-bar" id="progress-bar"></div>
-    </div>
-    <div class="percentage" id="percentage">0%</div>
   </div>
 
   <!-- React app root -->
   <div id="root"></div>
 
+  <script>
+    // JavaScript to hide the preloader when the page has fully loaded
+    window.addEventListener('load', function () {
+      const preloader = document.getElementById('preloader');
+      preloader.style.display = 'none'; // Hide preloader
+    });
+  </script>
 </body>
 
 </html>
