@@ -99,9 +99,10 @@
             position: relative;
             height: 200%; /* Ensure the container is tall enough to scroll all items */
 
-             img {
-                 height: 130%;
-             }
+          img {
+            height: auto; /* Maintain aspect ratio */
+            max-height: 200px; /* Set a maximum height */
+        }
         }
     }
 }
