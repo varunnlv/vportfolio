@@ -180,11 +180,11 @@ const Services = () => {
                     
 
                     <div className="skill">
-                        <div className="icon-container"><img src="https://miro.medium.com/v2/resize:fit:1300/1*4BtGcPz3JauG9qsNXzLMXA.gif" alt="Android" /></div>
+                        <div className="icon-container"><img src="https://thumbs.dreamstime.com/b/linux-logo-vector-format-available-illustrator-ai-linux-logo-136767231.jpg" alt="Android" /></div>
                         <p>Linux</p>
                     </div>
                        <div className="skill">
-                        <div className="icon-container"><img src="https://thumbs.dreamstime.com/b/linux-logo-vector-format-available-illustrator-ai-linux-logo-136767231.jpg" alt="Android" /></div>
+                        <div className="icon-container"><img src="https://logos-world.net/wp-content/uploads/2021/02/Jira-Emblem.png" alt="Android" /></div>
                         <p>Jiira</p>
                     </div>
                        <div className="skill">
