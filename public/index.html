@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="icon" href="./v.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Web site created using create-react-app" />
@@ -28,7 +28,7 @@
 
     /* Spinner styles */
     .spinner {
-      border: 8px solid #f3f3f3; /* Light grey */
+      border: 8px solid #f3f3f3;
       border-top: 8px solid #3498db; /* Blue */
       border-radius: 50%;
       width: 60px;
@@ -87,35 +87,6 @@
   <!-- React app root -->
   <div id="root"></div>
 
-  <script>
-    // JavaScript to handle the progress of loading
-    document.addEventListener("DOMContentLoaded", function () {
-      let progressBar = document.getElementById('progress-bar');
-      let percentageText = document.getElementById('percentage');
-      let loaded = 0;
-      let interval = setInterval(function () {
-        if (loaded < 100) {
-          loaded += 1; // Simulate loading progress
-          progressBar.style.width = loaded + '%';
-          percentageText.textContent = loaded + '%';
-        } else {
-          clearInterval(interval);
-        }
-      }, 50); // Adjust this timing to match actual loading
-
-      // Hide the preloader when the page has fully loaded
-      window.addEventListener('load', function () {
-        clearInterval(interval); // Ensure loading stops at 100%
-        progressBar.style.width = '100%';
-        percentageText.textContent = '100%';
-
-        const preloader = document.getElementById('preloader');
-        setTimeout(function () {
-          preloader.style.display = 'none'; // Hide preloader after a short delay
-        }, 500); // Add delay to ensure 100% is shown
-      });
-    });
-  </script>
 </body>
 
 </html>
