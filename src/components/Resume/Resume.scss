@@ -80,7 +80,7 @@
             }
 
             img {
-                width: 100%;
+                width: 90%;
                 height: auto;
       
                 display: block;
@@ -101,7 +101,7 @@
 
           img {
             height: auto; /* Maintain aspect ratio */
-            max-height: 300px; /* Set a maximum height */
+            max-height: auto; /* Set a maximum height */
         }
         }
     }
