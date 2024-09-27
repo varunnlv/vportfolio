@@ -7,17 +7,16 @@ import reportWebVitals from './reportWebVitals';
 // Enhanced Preloader Component
 const Preloader = ({ progress }) => {
   return (
-    <div id="preloader">
-      <div className="imageContainer">
-        <img src="/v.png" alt="" />
+   <div id="preloader">
+      <div className="loading-container">
+          <div className="spinner"></div>
+          <div className="loading-text">Loading...</div>
       </div>
-      <div className="spinner"></div>
-      <div className="loading-text">Loading...</div>
       <div className="progress-container">
-        <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+          <div className="progress-bar" style={{ width: `${progress}%` }}></div>
       </div>
       <div className="percentage">{Math.round(progress)}%</div>
-    </div>
+  </div>
   );
 };
 
