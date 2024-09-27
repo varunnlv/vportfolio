@@ -1,3 +1,23 @@
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import './index.css';
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';
+
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//      <App />
+//   </React.StrictMode>
+// );
+
+// // If you want to start measuring performance in your app, pass a function
+// // to log results (for example: reportWebVitals(console.log))
+// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// reportWebVitals();
+
+
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -19,11 +39,19 @@ const Preloader = ({ progress }) => {
 
 const MainApp = () => {
   const [progress, setProgress] = useState(0);
+  const [isLoading, setIsLoading] = useState(true); // Track loading state
 
   // Simulate dynamic loading progress
   useEffect(() => {
     const progressInterval = setInterval(() => {
-      setProgress((oldProgress) => Math.min(oldProgress + 5, 100)); // Increment progress
+      setProgress((oldProgress) => {
+        if (oldProgress < 100) {
+          return Math.min(oldProgress + 5, 100); // Increment progress
+        } else {
+          clearInterval(progressInterval);
+          return oldProgress; // Stop incrementing at 100%
+        }
+      });
     }, 300); // Adjust as necessary for your needs
 
     return () => clearInterval(progressInterval);
@@ -34,10 +62,7 @@ const MainApp = () => {
     const handleLoad = () => {
       setProgress(100);
       setTimeout(() => {
-        const preloader = document.getElementById('preloader');
-        if (preloader) {
-          preloader.style.display = 'none'; // Hide preloader after reaching 100%
-        }
+        setIsLoading(false); // Change loading state to false
       }, 500); // Optional delay to show 100%
     };
 
@@ -45,22 +70,27 @@ const MainApp = () => {
     return () => window.removeEventListener('load', handleLoad);
   }, []);
 
-  return (
-    <>
-      <Preloader progress={progress} />
-      <App />
-    </>
-  );
+  // Render either preloader or main app
+  return isLoading ? <Preloader progress={progress} /> : <App />;
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <MainApp />
+    <MainApp />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// Performance measurement
 reportWebVitals();
+
+
+
+
+
+
+
+
+
+
+
