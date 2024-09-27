@@ -8,6 +8,9 @@ import reportWebVitals from './reportWebVitals';
 const Preloader = ({ progress }) => {
   return (
    <div id="preloader">
+      <div className="imageContainer">
+        <img src="/v.png" alt="" />
+      </div>
       <div className="loading-container">
           <div className="spinner"></div>
           <div className="loading-text">Loading...</div>
