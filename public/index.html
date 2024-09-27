@@ -12,87 +12,92 @@
   <title>Varun Nlv Portfolio</title>
   <style>
   /* Preloader styles */
-#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
-
-/* Spinner styles */
-.spinner {
-  border: 8px solid #f3f3f3; /* Light grey */
-  border-top: 8px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: spin 1s linear infinite;
-}
-
-/* Loading text styles */
-.loading-text {
-  font-size: 24px;
-  margin-top: 20px;
-  color: #3498db; /* Match color with spinner */
-  animation: pulse 1.5s infinite; /* Pulsing animation */
-}
-
-/* Progress bar container */
-.progress-container {
-  width: 80%;
-  height: 10px;
-  background-color: #e0e0e0;
-  border-radius: 5px; /* Round the edges */
-  margin-top: 20px;
-}
-
-/* Progress bar */
-.progress-bar {
-  height: 100%;
-  background-color: #3498db; /* Change this to any color you like */
-  border-radius: 5px; /* Round the edges */
-}
-
-/* Percentage text */
-.percentage {
-  font-size: 20px;
-  margin-top: 10px;
-  font-weight: bold;
-  color: orange; /* Change this to any color you like */
-}
-
-/* Spinner rotation animation */
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* Pulsing effect */
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.1);
-    opacity: 0.7;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
+  #preloader {
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+    
+    /* Loading container for spinner and text */
+    .loading-container {
+      display: flex;
+      align-items: center; /* Center vertically */
+    }
+    
+    .spinner {
+      border: 6px solid #f3f3f3; /* Light grey */
+      border-top: 6px solid #2a3035; /* Blue */
+      border-radius: 50%;
+      width: 40px; /* Smaller spinner size */
+      height: 40px; /* Smaller spinner size */
+      animation: spin 1s linear infinite;
+      margin-right: 10px; /* Space between spinner and text */
+    }
+    
+    /* Loading text styles */
+    .loading-text {
+      font-size: 24px;
+      color: #000000; /* Match color with spinner */
+      animation: pulse 1.5s infinite; /* Pulsing animation */
+    }
+    
+    /* Progress bar container */
+    .progress-container {
+      width: 80%;
+      height: 10px;
+      background-color: #e0e0e0;
+      border-radius: 5px; /* Round the edges */
+      margin-top: 20px;
+    }
+    
+    /* Progress bar */
+    .progress-bar {
+      height: 100%;
+      background-color: #050505; /* Change this to any color you like */
+      border-radius: 5px; /* Round the edges */
+    }
+    
+    /* Percentage text */
+    .percentage {
+      font-size: 20px;
+      margin-top: 10px;
+      font-weight: bold;
+      color: rgb(88, 28, 28)
+    }
+    
+    /* Spinner rotation animation */
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+    /* Pulsing effect */
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.1);
+        opacity: 0.7;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
 
 
 
