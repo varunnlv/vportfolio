@@ -160,17 +160,17 @@ const Portfolio = () => {
                         >
                         Path Finder
                         </button>
-                        <button
+{/*                         <button
                         className={`tab ${activeTab === 'CreditAnalyser' ? 'active' : ''}`}
                         onClick={() => setActiveTab('CreditAnalyser')}
                         >
                         Credit Analyser
-                        </button>
+                        </button> */}
                         <button
                         className={`tab ${activeTab === 'more' ? 'active' : ''}`}
                         onClick={() => setActiveTab('more')}
                         >
-                        Credit Analyser
+                        more
                         </button>
                     </div>
          
