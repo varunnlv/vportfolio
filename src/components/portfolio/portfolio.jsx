@@ -685,7 +685,7 @@ const Portfolio = () => {
                 </div>
             )}
        
-            {activeTab === 'FilmBook' && (
+            {activeTab === 'PortfolioM' && (
                 <div class="ui-container">
                     <div class="slider-container">
                                 <Slider {...settings}>
@@ -694,7 +694,7 @@ const Portfolio = () => {
                                     ))}
                                 </Slider>
                     </div>        
-                    <h2 style={{ marginTop: '20px' }}>VPORTFOLIO</h2>
+                    <h2 style={{ marginTop: '20px' }}>PORTFOLIOM</h2>
                     <button 
                         class="visit-website-btn" 
                         onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}
@@ -742,7 +742,7 @@ const Portfolio = () => {
                 </div>
             )}
 
-            {activeTab === 'Vportfolio' && (
+            {activeTab === 'PathFinder' && (
                <div class="ui-container">
         
                     <h2 style={{ marginTop: '20px' }}>PATH FINDER</h2>
@@ -786,7 +786,7 @@ const Portfolio = () => {
                 </div>
             )}
   
-            {activeTab === 'PortfolioM' && (
+            {activeTab === 'Vportfolio' && (
                 <div class="ui-container">
     
                     <div class="slider-container">
@@ -888,7 +888,7 @@ const Portfolio = () => {
                 </div>
             )}
 
-            {activeTab === 'PathFinder' && (
+            {activeTab === 'FilmBook' && (
                 <div class="ui-container">
         
                     <div class="slider-container">
@@ -954,7 +954,7 @@ const Portfolio = () => {
                 </div>
             )}
 
-            {activeTab === 'CreditAnalyser' && (
+            {activeTab === 'VKANBAN' && (
                 <div class="ui-container">
            
                     <div class="slider-container">
