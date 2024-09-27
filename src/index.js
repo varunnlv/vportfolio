@@ -9,7 +9,7 @@ const Preloader = ({ progress }) => {
   return (
    <div id="preloader">
       <div className="imageContainer">
-        <img src="/v.png" alt="" />
+        <img src="/v1.png" alt="" />
       </div>
       <div className="loading-container">
           <div className="spinner"></div>
