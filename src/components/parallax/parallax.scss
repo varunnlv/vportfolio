@@ -17,6 +17,8 @@
         color: rgb(99, 97, 97);
         top: 0;
 
+        
+
         .stars {
             background-image: url("../../../public/stars.png");
             background-size: cover;
@@ -80,6 +82,9 @@
     padding: 20px; /* Added padding inside the container */
     box-sizing: border-box;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+     display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .experience-item {
@@ -130,6 +135,26 @@
     padding-left: 10px;
 }
 
+
+.center-button {
+            background-color: #2a3d49;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+          }
+          
+          .center-button:hover {
+            background-color: #8a4d4d;
+          }
+
+.center-image{
+    width: auto;
+    height: auto;
+}
+
 /* Responsive adjustments */
 @media (max-width: 1024px) {
     .Righttab1 {
@@ -143,6 +168,12 @@
         width: 50vw;
         margin-left: 50vw;
     }
+
+    .center-image{
+        width: 90%;
+        height: auto;
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -205,17 +236,17 @@
         animation: slideInFromBottom2 2s ease-out forwards;
 
     @media (max-width: 1024px) {
-        font-size: 10rem;
+        font-size: 9rem;
         top: 40%;
     }
 
     @media (max-width: 768px) {
-        font-size: 8rem;
+        font-size: 6rem;
         top: 45%;
     }
 
     @media (max-width: 480px) {
-        font-size: 5rem;
+        font-size: 3rem;
         top: 50%;
         left: 12%;
         transform: translate(-30%, -50%);
