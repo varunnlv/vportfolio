@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const variants = {
     initial: {
-        x: -500,
-        y: 100,
+        x: 0,
+        y: 0,
         opacity: 0,
     },
     animate: {
@@ -17,6 +17,29 @@ const variants = {
             staggerChildren: 0.1,
         },
     },
+};
+
+const textVariants = {
+    initial: {
+        x: -500,
+        opacity: 0,
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration: 1,
+            staggerChildren: 0.1,
+        },
+    },
+    // scrollButton: {
+    //     opacity: 0,
+    //     y: 10,
+    //     transition: {
+    //         duration: 2,
+    //         repeat: Infinity,
+    //     },
+    // },
 };
 
 // const sliderVariants2 = {
@@ -40,18 +63,19 @@ const Services = () => {
         <motion.div
             className="services"
             variants={variants}
-            initial="initial"
-            // animate="animate"
-            // whileInView="animate"
+            initial="initial"  
+            whileInView="animate"
             ref={ref}
-            animate={"animate"}
         >
 
-            <div className="titleContainer">
+            <motion.div 
+            className="titleContainer"
+            variants={textVariants}
+            >
                     <p>
                         <motion.b whileHover={{ color: "orange" }}>Technologies I Know</motion.b>
                     </p>
-            </div>
+            </motion.div>
 
 
 {/*             <motion.div
@@ -78,7 +102,10 @@ const Services = () => {
             </motion.div>
  */}
 
-            <div className="container">
+            <motion.div 
+            className="container"
+            variants={textVariants}
+            >
 
                 <section className="skills">
                     <div className="skill">
@@ -180,11 +207,11 @@ const Services = () => {
                     
 
                     <div className="skill">
-                        <div className="icon-container"><img src="https://thumbs.dreamstime.com/b/linux-logo-vector-format-available-illustrator-ai-linux-logo-136767231.jpg" alt="Android" /></div>
+                        <div className="icon-container"><img src="https://miro.medium.com/v2/resize:fit:1300/1*4BtGcPz3JauG9qsNXzLMXA.gif" alt="Android" /></div>
                         <p>Linux</p>
                     </div>
                        <div className="skill">
-                        <div className="icon-container"><img src="https://logos-world.net/wp-content/uploads/2021/02/Jira-Emblem.png" alt="Android" /></div>
+                        <div className="icon-container"><img src="https://thumbs.dreamstime.com/b/linux-logo-vector-format-available-illustrator-ai-linux-logo-136767231.jpg" alt="Android" /></div>
                         <p>Jiira</p>
                     </div>
                        <div className="skill">
@@ -211,11 +238,14 @@ const Services = () => {
 
                 </section>
  
-            </div>
+            </motion.div>
 
-              <div className="imageContainer">
+              <motion.div 
+              className="imageContainer"
+              variants={textVariants}
+              >
                 <img src="/cog1.png" alt="" />
-              </div>
+              </motion.div>
 
             
 
