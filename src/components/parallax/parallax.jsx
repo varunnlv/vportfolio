@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import "./parallax.scss"; // Ensure this includes your CSS animations
-import { motion} from "framer-motion";
+import { motion,useInView } from "framer-motion";
 
 const Parallax = ({ type }) => {
     const ref = useRef();
@@ -33,10 +33,36 @@ const Parallax = ({ type }) => {
         };
 
         // Set interval to change text every 10 seconds
-        const intervalId = setInterval(changeTextWithDelay, 10000); // 10 seconds delay
+        const intervalId = setInterval(changeTextWithDelay, 5000); // 10 seconds delay
 
         // Clean up interval on component unmount
         return () => clearInterval(intervalId);
+    }, []);
+
+
+    const boxRef = useRef(null);
+    const [isVisible, setIsVisible] = useState(false);
+  
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          const entry = entries[0];
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+          }
+        },
+        { threshold: 0.5 }
+      );
+  
+      if (boxRef.current) {
+        observer.observe(boxRef.current);
+      }
+  
+      return () => {
+        if (boxRef.current) {
+          observer.unobserve(boxRef.current);
+        }
+      };
     }, []);
 
     const sliderVariants = {
@@ -53,8 +79,22 @@ const Parallax = ({ type }) => {
         },
     };
 
+    const textVariants = {
+        initial: {
+            opacity: 0,
+            y: 100,
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1,
+            },
+        },
+    };
+
     return (
-        <div
+        <motion.div
             id="Education"
             className="parallax"
             ref={ref}
@@ -64,13 +104,16 @@ const Parallax = ({ type }) => {
                         ? "linear-gradient(180deg, white, #0c0c1d)"
                         : "linear-gradient(180deg, white, #505064)",
             }}
+            variants={textVariants}
+            initial="initial"
+            whileInView="animate"
         >
             <motion.div className="Righttab">
                 <motion.div
                     className="slidingTextContainer"
                     variants={sliderVariants}
                     initial="initial"
-                    animate="animate"
+                  
                 >
                     <img alt="" src="./stars.png" />
                 </motion.div>
@@ -110,13 +153,13 @@ const Parallax = ({ type }) => {
 
             </div>
 
-            <motion.div className="mountains"></motion.div>
+            <div className="mountains"></div>
 
             {/* Apply the animated class conditionally */}
             <div className={`background-text ${animateText ? "text-animation" : ""}`}>
                 {currentText}
             </div>
-        </div>
+        </motion.div>
     );
 };
 
