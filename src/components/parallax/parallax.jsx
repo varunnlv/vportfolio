@@ -152,9 +152,14 @@ const Parallax = ({ type }) => {
              ></motion.div>
 
             {/* Apply the animated class conditionally */}
-            <div className={`background-text ${animateText ? "text-animation" : ""}`}>
+            <motion.div 
+            className={`background-text ${animateText ? "text-animation" : ""}`}
+            variants={textVariants}
+            initial="initial"
+            whileInView="animate"
+            >
                 {currentText}
-            </div>
+            </motion.div>
         </motion.div>
     );
 };
