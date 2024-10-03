@@ -4,6 +4,20 @@ import { motion } from "framer-motion";
 
 const variants = {
     initial: {
+        opacity: 0.2,
+        y: 0,
+    },
+    animate: {
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1,
+        },
+    },
+};
+
+const variants1 = {
+    initial: {
         opacity: 0,
         y: 100,
     },
@@ -15,7 +29,6 @@ const variants = {
         },
     },
 };
-
 
 
 const textVariants = {
@@ -60,7 +73,13 @@ const Resume = () => {
                 </div>
             </motion.div>
 
-            <div className="imageGrid">
+            <motion.div 
+            className="imageGrid"
+            variants={variants1}
+            initial="initial"
+            ref={ref}
+            whileInView="animate"
+            >
                 <a href="https://codedamn.com/certificate/verify/aad8bb3537d90794f6b5eb59327f1ac738f308e1" className="tile">
                     <img
                         src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/aad8bb3537d90794f6b5eb59327f1ac738f308e1.jpeg"
@@ -110,7 +129,7 @@ const Resume = () => {
                 		alt="Course certificate for course on codedamn"
                 	/>
                 </a>
-            </div>
+            </motion.div>
         </motion.div>
     );
 };
