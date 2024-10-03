@@ -6,8 +6,24 @@ import { motion } from 'framer-motion';
 
 const variants = {
     initial: {
+        y: 0,
+        opacity: 0.4,
+    },
+    animate: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            duration: 0.2,
+            staggerChildren: 0.1,
+        },
+    },
+};
+
+
+const variants1 = {
+    initial: {
         y: -500,
-        opacity: 0,
+        opacity: 0.4,
     },
     animate: {
         y: 0,
@@ -139,9 +155,18 @@ const Hero = () => {
             >
                 Front End | Back End | Full Stack
             </motion.div>
-             <div className="imageContainer">
-                <img src="/heroo4.png" alt="" />
-            </div>
+            <motion.div 
+            className="imageContainer"
+            variants={variants1}
+            initial="initial"
+            whileInView="animate"
+            >
+                <motion.img 
+                variants={variants1}
+                initial="initial"
+                whileInView="animate"
+                src="/heroo4.png" alt="" />
+            </motion.div>
         </motion.div>
     );
 };
