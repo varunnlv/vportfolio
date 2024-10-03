@@ -143,7 +143,7 @@ const Hero = () => {
                             
                         </div>
                     </div>
-                    <motion.h1    whileInView="animate" variants={textVariants}> Web Developer</motion.h1>
+                    <motion.h1   className="small-text" whileInView="animate" variants={textVariants}> Web Developer</motion.h1>
                     <motion.div    whileInView="animate" variants={textVariants} className="buttons"></motion.div>
                 </motion.div>
             </div>
