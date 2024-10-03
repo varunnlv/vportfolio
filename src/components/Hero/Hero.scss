@@ -98,6 +98,13 @@
                 }
             }
 
+            
+            .small-text{
+                background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgb(0, 51, 128) , rgba(0, 0, 0, 0.6), rgba(173, 58, 58, 0.6), rgb(226, 107, 226) , rgba(0, 0, 0, 0.6));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            }
+
             h1 {
                 font-size: 88px;
                 position:absolute;
