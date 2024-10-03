@@ -66,6 +66,9 @@
   font-size: 2rem;
   text-align: right;
   width: 250px;
+   background: linear-gradient(to right, rgba(0, 0, 0, 0.6), orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }
 
