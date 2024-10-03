@@ -67,6 +67,20 @@ const Parallax = ({ type }) => {
         },
     };
 
+    const textVariants1 = {
+        initial: {
+            opacity: 0,
+            y: 0,
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1,
+            },
+        },
+    };
+
     return (
         <motion.div
             id="Education"
@@ -78,22 +92,28 @@ const Parallax = ({ type }) => {
                         ? "linear-gradient(180deg, white, #0c0c1d)"
                         : "linear-gradient(180deg, white, #505064)",
             }}
-            variants={textVariants}
+            variants={textVariants1}
             initial="initial"
             whileInView="animate"
+           
         >
             <motion.div className="Righttab">
                 <motion.div
                     className="slidingTextContainer"
                     variants={sliderVariants}
                     initial="initial"
-                  
+                     animate="animate"
                 >
                     <img alt="" src="./stars.png" />
                 </motion.div>
             </motion.div>
 
-            <div className="Righttab1">
+            <motion.div 
+            className="Righttab1"
+            variants={textVariants}
+            initial="initial"
+            whileInView="animate"
+            >
 
                 <button className="center-button" onClick={downloadPDF}>Download Resume</button>
 
@@ -125,9 +145,11 @@ const Parallax = ({ type }) => {
                 </div> */}
 
 
-            </div>
+            </motion.div>
 
-            <div className="mountains"></div>
+            <motion.div
+             className="mountains"
+             ></motion.div>
 
             {/* Apply the animated class conditionally */}
             <div className={`background-text ${animateText ? "text-animation" : ""}`}>
