@@ -7,16 +7,19 @@ import reportWebVitals from './reportWebVitals';
 // Enhanced Preloader Component
 const Preloader = ({ progress }) => {
   return (
-    <div id="preloader">   
-      <div className="loading-container">
-        <div className="loading-text">Loading...</div>
-        <div className="percentage">{Math.round(progress)}%</div>
-      </div>
-      <div className="progress-container">
-        <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+
+      <div id="preloader">   
+      
+        <div className="loading-container">
+            <div className="loading-text">Loading...</div>
+            <div className="percentage">{Math.round(progress)}%</div>
+        </div>
+        <div className="progress-container">
+            <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+        </div>
+   
       </div>
 
-    </div>
   );
 };
 
@@ -25,30 +28,32 @@ const MainApp = () => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    // Update progress as the document is parsed
-    const updateProgress = (event) => {
-      const totalTime = window.performance.timing.loadEventEnd - window.performance.timing.navigationStart;
-      const currentTime = Date.now() - window.performance.timing.navigationStart;
-      const newProgress = (currentTime / totalTime) * 100;
 
-      setProgress(Math.min(newProgress, 100)); // Prevent exceeding 100%
-    };
-
-    // Set up intervals to simulate progress as resources are loaded
     const interval = setInterval(() => {
-      updateProgress();
-    }, 100); // Check every 100ms
+      const resources = performance.getEntriesByType('resource');
+      const totalResources = resources.length;
+      const loadedResources = resources.filter(resource => resource.responseEnd > 0).length;
 
-    // On window load (when all resources are loaded), finalize progress
-    window.addEventListener('load', () => {
-      setProgress(100);
-      setTimeout(() => {
-        setLoading(false); // Hide the preloader after everything has loaded
-      }, 500); // Small delay to ensure smooth transition
-    });
+      const newProgress = (loadedResources / totalResources) * 100;
+
+      // Prevent exceeding 100% and set progress
+      setProgress(prevProgress => Math.min(newProgress, 100));
+      
+      // If progress reaches 100%, clear the interval
+      if (newProgress >= 100) {
+        clearInterval(interval);
+      }
+    }, 500); // Adjust timing as necessary
+
+    // Simulate loading completion
+    const loadingTimer = setTimeout(() => {
+      setLoading(false);
+      clearInterval(interval);
+    }, 1000); // Simulate loading for 5 seconds
 
     return () => {
       clearInterval(interval);
+      clearTimeout(loadingTimer);
     };
   }, []);
 
@@ -67,10 +72,3 @@ root.render(
 );
 
 reportWebVitals();
-
-
-
-
-
-
-
