@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import "./parallax.scss"; // Ensure this includes your CSS animations
-import { motion,useInView } from "framer-motion";
+import { motion} from "framer-motion";
 
 const Parallax = ({ type }) => {
     const ref = useRef();
@@ -37,32 +37,6 @@ const Parallax = ({ type }) => {
 
         // Clean up interval on component unmount
         return () => clearInterval(intervalId);
-    }, []);
-
-
-    const boxRef = useRef(null);
-    const [isVisible, setIsVisible] = useState(false);
-  
-    useEffect(() => {
-      const observer = new IntersectionObserver(
-        (entries) => {
-          const entry = entries[0];
-          if (entry.isIntersecting) {
-            setIsVisible(true);
-          }
-        },
-        { threshold: 0.5 }
-      );
-  
-      if (boxRef.current) {
-        observer.observe(boxRef.current);
-      }
-  
-      return () => {
-        if (boxRef.current) {
-          observer.unobserve(boxRef.current);
-        }
-      };
     }, []);
 
     const sliderVariants = {
