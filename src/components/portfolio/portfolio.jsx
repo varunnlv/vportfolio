@@ -82,7 +82,7 @@ const settings = {
 const Portfolio = () => {
     const ref = useRef();
 
-    const [activeTab, setActiveTab] = useState('StandAloneProject1'); // Default tab
+    const [activeTab, setActiveTab] = useState('Summary'); // Default tab
 
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -133,6 +133,13 @@ const Portfolio = () => {
                         <button className="tab">Path Finder</button>
                         <button className="tab">Credit Analyser</button>
                         <button className="tab">more</button> */}
+
+                                <button
+                        className={`tab ${activeTab === 'Summary' ? 'active' : ''}`}
+                        onClick={() => setActiveTab('Summary')}
+                        >
+                        Summary
+                        </button>
                         <button
                         className={`tab ${activeTab === 'StandAloneProject1' ? 'active' : ''}`}
                         onClick={() => setActiveTab('StandAloneProject1')}
@@ -197,6 +204,172 @@ const Portfolio = () => {
          
                 </div>
             </div>
+
+            {activeTab === 'Summary' && (
+                <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
+                 
+                    <div className="small-gallery-container">
+                        <div className="gallery-content2">
+
+                            <div className="image-row4">
+
+                                    <div className="image-item4" >
+                                        <div>
+                                            <h3>FILMBOOK</h3>     
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div className="image-item4" >
+                                        <div>
+                                            <p>
+                                                Usage of Load Balancer,Dynamic seat allocation, Low level design and Robust payment Retry mechanism
+                                            </p>        
+                                        </div>
+                                        
+                                    </div>
+                               
+                            </div>
+
+                            <div className="image-row4">
+
+                                    <div className="image-item4" >
+                                        <div>
+                                            <h3>PORTFOLIO</h3>     
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div className="image-item4" >
+                                        <div>
+                                            <p>
+                                            Usage of Framer motion ,Css Animation and EmailJS.
+                                            </p>        
+                                        </div>
+                                        
+                                    </div>
+                                                           
+                            </div>
+
+                            <div className="image-row4">
+
+                                <div className="image-item4" >
+                                        <div>
+                                            <h3>EXPENSE TRACKER</h3>     
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div className="image-item4" >
+                                        <div>
+                                            <p>
+                                            Usage of React router.
+                                            </p>        
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                
+                            </div>
+
+                            <div className="image-row4">
+
+                                <div className="image-item4" >
+                                        <div>
+                                            <h3>PATH FINDER</h3>     
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div className="image-item4" >
+                                        <div>
+                                            <p>
+                                            Usage of  few Search Algorithms.
+                                            </p>        
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                
+                            </div>
+
+                            <div className="image-row4">
+
+                                <div className="image-item4" >
+                                        <div>
+                                            <h3>SAAS WEBSITE</h3>     
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div className="image-item4" >
+                                        <div>
+                                            <p>
+                                            Usage of Microservices,Rest Api and  React.
+                                            </p>        
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                
+                            </div>
+
+                            <div className="image-row4">
+
+                                <div className="image-item4" >
+                                        <div>
+                                            <h3>STAND ALONE PROGRAM</h3>     
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div className="image-item4" >
+                                        <div>
+                                            <p>
+                                            Usage of  Microservices,Rest Api and JavaFx.
+                                            </p>        
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                
+                            </div>
+
+                            <div className="image-row4">
+
+                                <div className="image-item4" >
+                                        <div>
+                                            <h3>PROJECT MANAGEMENT WEBSITE</h3>     
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div className="image-item4" >
+                                        <div>
+                                            <p>
+                                            Usage of  Angular, Abp Framework and C#
+                                            </p>        
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                
+                            </div>
+
+                 
+                            {/* <img src="./FilmBook.png" alt="User Management"/> */}
+                            
+                        </div>
+                    </div>
+
+                </motion.div>
+                
+            )}
       
              {activeTab === 'StandAloneProject1' && (
                 <motion.div 
