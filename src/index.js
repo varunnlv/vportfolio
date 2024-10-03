@@ -7,19 +7,21 @@ import reportWebVitals from './reportWebVitals';
 // Enhanced Preloader Component
 const Preloader = ({ progress }) => {
   return (
-   <div id="preloader">
-      <div className="imageContainer">
-        <img src="/v1.png" alt="" />
-      </div>
+    <div id="preloader">   
+
+      // <div className="imageContainer">
+      //   <img src="/v1.png" alt="" />
+      // </div>  
       <div className="loading-container">
-          <div className="spinner"></div>
-          <div className="loading-text">Loading...</div>
+        {/* <div className="spinner"></div> */}
+        <div className="loading-text">Loading...</div>
+        <div className="percentage">{Math.round(progress)}%</div>
       </div>
       <div className="progress-container">
-          <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+        <div className="progress-bar" style={{ width: `${progress}%` }}></div>
       </div>
-      <div className="percentage">{Math.round(progress)}%</div>
-  </div>
+
+    </div>
   );
 };
 
@@ -28,25 +30,30 @@ const MainApp = () => {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setProgress((oldProgress) => {
-        if (oldProgress === 100) {
-          clearInterval(interval);
-          return 100; // Prevent exceeding 100%
-        }
-        return Math.min(oldProgress + Math.random() * 20, 100); // Randomly increase progress
-      });
-    }, 500); // Adjust timing as necessary
+    // Update progress as the document is parsed
+    const updateProgress = (event) => {
+      const totalTime = window.performance.timing.loadEventEnd - window.performance.timing.navigationStart;
+      const currentTime = Date.now() - window.performance.timing.navigationStart;
+      const newProgress = (currentTime / totalTime) * 100;
 
-    // Simulate loading completion
-    const loadingTimer = setTimeout(() => {
-      setLoading(false);
-      clearInterval(interval);
-    }, 5000); // Simulate loading for 5 seconds
+      setProgress(Math.min(newProgress, 100)); // Prevent exceeding 100%
+    };
+
+    // Set up intervals to simulate progress as resources are loaded
+    const interval = setInterval(() => {
+      updateProgress();
+    }, 100); // Check every 100ms
+
+    // On window load (when all resources are loaded), finalize progress
+    window.addEventListener('load', () => {
+      setProgress(100);
+      setTimeout(() => {
+        setLoading(false); // Hide the preloader after everything has loaded
+      }, 500); // Small delay to ensure smooth transition
+    });
 
     return () => {
       clearInterval(interval);
-      clearTimeout(loadingTimer);
     };
   }, []);
 
@@ -65,3 +72,10 @@ root.render(
 );
 
 reportWebVitals();
+
+
+
+
+
+
+
