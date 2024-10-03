@@ -94,9 +94,30 @@ const Portfolio = () => {
         damping: 30,
     });
 
+     const textVariants = {
+        initial: {
+            opacity: 0,
+            y: 100,
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1,
+            },
+        },
+    };
+
+
     return (
-        <div  id='Projects' className="portfolio" ref={ref}>
-       
+        <motion.div 
+        id='Projects' 
+        className="portfolio" 
+        ref={ref}
+        variants={textVariants}
+        initial="initial"
+        whileInView="animate"
+        >
             <div className="progress">
                 <h1>Featured Works</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
@@ -177,8 +198,13 @@ const Portfolio = () => {
                 </div>
             </div>
       
-            {activeTab === 'StandAloneProject1' && (
-                <div class="ui-container">
+             {activeTab === 'StandAloneProject1' && (
+                <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
                  
                     <div className="small-gallery-container">
                         <div className="gallery-content">
@@ -324,12 +350,17 @@ const Portfolio = () => {
 
   
 
-                </div>
+                </motion.div>
                 
             )}
 
             {activeTab === 'StandAloneProject2' && (
-                <div class="ui-container">
+                <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
 
                     <div className="small-gallery-container">
                          <div className="gallery-content">
@@ -496,11 +527,16 @@ const Portfolio = () => {
                          </div>
                     </div>
 
-                </div>
+                </motion.div>
             )}
 
             {activeTab === 'WebDevelopmentProject' && (
-                <div class="ui-container">
+                <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
                     <div className="small-gallery-container">
                       <div className="gallery-content">
     
@@ -682,11 +718,16 @@ const Portfolio = () => {
                       </div>
                     </div>
 
-                </div>
+                </motion.div>
             )}
        
             {activeTab === 'PortfolioM' && (
-                <div class="ui-container">
+                <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
                     <div class="slider-container">
                                 <Slider {...settings}>
                                     {items[3].images.map((image, index) => (
@@ -739,11 +780,16 @@ const Portfolio = () => {
 
               
 
-                </div>
+                </motion.div>
             )}
 
             {activeTab === 'PathFinder' && (
-               <div class="ui-container">
+                <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
         
                     <h2 style={{ marginTop: '20px' }}>PATH FINDER</h2>
 
@@ -783,11 +829,16 @@ const Portfolio = () => {
                     
       
 
-                </div>
+                </motion.div>
             )}
   
             {activeTab === 'Vportfolio' && (
-                <div class="ui-container">
+                 <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
     
                     <div class="slider-container">
                                 <Slider {...settings}>
@@ -825,11 +876,16 @@ const Portfolio = () => {
                     </div>
 
 
-                </div>
+                </motion.div>
             )}
           
             {activeTab === 'ExpenseTracker' && (
-                 <div class="ui-container">
+                  <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
         
                     <div class="slider-container">
                                 <Slider {...settings}>
@@ -885,11 +941,16 @@ const Portfolio = () => {
                     </div>
 
                
-                </div>
+                </motion.div>
             )}
 
             {activeTab === 'FilmBook' && (
-                <div class="ui-container">
+                 <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
         
                     <div class="slider-container">
                                 <Slider {...settings}>
@@ -951,11 +1012,16 @@ const Portfolio = () => {
                     </div>
 
   
-                </div>
+                </motion.div>
             )}
 
             {activeTab === 'VKANBAN' && (
-                <div class="ui-container">
+                 <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
            
                     <div class="slider-container">
                             <Slider {...settings}>
@@ -1001,11 +1067,16 @@ const Portfolio = () => {
                     </div>
 
          
-                </div>
+                </motion.div>
             )}
 
             {activeTab === 'more' && (
-                <div class="ui-container">
+                 <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
 
                     <div class="slider-container">
                                 <Slider {...settings}>
@@ -1112,11 +1183,16 @@ const Portfolio = () => {
                     </div>
 
              
-                </div>
+                </motion.div>
             )}
 
             {activeTab === 'more' && (
-                <div class="ui-container">
+                 <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
 
                     <div class="slider-container">
                             <Slider {...settings}>
@@ -1176,10 +1252,10 @@ const Portfolio = () => {
                         </ul>
                     </div>
 
-                </div>
+                </motion.div>
             )}
 
-        </div>
+        </motion.div>
     );
 };
 
