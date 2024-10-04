@@ -140,30 +140,32 @@ const Portfolio = () => {
                         >
                         Summary
                         </button>
-                        <button
+{/*                         <button
                         className={`tab ${activeTab === 'StandAloneProject1' ? 'active' : ''}`}
                         onClick={() => setActiveTab('StandAloneProject1')}
                         >
                         Stand Alone Project
-                        </button>
-                        <button
-                        className={`tab ${activeTab === 'StandAloneProject2' ? 'active' : ''}`}
-                        onClick={() => setActiveTab('StandAloneProject2')}
-                        >
-                        Stand Alone Project
-                        </button>
-                        <button
-                        className={`tab ${activeTab === 'WebDevelopmentProject' ? 'active' : ''}`}
-                        onClick={() => setActiveTab('WebDevelopmentProject')}
-                        >
-                        Web Development Project
-                        </button>
-                        <button
+                        </button> */}
+
+
+                         <button
                         className={`tab ${activeTab === 'FilmBook' ? 'active' : ''}`}
                         onClick={() => setActiveTab('FilmBook')}
                         >
                         FilmBook
                         </button>
+                           <button
+                        className={`tab ${activeTab === 'PathFinder' ? 'active' : ''}`}
+                        onClick={() => setActiveTab('PathFinder')}
+                        >
+                        Path Finder
+                        </button>
+                          <button
+                        className={`tab ${activeTab === 'ExpenseTracker' ? 'active' : ''}`}
+                        onClick={() => setActiveTab('ExpenseTracker')}
+                        >
+                        Expense Tracker
+                        </button>        
                         <button
                         className={`tab ${activeTab === 'Vportfolio' ? 'active' : ''}`}
                         onClick={() => setActiveTab('Vportfolio')}
@@ -175,19 +177,22 @@ const Portfolio = () => {
                         onClick={() => setActiveTab('PortfolioM')}
                         >
                         Portfoliom
-                        </button>
+                        </button>   
                         <button
-                        className={`tab ${activeTab === 'ExpenseTracker' ? 'active' : ''}`}
-                        onClick={() => setActiveTab('ExpenseTracker')}
+                        className={`tab ${activeTab === 'WebDevelopmentProject' ? 'active' : ''}`}
+                        onClick={() => setActiveTab('WebDevelopmentProject')}
                         >
-                        Expense Tracker
+                        Saas Website Project
                         </button>
+                        
                         <button
-                        className={`tab ${activeTab === 'PathFinder' ? 'active' : ''}`}
-                        onClick={() => setActiveTab('PathFinder')}
+                        className={`tab ${activeTab === 'StandAloneProject2' ? 'active' : ''}`}
+                        onClick={() => setActiveTab('StandAloneProject2')}
                         >
-                        Path Finder
+                        Stand Alone Project
                         </button>
+                        
+                              
 {/*                         <button
                         className={`tab ${activeTab === 'CreditAnalyser' ? 'active' : ''}`}
                         onClick={() => setActiveTab('CreditAnalyser')}
