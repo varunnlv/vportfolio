@@ -971,7 +971,7 @@ const Portfolio = () => {
         
                     <h2 style={{ marginTop: '20px' }}>PATH FINDER</h2>
 
-                    <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                    <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
                     Visit Website
                     </button>
             
