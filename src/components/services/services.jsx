@@ -175,7 +175,7 @@ const Services = () => {
                         <p>Microservices</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="./oops1.jpeg" alt="Android" /></div>
+                        <div className="icon-container"><img src="./oops1.jpg" alt="Android" /></div>
                         <p>OOPS</p>
                     </div>
                     <div className="skill">
