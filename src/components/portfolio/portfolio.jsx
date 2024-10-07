@@ -919,7 +919,163 @@ const Portfolio = () => {
                 initial="initial"
                 whileInView="animate"
                 >
-                    <div class="slider-container">
+
+                    <div className="small-gallery-container">
+                         <div className="gallery-content">
+   
+                            <div className="gallery-text5">
+                             <h2>PATH FINDER</h2>
+
+                             <div class="slider-container">
+                                <Slider {...settings}>
+                                    {items[3].images.map((image, index) => (
+                                        <img key={index} src={image} alt="" />
+                                    ))}
+                                </Slider>
+                             </div>     
+
+                             
+                             <h3>Summary</h3>
+                             <p>
+                             Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
+                             </p>  
+
+                             <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                                Visit Website
+                                </button>
+
+                             <p>
+                             The Path Finder Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
+                             </p> 
+
+                            </div>
+        
+                           <div className="gallery-images">
+                               <div className="image-row">
+                                 
+                               <div className="image-item">
+                                    <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                   <div>
+                                       <b>Interactive Grid Board</b> 
+                                       <p>Users can click to set start and end points <span style={{ color: 'green', fontWeight: 'bold' }}>visually</span>.</p>
+                                   </div>
+                                   
+                               </div>
+                             </div>
+                        
+                             <div className="experience">
+                               <div className="experience-text">
+    
+                                   <div>
+                                       <b>Search Algorithms</b> 
+                                       <p>Implement and visualize various pathfinding algorithms such as <span style={{ color: 'green', fontWeight: 'bold' }}>Dijkstra’s Algorithm</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>Depth-First Search (DFS)</span>.</p>
+                                   </div>
+                               </div>
+                                 
+                             </div>                 
+                             <div className="experience">
+                               <div className="experience-text">
+       
+                                   <div>
+                                       <b>Animation Speed Control</b> 
+                                       <p>Allows users to control the speed of the visualization.</p>
+                                   </div>
+                               </div>
+                                 
+                             </div>
+                           </div>
+
+
+
+                           <div className="gallery-text">
+                             <h2>PATH FINDER</h2>
+
+                             <div class="slider-container">
+                                <Slider {...settings}>
+                                    {items[3].images.map((image, index) => (
+                                        <img key={index} src={image} alt="" />
+                                    ))}
+                                </Slider>
+                            </div>     
+                             
+                             <h3>Summary</h3>
+                             <p>
+                             Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
+                             </p>
+
+                             <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                                Visit Website
+                            </button>
+
+                             <p>
+                             The Path Finder Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
+                             </p> 
+                               
+                           </div>
+                         </div>
+                    </div>
+       
+                    <div className="small-gallery-container">
+                      <div className="gallery-content">
+                        <div className="gallery-images">
+                            <div className="image-row">
+                              
+                            <div className="image-item" >
+                                <img 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    alt="React" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                />
+                                <div>
+                                    <b>React</b>   
+                                    <p>for building the frontend web application.</p>
+                                </div>
+                                
+                            </div>
+
+                            <div className="image-item" >
+                                <img 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    alt="React" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                />
+                                <div>
+                                    <b>Javascript</b>   
+                                    <p>for implementing the pathfinding algorithms.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                      
+                         <div className="image-row">
+                              
+                               <div className="image-item">
+                                  <img 
+                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    alt="HTML,CSS,SCSS,TAILWIND" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
+                                    />
+                                    <div>
+                                        <b>HTML & CSS</b>
+                                        <p>for frontend UI.</p>
+                                    </div>
+                                
+                                </div>
+                    
+                        </div>
+                         
+                        </div>
+                       
+                      </div>
+                    </div>
+
+                    
+
+
+
+
+                    
+{/*                     <div class="slider-container">
                                 <Slider {...settings}>
                                     {items[3].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
@@ -967,7 +1123,7 @@ const Portfolio = () => {
                                 <b>React:</b> For building the frontend web application.
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
 
               
 
