@@ -207,31 +207,31 @@ const Services = () => {
                     
 
                     <div className="skill">
-                        <div className="icon-container"><img src="https://miro.medium.com/v2/resize:fit:1300/1*4BtGcPz3JauG9qsNXzLMXA.gif" alt="Android" /></div>
+                        <div className="icon-container"><img src="./linux1.png" alt="Android" /></div>
                         <p>Linux</p>
                     </div>
                        <div className="skill">
-                        <div className="icon-container"><img src="https://thumbs.dreamstime.com/b/linux-logo-vector-format-available-illustrator-ai-linux-logo-136767231.jpg" alt="Android" /></div>
+                        <div className="icon-container"><img src="./jiira1.png" alt="Android" /></div>
                         <p>Jiira</p>
                     </div>
                        <div className="skill">
-                        <div className="icon-container"><img src="https://banner2.cleanpng.com/20180425/bxe/ave8vhl4c.webp" alt="Android" /></div>
+                        <div className="icon-container"><img src="./git1.png" alt="Android" /></div>
                         <p>Git</p>
                     </div>
                        <div className="skill">
-                        <div className="icon-container"><img src="https://cdn.fs.teachablecdn.com/L2rtxPaRxa4am1VtNegg" alt="Android" /></div>
+                        <div className="icon-container"><img src="./maven1.png" alt="Android" /></div>
                         <p>Maven</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://avatars.githubusercontent.com/u/874086?s=280&v=4" alt="Android" /></div>
+                        <div className="icon-container"><img src="./juint1.png" alt="Android" /></div>
                         <p>JUnit</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jenkins_logo.svg/1200px-Jenkins_logo.svg.png" alt="Android" /></div>
+                        <div className="icon-container"><img src="./jenkins1.png" alt="Android" /></div>
                         <p>Jenkins</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://download.logo.wine/logo/Kubernetes/Kubernetes-Logo.wine.png" alt="Android" /></div>
+                        <div className="icon-container"><img src="./Kubernetes1.png" alt="Android" /></div>
                         <p>Kubernetes</p>
                     </div>
 
