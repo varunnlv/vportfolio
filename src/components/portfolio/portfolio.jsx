@@ -919,6 +919,69 @@ const Portfolio = () => {
                 initial="initial"
                 whileInView="animate"
                 >
+           
+                    <div class="slider-container">
+                                <Slider {...settings}>
+                                    {items[3].images.map((image, index) => (
+                                        <img key={index} src={image} alt="" />
+                                    ))}
+                                </Slider>
+                    </div>        
+                    <h2 style={{ marginTop: '20px' }}>PORTFOLIOM</h2>
+                    <button 
+                        class="visit-website-btn" 
+                        onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}
+                    >
+                        Visit Website
+                    </button>
+                    <div id="projectSectionh7" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
+                        <h3 style={{ marginTop: '20px' }}>Summary</h3>
+                        <p style={{ marginTop: '20px' }} className="card-text">
+                            The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
+                        </p>
+                    
+                        <h3 style={{ marginTop: '20px' }}>Features</h3>
+                        <ul style={{ marginTop: '20px' }}>
+                            <li>
+                                <b>Project Summaries:</b> Each project includes a brief overview summarizing its purpose and goals.
+                            </li>
+                            <li>
+                                <b>Detailed Descriptions:</b> In-depth explanations of the features, technologies used, challenges faced, and solutions implemented for each project.
+                            </li>
+                            <li>
+                                <b>Learning Outcomes:</b> Clear documentation of the skills and knowledge gained from each project.
+                            </li>
+                            <li>
+                                <b>Interactive UI:</b> A user-friendly and visually appealing interface to navigate through different projects.
+                            </li>
+                        </ul>
+                    
+                        <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+                        <ul style={{ marginTop: '20px' }}>
+                            <li>
+                                <b>HTML & CSS:</b> For structuring and styling the web pages.
+                            </li>
+                            <li>
+                                <b>JavaScript:</b> For adding dynamic functionality, such as handling user interactions.
+                            </li>
+                            <li>
+                                <b>React:</b> For building the frontend web application.
+                            </li>
+                        </ul>
+                    </div>
+
+              
+
+                </motion.div>
+            )}
+
+            {activeTab === 'PathFinder' && (
+                <motion.div 
+                class="ui-container"
+                variants={textVariants}
+                initial="initial"
+                whileInView="animate"
+                >
 
                     <div className="small-gallery-container">
                          <div className="gallery-content">
@@ -926,13 +989,13 @@ const Portfolio = () => {
                             <div className="gallery-text5">
                              <h2>PATH FINDER</h2>
 
-                             <div class="slider-container">
+{/*                              <div class="slider-container">
                                 <Slider {...settings}>
                                     {items[3].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
-                             </div>     
+                             </div>      */}
 
                              
                              <h3>Summary</h3>
@@ -940,11 +1003,9 @@ const Portfolio = () => {
                              Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
                              </p>  
 
-                             <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
-                                Visit Website
-                                </button>
-
-                             <p>
+                             <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
+                            Visit Website
+                            </button>
                              The Path Finder Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
                              </p> 
 
@@ -990,20 +1051,20 @@ const Portfolio = () => {
                            <div className="gallery-text">
                              <h2>PATH FINDER</h2>
 
-                             <div class="slider-container">
+{/*                              <div class="slider-container">
                                 <Slider {...settings}>
                                     {items[3].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
-                            </div>     
+                            </div>      */}
                              
                              <h3>Summary</h3>
                              <p>
                              Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
                              </p>
 
-                             <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}>
+                             <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
                                 Visit Website
                             </button>
 
@@ -1069,114 +1130,49 @@ const Portfolio = () => {
                       </div>
                     </div>
 
-                    
-
-
 
 
                     
-{/*                     <div class="slider-container">
-                                <Slider {...settings}>
-                                    {items[3].images.map((image, index) => (
-                                        <img key={index} src={image} alt="" />
-                                    ))}
-                                </Slider>
-                    </div>        
-                    <h2 style={{ marginTop: '20px' }}>PORTFOLIOM</h2>
-                    <button 
-                        class="visit-website-btn" 
-                        onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}
-                    >
-                        Visit Website
-                    </button>
-                    <div id="projectSectionh7" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-                        <h3 style={{ marginTop: '20px' }}>Summary</h3>
-                        <p style={{ marginTop: '20px' }} className="card-text">
-                            The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
-                        </p>
                     
-                        <h3 style={{ marginTop: '20px' }}>Features</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>Project Summaries:</b> Each project includes a brief overview summarizing its purpose and goals.
-                            </li>
-                            <li>
-                                <b>Detailed Descriptions:</b> In-depth explanations of the features, technologies used, challenges faced, and solutions implemented for each project.
-                            </li>
-                            <li>
-                                <b>Learning Outcomes:</b> Clear documentation of the skills and knowledge gained from each project.
-                            </li>
-                            <li>
-                                <b>Interactive UI:</b> A user-friendly and visually appealing interface to navigate through different projects.
-                            </li>
-                        </ul>
-                    
-                        <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>HTML & CSS:</b> For structuring and styling the web pages.
-                            </li>
-                            <li>
-                                <b>JavaScript:</b> For adding dynamic functionality, such as handling user interactions.
-                            </li>
-                            <li>
-                                <b>React:</b> For building the frontend web application.
-                            </li>
-                        </ul>
-                    </div> */}
+//                     <h2 style={{ marginTop: '20px' }}>PATH FINDER</h2>
 
-              
-
-                </motion.div>
-            )}
-
-            {activeTab === 'PathFinder' && (
-                <motion.div 
-                class="ui-container"
-                variants={textVariants}
-                initial="initial"
-                whileInView="animate"
-                >
-        
-                    <h2 style={{ marginTop: '20px' }}>PATH FINDER</h2>
-
-                    <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
-                    Visit Website
-                    </button>
+//                     <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
+//                     Visit Website
+//                     </button>
             
-                    <div id="projectSectionh10" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-                        <h3 style={{ marginTop: '20px' }}>Summary</h3>
-                        <p style={{ marginTop: '20px' }} className="card-text">
-                            Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
-                        </p>
+//                     <div id="projectSectionh10" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
+//                         <h3 style={{ marginTop: '20px' }}>Summary</h3>
+//                         <p style={{ marginTop: '20px' }} className="card-text">
+//                             Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
+//                         </p>
 
-                        <p> The Path Finder Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
+//                         <p> The Path Finder Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
 
-</p>
+// </p>
                     
-                        <h3 style={{ marginTop: '20px' }}>Features</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>Interactive Grid Board:</b> Users can click to set start and end points.
-                            </li>
-                            <li>
-                                <b>Pathfinding Algorithms:</b> Implement and visualize various pathfinding algorithms such as Dijkstra’s Algorithm and Depth-First Search (DFS).
-                            </li>
-                            <li>
-                                <b>Animation Speed Control:</b> Allows users to control the speed of the visualization.
-                            </li>
-                        </ul>
+//                         <h3 style={{ marginTop: '20px' }}>Features</h3>
+//                         <ul style={{ marginTop: '20px' }}>
+//                             <li>
+//                                 <b>Interactive Grid Board:</b> Users can click to set start and end points.
+//                             </li>
+//                             <li>
+//                                 <b>Pathfinding Algorithms:</b> Implement and visualize various pathfinding algorithms such as Dijkstra’s Algorithm and Depth-First Search (DFS).
+//                             </li>
+//                             <li>
+//                                 <b>Animation Speed Control:</b> Allows users to control the speed of the visualization.
+//                             </li>
+//                         </ul>
                     
-                        <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>Frontend:</b> React, HTML, CSS, JavaScript.
-                            </li>
-                            <li>
-                                <b>Algorithm Implementations:</b> JavaScript (for implementing the pathfinding algorithms).
-                            </li>
-                        </ul>
-                    </div>
+//                         <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
+//                         <ul style={{ marginTop: '20px' }}>
+//                             <li>
+//                                 <b>Frontend:</b> React, HTML, CSS, JavaScript.
+//                             </li>
+//                             <li>
+//                                 <b>Algorithm Implementations:</b> JavaScript (for implementing the pathfinding algorithms).
+//                             </li>
+//                         </ul>
+//                     </div>
                     
       
 
