@@ -1641,58 +1641,178 @@ const Portfolio = () => {
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
-                    </div>        
-                    <h2 style={{ marginTop: '20px' }}>FILMBOOK</h2>
-                    
-                    <button class="visit-website-btn" onClick={() => window.open('https://filmpire-v.netlify.app/', '_blank')}>
-                    Visit Website
-                    </button>
-            
-                        
-                    <div id="projectSectionh8" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-                        <h3 style={{ marginTop: '20px' }}>Summary</h3>
-                        <p style={{ marginTop: '20px' }} className="card-text">
-                            Filmbook is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
-                        </p>
-                    
-                        <h3 style={{ marginTop: '20px' }}>Features</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>Secure Authentication:</b> Users can register and log in with secure authentication mechanisms to protect their accounts.
-                            </li>
-                            <li>
-                                <b>Real-Time Seat Updates:</b> The system provides real-time updates on seat availability to ensure accurate booking information.
-                            </li>
-                            <li>
-                                <b>Efficient State Management:</b> Utilizes advanced state management techniques to ensure smooth user interactions and data consistency.
-                            </li>
-                            <li>
-                                <b>Scalable Backend:</b> The backend services are designed to handle high traffic and scale according to demand.
-                            </li>
-                            <li>
-                                <b>Responsive Design:</b> The layout adapts to different screen sizes, providing a seamless experience across devices.
-                            </li>
-                        </ul>
-                    
-                        <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>HTML & CSS:</b> For structuring and styling the web pages.
-                            </li>
-                            <li>
-                                <b>JavaScript:</b> For adding dynamic functionality and handling user interactions.
-                            </li>
-                            <li>
-                                <b>React:</b> For building the frontend user interface.
-                            </li>
-                            <li>
-                                <b>Node.js & Express:</b> For backend services and handling server-side logic.
-                            </li>
-                            <li>
-                                <b>WebSocket:</b> For real-time communication and updates.
-                            </li>
-                        </ul>
+                    </div> 
+
+                    <div className="small-gallery-container">
+                        <div className="gallery-content">
+                            <div className="gallery-text5">
+                            <h2>EXPENSE TRACKER</h2>
+                             
+                             <h3>Summary</h3>
+                             <p>
+                             Filmbook is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
+                             </p> 
+
+                                <button class="visit-website-btn" onClick={() => window.open('https://filmpire-v.netlify.app/', '_blank')}>
+                                Visit Website
+                                </button>
+
+                                <p>
+                                This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                                </p> 
+
+                            </div>
+   
+                           <div className="gallery-images">
+                                <div className="image-row">
+                                 
+                               <div className="image-item" >
+                                   <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                   <div>
+                                       <b>User Management</b>   
+                                       <p>Secure login system to store and retrieve user profiles and their associated details.</p>
+                                   </div>
+                                   
+                               </div>
+                               <div className="image-item">
+                                    <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                   <div>
+                                       <b>Real-Time Seat Updates</b> 
+                                       <p>The system provides real-time updates on seat availability to ensure accurate booking information.</p>
+                                   </div>
+                                   
+                               </div>
+                                </div>
+                                <div className="image-row">
+                                    
+                                <div className="image-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <div>
+                                        <b>Efficient State Management</b> 
+                                        <p>Utilizes advanced state management techniques to ensure smooth user interactions and data consistency.</p>
+                                    </div>
+                                    
+                                </div>
+                                <div className="image-item">
+                                    <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <div>
+                                        <b>Scalable Backend</b>
+                                        <p>The backend services are designed to handle high traffic and scale according to demand.</p>
+                                    </div>
+                                    
+                                </div>
+                                </div>
+                                <div className="experience">
+                                <div className="experience-text">
+        
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <div>
+                                        <b>Responsive Design</b> 
+                                        <p>A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
+                                    </div>
+                                </div>
+                                    
+                                </div>                 
+                                <div className="experience">
+                                <div className="experience-text">
+        
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <div>
+                                        <b>Output Formats</b> 
+                                        <p>Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.</p>
+                                    </div>
+                                </div>
+                                    
+                                </div>
+                           </div>
+
+                           <div className="gallery-text">
+                             <h2>EXPENSE TRACKER</h2>
+                             
+                             <h3>Summary</h3>
+                             <p>
+                             Filmbook is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
+                             </p> 
+
+                             <button class="visit-website-btn" onClick={() => window.open('https://filmpire-v.netlify.app/', '_blank')}>
+                            Visit Website
+                            </button>
+
+                             <p>
+                             This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                             </p> 
+                               
+                           </div>
+
+                        </div>
                     </div>
+       
+                    <div className="small-gallery-container">
+                      <div className="gallery-content">
+                        <div className="gallery-images">
+                            <div className="image-row">
+                              
+                            <div className="image-item" >
+                                <img 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    alt="React" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                />
+                                <div>
+                                    <b>React</b>   
+                                    <p>for building the frontend web application.</p>
+                                </div>
+                                
+                            </div>
+
+                            <div className="image-item" >
+                                <img 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    alt="React" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                />
+                                <div>
+                                    <b>Javascript</b>   
+                                    <p>for implementing the pathfinding algorithms.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                      
+                         <div className="image-row">
+
+                                <div className="image-item">
+                                  <img 
+                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    alt="HTML,CSS,SCSS,TAILWIND" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
+                                    />
+                                    <div>
+                                        <b>React Router</b>
+                                        <p>for handling client-side routing and navigation within the web application.</p>
+                                    </div>
+                                
+                                </div>
+                              
+                               <div className="image-item">
+                                  <img 
+                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    alt="HTML,CSS,SCSS,TAILWIND" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
+                                    />
+                                    <div>
+                                        <b>HTML & CSS</b>
+                                        <p>for frontend UI.</p>
+                                    </div>
+                                
+                                </div>
+                    
+                        </div>
+                         
+                        </div>
+                       
+                      </div>
+                    </div> 
 
   
                 </motion.div>
