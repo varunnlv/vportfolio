@@ -926,48 +926,171 @@ const Portfolio = () => {
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
-                    </div>        
-                    <h2 style={{ marginTop: '20px' }}>PORTFOLIOM</h2>
-                    <button 
-                        class="visit-website-btn" 
-                        onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}
-                    >
-                        Visit Website
-                    </button>
-                    <div id="projectSectionh7" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-                        <h3 style={{ marginTop: '20px' }}>Summary</h3>
-                        <p style={{ marginTop: '20px' }} className="card-text">
-                            The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
-                        </p>
+                    </div>     
+
+                    <div className="small-gallery-container">
+                        <div className="gallery-content">
+                            <div className="gallery-text5">
+                                <h2>PORTFOLIOM</h2>
+                                <h3>Summary</h3>
+                                <p>
+                                The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
+                                </p>  
+
+                                <button 
+                                    class="visit-website-btn" 
+                                    onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}
+                                >
+                                    Visit Website
+                                </button>
+
+
+                                <p>
+                                This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                                </p> 
+
+                            </div>
+   
                     
-                        <h3 style={{ marginTop: '20px' }}>Features</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>Project Summaries:</b> Each project includes a brief overview summarizing its purpose and goals.
-                            </li>
-                            <li>
-                                <b>Detailed Descriptions:</b> In-depth explanations of the features, technologies used, challenges faced, and solutions implemented for each project.
-                            </li>
-                            <li>
-                                <b>Learning Outcomes:</b> Clear documentation of the skills and knowledge gained from each project.
-                            </li>
-                            <li>
-                                <b>Interactive UI:</b> A user-friendly and visually appealing interface to navigate through different projects.
-                            </li>
-                        </ul>
+                           <div className="gallery-images">
+                                <div className="image-row">
+                                 
+                               <div className="image-item" >
+                                   <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                   <div>
+                                       <b>Personal Information</b>   
+                                       <p>A section to display your personal details, including your bio, skills, and contact information.</p>
+                                   </div>
+                                   
+                               </div>
+                               <div className="image-item">
+                                    <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                   <div>
+                                       <b>Projects Showcase</b> 
+                                       <p>Sections to highlight your personal and professional projects with descriptions and screenshots.</p>
+                                   </div>
+                                   
+                               </div>
+                                </div>
+                                <div className="image-row">
+                                    
+                                <div className="image-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <div>
+                                        <b>Interactive Elements</b> 
+                                        <p>Utilizes Framer Motion for interactive animations and transitions, enhancing the user experience.</p>
+                                    </div>
+                                    
+                                </div>
+                                <div className="image-item">
+                                    <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <div>
+                                        <b>Contact Form</b>
+                                        <p>Integrated contact form using Nodemailer for sending emails directly from the website.</p>
+                                    </div>
+                                    
+                                </div>
+                                </div>
+                                <div className="experience">
+                                <div className="experience-text">
+        
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <div>
+                                        <b>Modern Design</b> 
+                                        <p>A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
+                                    </div>
+                                </div>
+                                    
+                                </div>                 
+                                <div className="experience">
+                                <div className="experience-text">
+        
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <div>
+                                        <b>Detailed Descriptions</b> 
+                                        <p>In-depth explanations of the features, technologies used, challenges faced, and solutions implemented for each project.</p>
+                                    </div>
+                                </div>
+                                    
+                                </div>
+                           </div>
+
+                           <div className="gallery-text">
+                             <h2>PORTFOLIOM</h2>
+
+                             <h3>Summary</h3>
+                             <p>
+                             The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
+                             </p> 
+
+                             <button 
+                                class="visit-website-btn" 
+                                onClick={() => window.open('https://varunnlv.github.io/vportfoliodetail/', '_blank')}
+                            >
+                                Visit Website
+                            </button>
+
+                             <p>
+                             This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                             </p> 
+                               
+                           </div>
+
+                         </div>
+                    </div>
+       
+                    <div className="small-gallery-container">
+                      <div className="gallery-content">
+                        <div className="gallery-images">
+                            <div className="image-row">
+                              
+                            <div className="image-item" >
+                                <img 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    alt="React" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                />
+                                <div>
+                                    <b>React</b>   
+                                    <p>for building the frontend web application.</p>
+                                </div>
+                                
+                            </div>
+
+                            <div className="image-item" >
+                                <img 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    alt="React" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                />
+                                <div>
+                                    <b>Javascript</b>   
+                                    <p>for implementing the pathfinding algorithms.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                      
+                         <div className="image-row">
+                              
+                               <div className="image-item">
+                                  <img 
+                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    alt="HTML,CSS,SCSS,TAILWIND" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
+                                    />
+                                    <div>
+                                        <b>HTML & CSS</b>
+                                        <p>for frontend UI.</p>
+                                    </div>
+                                
+                                </div>
                     
-                        <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>HTML & CSS:</b> For structuring and styling the web pages.
-                            </li>
-                            <li>
-                                <b>JavaScript:</b> For adding dynamic functionality, such as handling user interactions.
-                            </li>
-                            <li>
-                                <b>React:</b> For building the frontend web application.
-                            </li>
-                        </ul>
+                        </div>
+                         
+                        </div>
+                       
+                      </div>
                     </div>
 
               
