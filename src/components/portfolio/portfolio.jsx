@@ -233,7 +233,7 @@ const Portfolio = () => {
                                     <div className="image-item4" >
                                         <div>
                                             <p>
-                                                Usage of Load Balancer,Dynamic seat allocation, Low level design and Robust payment Retry mechanism
+                                                Usage of <span className="highlight-text">Load Balancer</span>,<span className="highlight-text">Dynamic seat allocation</span>, <span className="highlight-text">Low level design</span> and <span className="highlight-text">Robust payment Retry mechanism</span>.
                                             </p>        
                                         </div>
                                         
@@ -253,7 +253,7 @@ const Portfolio = () => {
                                     <div className="image-item4" >
                                         <div>
                                             <p>
-                                            Usage of Framer motion ,Css Animation and EmailJS.
+                                            Usage of <span className="highlight-text">Framer motion</span> ,<span className="highlight-text">Css Animation</span> and <span className="highlight-text">EmailJS</span>.
                                             </p>        
                                         </div>
                                         
@@ -273,7 +273,7 @@ const Portfolio = () => {
                                     <div className="image-item4" >
                                         <div>
                                             <p>
-                                            Usage of React router.
+                                            Usage of <span className="highlight-text">React router</span>.
                                             </p>        
                                         </div>
                                         
@@ -294,7 +294,7 @@ const Portfolio = () => {
                                     <div className="image-item4" >
                                         <div>
                                             <p>
-                                            Usage of  few Search Algorithms.
+                                            Usage of few <span className="highlight-text">Search Algorithms</span>.
                                             </p>        
                                         </div>
                                         
@@ -315,7 +315,7 @@ const Portfolio = () => {
                                     <div className="image-item4" >
                                         <div>
                                             <p>
-                                            Usage of Microservices,Rest Api and  React.
+                                            Usage of <span className="highlight-text">Microservices</span>,<span className="highlight-text">Rest Api</span> and <span className="highlight-text">React Js</span>.
                                             </p>        
                                         </div>
                                         
@@ -336,7 +336,7 @@ const Portfolio = () => {
                                     <div className="image-item4" >
                                         <div>
                                             <p>
-                                            Usage of  Microservices,Rest Api and JavaFx.
+                                            Usage of <span className="highlight-text">Microservices</span>,<span className="highlight-text">Rest Api</span> and <span className="highlight-text">JavaFx</span>.
                                             </p>        
                                         </div>
                                         
@@ -357,7 +357,7 @@ const Portfolio = () => {
                                     <div className="image-item4" >
                                         <div>
                                             <p>
-                                            Usage of  Angular, Abp Framework and C#
+                                            Usage of <span className="highlight-text">Angular</span>, <span className="highlight-text">Abp Framework</span> and <span className="highlight-text">C#</span>.
                                             </p>        
                                         </div>
                                         
@@ -371,7 +371,6 @@ const Portfolio = () => {
                             
                         </div>
                     </div>
-
                 </motion.div>
                 
             )}
