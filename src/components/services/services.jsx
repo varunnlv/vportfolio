@@ -175,11 +175,11 @@ const Services = () => {
                         <p>Microservices</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="./oops1.png" alt="Android" /></div>
+                        <div className="icon-container"><img src="./oops1.jpeg" alt="Android" /></div>
                         <p>OOPS</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png" alt="Angular" /></div>
+                        <div className="icon-container"><img src="./vscode1.png" alt="Angular" /></div>
                         <p>VS Code</p>
                     </div>
                     <div className="skill">
@@ -187,19 +187,19 @@ const Services = () => {
                         <p>IntelliJ</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXqvREgueCenWgK3AOYf2Ggyz-jOISn5uJfg&s" alt="Android" /></div>
+                        <div className="icon-container"><img src="./anaconda1.png" alt="Android" /></div>
                         <p>Anaconda</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://repository-images.githubusercontent.com/1272424/d1995000-0ab7-11ea-8ed3-04a082c36b0d" alt="Angular" /></div>
+                        <div className="icon-container"><img src="./emailjs1.png" alt="Angular" /></div>
                         <p>EmailJS</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://www.docker.com/wp-content/uploads/2023/08/logo-dont-stretch.svg" alt="Anaconda" /></div>
+                        <div className="icon-container"><img src="./docker1.png" alt="Anaconda" /></div>
                         <p>Docker</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://miro.medium.com/v2/resize:fit:1300/1*4BtGcPz3JauG9qsNXzLMXA.gif" alt="Android" /></div>
+                        <div className="icon-container"><img src="./websocket1.png" alt="Android" /></div>
                         <p>WebSocket</p>
                     </div>
 
