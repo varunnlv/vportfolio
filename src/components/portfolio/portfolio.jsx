@@ -1130,54 +1130,7 @@ const Portfolio = () => {
                        
                       </div>
                     </div>
-
-
-
-                    
-                    
-//                     <h2 style={{ marginTop: '20px' }}>PATH FINDER</h2>
-
-//                     <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
-//                     Visit Website
-//                     </button>
-            
-//                     <div id="projectSectionh10" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-//                         <h3 style={{ marginTop: '20px' }}>Summary</h3>
-//                         <p style={{ marginTop: '20px' }} className="card-text">
-//                             Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
-//                         </p>
-
-//                         <p> The Path Finder Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
-
-// </p>
-                    
-//                         <h3 style={{ marginTop: '20px' }}>Features</h3>
-//                         <ul style={{ marginTop: '20px' }}>
-//                             <li>
-//                                 <b>Interactive Grid Board:</b> Users can click to set start and end points.
-//                             </li>
-//                             <li>
-//                                 <b>Pathfinding Algorithms:</b> Implement and visualize various pathfinding algorithms such as Dijkstra’s Algorithm and Depth-First Search (DFS).
-//                             </li>
-//                             <li>
-//                                 <b>Animation Speed Control:</b> Allows users to control the speed of the visualization.
-//                             </li>
-//                         </ul>
-                    
-//                         <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-//                         <ul style={{ marginTop: '20px' }}>
-//                             <li>
-//                                 <b>Frontend:</b> React, HTML, CSS, JavaScript.
-//                             </li>
-//                             <li>
-//                                 <b>Algorithm Implementations:</b> JavaScript (for implementing the pathfinding algorithms).
-//                             </li>
-//                         </ul>
-//                     </div>
-                    
-      
-
-                </motion.div>
+             </motion.div>
             )}
   
             {activeTab === 'Vportfolio' && (
