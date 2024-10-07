@@ -121,6 +121,33 @@ font-size: 1rem;
   font-size: 0.8rem;
 }
 
+.image-row span{
+  background: linear-gradient(transparent 0%, orange 0%,orange , transparent 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  animation: drawHighlight 6s ease-in-out infinite; /* Total animation duration is 12 seconds */
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 8px; /* Rounded corners for the highlight */
+
+
+}
+
+.experience span{
+  background: linear-gradient(transparent 0%, orange 0%,orange , transparent 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  animation: drawHighlight 6s ease-in-out infinite; /* Total animation duration is 12 seconds */
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 8px; /* Rounded corners for the highlight */
+
+
+}
+
+  
+
+  
 .gallery-text5 {
   display: none;
 }
