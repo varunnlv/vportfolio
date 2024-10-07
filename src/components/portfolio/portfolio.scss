@@ -1,7 +1,7 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Yellowtail&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Volkorn&display=swap');
 
 .portfolio {
   background: white;
@@ -169,11 +169,23 @@ font-size: 1rem;
 }
 
 .gallery-text p {
+  font-family: 'Volkorn', serif;
   font-size: 1rem;
   line-height: 1.5;
   margin: 10px 0;
 }
 
+
+.gallery-text b {
+  font-family: 'Volkorn', serif;
+  background: linear-gradient(transparent 0%, yellow 0%,yellow , transparent 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  animation: drawHighlight 6s ease-in-out infinite; /* Total animation duration is 12 seconds */
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 8px; /* Rounded corners for the highlight */
+}
 
 @keyframes drawHighlight {
   0% {
