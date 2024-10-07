@@ -1641,24 +1641,28 @@ const Portfolio = () => {
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
-                    </div> 
+                    </div>
 
                     <div className="small-gallery-container">
                         <div className="gallery-content">
                             <div className="gallery-text5">
-                            <h2>EXPENSE TRACKER</h2>
+                            <h2>FILMBOOK</h2>
                              
                              <h3>Summary</h3>
                              <p>
                              Filmbook is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
                              </p> 
 
+                             <div class="progress-label">
+                                <span class="progress-text">Currently in Progress</span>
+                            </div>
+
                                 <button class="visit-website-btn" onClick={() => window.open('https://filmpire-v.netlify.app/', '_blank')}>
                                 Visit Website
                                 </button>
 
                                 <p>
-                                This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                                The Filmbook project is a highly responsive, real-time movie ticket booking platform designed to handle large-scale traffic while providing a seamless user experience. The platform is built using modern technologies like <b>React</b> for the frontend, ensuring sleek and responsive design, and <b>Spring Boot</b> in the backend to provide scalable, high-performance microservices architecture. To ensure real-time seat availability, <b>WebSocket</b> is used, and <b>state management</b> is efficiently handled using <b>Redux toolkit</b>, ensuring smooth interactions and data consistency across the system. A secure <b>User Management</b> system is integrated using MongoDB for storage, supporting login and profile management functionalities. Payment processing features are also integrated with retry mechanisms for failed transactions, along with a QR code-based e-ticket system for easy verification.
                                 </p> 
 
                             </div>
@@ -1670,7 +1674,7 @@ const Portfolio = () => {
                                    <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                    <div>
                                        <b>User Management</b>   
-                                       <p>Secure login system to store and retrieve user profiles and their associated details.</p>
+                                       <p>Secure <span style={{ color: 'green', fontWeight: 'bold' }}>login system</span> to store and retrieve user profiles and their associated account details.</p>
                                    </div>
                                    
                                </div>
@@ -1678,7 +1682,7 @@ const Portfolio = () => {
                                     <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Real-Time Seat Updates</b> 
-                                       <p>The system provides real-time updates on seat availability to ensure accurate booking information.</p>
+                                       <p>The system provides <span style={{ color: 'green', fontWeight: 'bold' }}>real-time updates on seat availability</span> using <span style={{ color: 'green', fontWeight: 'bold' }}>websocket</span> to ensure accurate booking information.</p>
                                    </div>
                                    
                                </div>
@@ -1686,40 +1690,49 @@ const Portfolio = () => {
                                 <div className="image-row">
                                     
                                 <div className="image-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3344/3344704.png" alt="JavaFX" style={{ width: '40px', height: '40px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
-                                        <b>Efficient State Management</b> 
-                                        <p>Utilizes advanced state management techniques to ensure smooth user interactions and data consistency.</p>
+                                        <b>Efficient data Management</b> 
+                                        <p>Utilizes advanced <span style={{ color: 'green', fontWeight: 'bold' }}>state management</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>Redux toolkit</span> techniques to ensure smooth user interactions and data consistency.</p>
                                     </div>
                                     
                                 </div>
                                 <div className="image-item">
-                                    <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3668/3668474.png" alt="JavaFX" style={{ width: '40px', height: '40px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Scalable Backend</b>
-                                        <p>The backend services are designed to handle high traffic and scale according to demand.</p>
+                                        <p>The backend services using Spring Boot are designed to handle high traffic and scale according to demand by following <span style={{ color: 'green', fontWeight: 'bold' }}>Microservices architecture</span>.</p>
                                     </div>
                                     
                                 </div>
                                 </div>
-                                <div className="experience">
-                                <div className="experience-text">
-        
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+
+                                <div className="image-row">
+                                    
+                                <div className="image-item">
+                                        <img src="https://www.pngitem.com/pimgs/m/353-3532433_payment-gateway-payment-gateways-icon-png-transparent-png.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <div>
+                                        <b>Payment Integration and Retry mechanism</b> 
+                                        <p>integrated payment for movie tickets in <span style={{ color: 'green', fontWeight: 'bold' }}>payment service providers</span> and includes <span style={{ color: 'green', fontWeight: 'bold' }}>Payment failure retry mecahnism</span> if anything goes wrong while transacting.</p>
+                                    </div>
+                                    
+                                </div>
+                                <div className="image-item">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Responsive_Web_Design_Logo.svg/1024px-Responsive_Web_Design_Logo.svg.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Responsive Design</b> 
-                                        <p>A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
+                                        <p>A<span style={{ color: 'green', fontWeight: 'bold' }}> sleek and responsive design </span>using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
                                     </div>
-                                </div>
                                     
-                                </div>                 
+                                </div>
+                                </div>             
                                 <div className="experience">
                                 <div className="experience-text">
         
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
-                                        <b>Output Formats</b> 
-                                        <p>Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.</p>
+                                        <b>Notification Service</b> 
+                                        <p>Able to generate movie ticket after successful payment as <span style={{ color: 'green', fontWeight: 'bold' }}>QR code</span> and it will be sent as <span style={{ color: 'green', fontWeight: 'bold' }}> E-ticket mail as a confirmation</span>.</p>
                                     </div>
                                 </div>
                                     
@@ -1734,12 +1747,16 @@ const Portfolio = () => {
                              Filmbook is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
                              </p> 
 
+                             <div class="progress-label">
+                                <span class="progress-text">Currently in Progress</span>
+                            </div>
+
                              <button class="visit-website-btn" onClick={() => window.open('https://filmpire-v.netlify.app/', '_blank')}>
                             Visit Website
                             </button>
 
                              <p>
-                             This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                             The Filmbook project is a highly responsive, real-time movie ticket booking platform designed to handle large-scale traffic while providing a seamless user experience. The platform is built using modern technologies like <b>React</b> for the frontend, ensuring sleek and responsive design, and <b>Spring Boot</b> in the backend to provide scalable, high-performance microservices architecture. To ensure real-time seat availability, <b>WebSocket</b> is used, and <b>state management</b> is efficiently handled using <b>Redux toolkit</b>, ensuring smooth interactions and data consistency across the system. A secure <b>User Management</b> system is integrated using MongoDB for storage, supporting login and profile management functionalities. Payment processing features are also integrated with retry mechanisms for failed transactions, along with a QR code-based e-ticket system for easy verification.
                              </p> 
                                
                            </div>
@@ -1767,7 +1784,7 @@ const Portfolio = () => {
 
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -1783,7 +1800,7 @@ const Portfolio = () => {
 
                                 <div className="image-item">
                                   <img 
-                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    src="https://static-00.iconduck.com/assets.00/react-router-icon-2048x1116-jfeevj0l.png" 
                                     alt="HTML,CSS,SCSS,TAILWIND" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
                                     />
@@ -1798,7 +1815,7 @@ const Portfolio = () => {
                                   <img 
                                     src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
                                     alt="HTML,CSS,SCSS,TAILWIND" 
-                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
+                                    style={{ width: '54px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
                                     />
                                     <div>
                                         <b>HTML & CSS</b>
