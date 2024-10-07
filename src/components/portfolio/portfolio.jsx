@@ -1448,51 +1448,179 @@ const Portfolio = () => {
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
-                    </div>        
-                    <h2 style={{ marginTop: '20px' }}>EXPENSE TRACKER</h2>
+                    </div> 
+
+                    <div className="small-gallery-container">
+                        <div className="gallery-content">
+                            <div className="gallery-text5">
+                            <h2>EXPENSE TRACKER</h2>
+                             
+                             <h3>Summary</h3>
+                             <p>
+                             Expense Tracker is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
+                             </p> 
+
+                             <button class="visit-website-btn" onClick={() => window.open('https://expense-v-tracker.netlify.app/', '_blank')}>
+                                Visit Website
+                                </button>
+
+                                <p>
+                                This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                                </p> 
+
+                            </div>
+   
                     
-                    <button class="visit-website-btn" onClick={() => window.open('https://expense-v-tracker.netlify.app/', '_blank')}>
-                    Visit Website
-                    </button>
-            
-            
-                    <div id="projectSectionh12" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-                        <h3 style={{ marginTop: '20px' }}>Summary</h3>
-                        <p style={{ marginTop: '20px' }} className="card-text">
-                            Expense Tracker is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
-                        </p>
+
+                           <div className="gallery-images">
+                                <div className="image-row">
+                                 
+                               <div className="image-item" >
+                                   <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                   <div>
+                                       <b>User Management</b>   
+                                       <p>Secure login system to store and retrieve user profiles and their associated expenses.</p>
+                                   </div>
+                                   
+                               </div>
+                               <div className="image-item">
+                                    <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                   <div>
+                                       <b>Expense Management</b> 
+                                       <p>Intuitive forms for users to input expense details, including date, category, amount, and description.</p>
+                                   </div>
+                                   
+                               </div>
+                                </div>
+                                <div className="image-row">
+                                    
+                                <div className="image-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <div>
+                                        <b>Expense Retrieval</b> 
+                                        <p>Users can view and retrieve their past expenses after logging in.</p>
+                                    </div>
+                                    
+                                </div>
+                                <div className="image-item">
+                                    <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <div>
+                                        <b>Data Storage</b>
+                                        <p>Uses JSON Server to store user data and expenses, ensuring easy data management and retrieval.</p>
+                                    </div>
+                                    
+                                </div>
+                                </div>
+                                <div className="experience">
+                                <div className="experience-text">
+        
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <div>
+                                        <b>Modern Design</b> 
+                                        <p>A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
+                                    </div>
+                                </div>
+                                    
+                                </div>                 
+                                <div className="experience">
+                                <div className="experience-text">
+        
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <div>
+                                        <b>Output Formats</b> 
+                                        <p>Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.</p>
+                                    </div>
+                                </div>
+                                    
+                                </div>
+                           </div>
+
+                           <div className="gallery-text">
+                             <h2>EXPENSE TRACKER</h2>
+                             
+                             <h3>Summary</h3>
+                             <p>
+                             Expense Tracker is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
+                             </p> 
+
+                             <button class="visit-website-btn" onClick={() => window.open('https://expense-v-tracker.netlify.app/', '_blank')}>
+                                Visit Website
+                                </button>
+
+                             <p>
+                             This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                             </p> 
+                               
+                           </div>
+
+                        </div>
+                    </div>
+       
+                    <div className="small-gallery-container">
+                      <div className="gallery-content">
+                        <div className="gallery-images">
+                            <div className="image-row">
+                              
+                            <div className="image-item" >
+                                <img 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    alt="React" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                />
+                                <div>
+                                    <b>React</b>   
+                                    <p>for building the frontend web application.</p>
+                                </div>
+                                
+                            </div>
+
+                            <div className="image-item" >
+                                <img 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    alt="React" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                />
+                                <div>
+                                    <b>Javascript</b>   
+                                    <p>for implementing the pathfinding algorithms.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                      
+                         <div className="image-row">
+
+                                <div className="image-item">
+                                  <img 
+                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    alt="HTML,CSS,SCSS,TAILWIND" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
+                                    />
+                                    <div>
+                                        <b>React Router</b>
+                                        <p>for handling client-side routing and navigation within the web application.</p>
+                                    </div>
+                                
+                                </div>
+                              
+                               <div className="image-item">
+                                  <img 
+                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    alt="HTML,CSS,SCSS,TAILWIND" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
+                                    />
+                                    <div>
+                                        <b>HTML & CSS</b>
+                                        <p>for frontend UI.</p>
+                                    </div>
+                                
+                                </div>
                     
-                        <h3 style={{ marginTop: '20px' }}>Features</h3>
-                        <ul>
-                            <li>
-                                <b>User Management:</b> Secure login system to store and retrieve user profiles and their associated expenses.
-                            </li>
-                            <li>
-                                <b>Expense Management:</b> Intuitive forms for users to input expense details, including date, category, amount, and description.
-                            </li>
-                            <li>
-                                <b>Expense Retrieval:</b> Users can view and retrieve their past expenses after logging in.
-                            </li>
-                            <li>
-                                <b>Data Storage:</b> Uses JSON Server to store user data and expenses, ensuring easy data management and retrieval.
-                            </li>
-                        </ul>
-                    
-                        <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>React:</b> For building the frontend web application.
-                            </li>
-                            <li>
-                                <b>HTML & CSS:</b> For structuring and styling the web pages.
-                            </li>
-                            <li>
-                                <b>React Router:</b> For handling client-side routing and navigation within the web application.
-                            </li>
-                            <li>
-                                <b>JSON Server:</b> For storing and retrieving user data and expenses.
-                            </li>
-                        </ul>
+                        </div>
+                         
+                        </div>
+                       
+                      </div>
                     </div>
 
                
