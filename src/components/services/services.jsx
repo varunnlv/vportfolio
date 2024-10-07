@@ -141,41 +141,41 @@ const Services = () => {
                         <p>Tailwind</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="./java11.png" alt="Anaconda" /></div>
+                        <div className="icon-container"><img src="./java.png" alt="Anaconda" /></div>
                         <p>Java</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png" alt="Android" /></div>
+                        <div className="icon-container"><img src="./JavaFX1.png" alt="Android" /></div>
                         <p>Java Fx</p>
                     </div>
                      <div className="skill">
-                        <div className="icon-container"><img src="https://cdn.iconscout.com/icon/free/png-256/free-mysql-3628940-3030165.png?f=webp&w=256" alt="Angular" /></div>
+                        <div className="icon-container"><img src="./mysql.png" alt="Angular" /></div>
                         <p>MySql</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://i.pinimg.com/originals/b2/31/7e/b2317e8174e5fcef57c74c662f57d155.png" alt="Angular" /></div>
+                        <div className="icon-container"><img src="./mongodb1.png" alt="Angular" /></div>
                         <p>Mongo DB</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://cdn.prod.website-files.com/601064f495f4b4967f921aa9/635884ad45bd4b4723f4bc39_202210-rds-logo.png" alt="Anaconda" /></div>
+                        <div className="icon-container"><img src="./amazonrds1.png" alt="Anaconda" /></div>
                         <p>AWS RDS</p>
                     </div>
                    
                
                     <div className="skill">
-                        <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8i4zPog-0j0JR_yZglxPhTPZXxN2iMTQ3Dw&s" alt="Android" /></div>
+                        <div className="icon-container"><img src="./springboot1.png" alt="Android" /></div>
                         <p>Spring Boot</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://www.zdnet.com/a/img/resize/ea56feddb9aed4bc4af6b9e693ef4b40592b6f15/2020/05/11/f9afed5d-33cd-438f-ba73-31b31abba8e1/redis-logo-2.png?auto=webp&width=740" alt="Angular" /></div>
+                        <div className="icon-container"><img src="./redis1.png" alt="Angular" /></div>
                         <p>Redis</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7cNI4EZ1hatuC_IzMHF4q0Dx0590F4t7yw&s" alt="Anaconda" /></div>
+                        <div className="icon-container"><img src="./microservices1.png" alt="Anaconda" /></div>
                         <p>Microservices</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://t4.ftcdn.net/jpg/01/08/96/57/360_F_108965707_UhpFxvquwgXVfWlFpg9vYGJfz8mmZ33u.jpg" alt="Android" /></div>
+                        <div className="icon-container"><img src="./oops1.png" alt="Android" /></div>
                         <p>OOPS</p>
                     </div>
                     <div className="skill">
@@ -183,7 +183,7 @@ const Services = () => {
                         <p>VS Code</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png" alt="Anaconda" /></div>
+                        <div className="icon-container"><img src="./IntelliJ1.png" alt="Anaconda" /></div>
                         <p>IntelliJ</p>
                     </div>
                     <div className="skill">
