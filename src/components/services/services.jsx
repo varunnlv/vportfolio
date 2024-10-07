@@ -113,35 +113,35 @@ const Services = () => {
                         <p>HTML</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" alt="Android" /></div>
+                        <div className="icon-container"><img src="./CSS22.png" alt="Android" /></div>
                         <p>CSS</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Angular" /></div>
+                        <div className="icon-container"><img src="./JavaScript1.png" alt="Angular" /></div>
                         <p>Javascript</p>
                     </div>
                          <div className="skill">
-                        <div className="icon-container"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" alt="Anaconda" /></div>
+                        <div className="icon-container"><img src="./Typescript1.png" alt="Anaconda" /></div>
                         <p>TypeScript</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png" alt="Anaconda" /></div>
+                        <div className="icon-container"><img src="./react1.png" alt="Anaconda" /></div>
                         <p>React</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" alt="Android" /></div>
+                        <div className="icon-container"><img src="./redux1.png" alt="Android" /></div>
                         <p>Redux</p>
                     </div>
                      <div className="skill">
-                        <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ803r_FTGrMlWpKJqOWmQgwv0BkQaDWy8q1Q&s" alt="Android" /></div>
+                        <div className="icon-container"><img src="./scss1.png" alt="Android" /></div>
                         <p>Scss</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNhoXisDruJMDAq3Ltd-wuaMW2lGxck9wAKw&s" alt="Angular" /></div>
+                        <div className="icon-container"><img src="./tailwind1.png" alt="Angular" /></div>
                         <p>Tailwind</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png" alt="Anaconda" /></div>
+                        <div className="icon-container"><img src="./java11.png" alt="Anaconda" /></div>
                         <p>Java</p>
                     </div>
                     <div className="skill">
