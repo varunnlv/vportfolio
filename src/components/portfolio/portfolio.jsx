@@ -1006,6 +1006,7 @@ const Portfolio = () => {
                              <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
                             Visit Website
                             </button>
+                             <p>
                              The Path Finder Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
                              </p> 
 
