@@ -88,26 +88,26 @@ const Resume = () => {
                 </a>
                 <a href="https://codedamn.com/certificate/verify/83f3f8aec3b87e120942ff89e401b4080f428400" className="tile">
                     <img
-                        src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/83f3f8aec3b87e120942ff89e401b4080f428400.jpeg"
+                        src="./csswithscss.png"
                         alt="Course certificate for course on codedamn"
                     />
                 </a>
                
                 <a href="https://codedamn.com/certificate/verify/89bdf28b27ddc594c2506ce827fe4e8da186f708" className="tile">
                     <img
-                        src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/89bdf28b27ddc594c2506ce827fe4e8da186f708.jpeg"
+                        src="./tailwind.png"
                         alt="Course certificate for course on codedamn"
                     />
                 </a>
                 <a href="https://codedamn.com/certificate/verify/06af2a8639b5807b7b9a40ae0314fd17ae902f03" className="tile">
                     <img
-                        src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/06af2a8639b5807b7b9a40ae0314fd17ae902f03.jpeg"
+                        src="./webfundamentals.png"
                         alt="Course certificate for course on codedamn"
                     />
                 </a>
                 <a href="https://codedamn.com/certificate/verify/3ad9470f80a65aeb4f4a79bb59eaae1ef17604dd" className="tile">
                     <img
-                        src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/3ad9470f80a65aeb4f4a79bb59eaae1ef17604dd.jpeg"
+                        src="./javascript.png"
                         alt="Course certificate for course on codedamn"
                     />
                 </a>
@@ -119,13 +119,13 @@ const Resume = () => {
                 </a>
                 <a href="https://codedamn.com/certificate/verify/13f9f6093919f5285b1b2a81c08e8ac3b0f6a7fc" className="tile">
                     <img
-                        src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/13f9f6093919f5285b1b2a81c08e8ac3b0f6a7fc.jpeg"
+                        src="./advancedjs.png"
                         alt="Course certificate for course on codedamn"
                     />
                 </a>
                  <a href="https://codedamn.com/certificate/verify/c9fa32e0df939b831bbd74ed49d88b96f6b41d77" className="tile">
                 	<img
-                		src="https://s3.amazonaws.com/user-assets.codedamn.com/6465ccee275cf0000cf5eb6a/certificates/c9fa32e0df939b831bbd74ed49d88b96f6b41d77.jpeg"
+                		src="./githubactions.png"
                 		alt="Course certificate for course on codedamn"
                 	/>
                 </a>
