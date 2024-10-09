@@ -1126,7 +1126,7 @@ const Portfolio = () => {
                              Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
                              </p>  
 
-                             <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
+                             <button class="visit-website-btn" onClick={() => window.open('https://dsavis.vercel.app/', '_blank')}>
                             Visit Website
                             </button>
                              <p>
