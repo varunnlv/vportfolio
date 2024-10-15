@@ -206,7 +206,7 @@ font-size: 1rem;
   background: linear-gradient(transparent 0%, yellow 0%,yellow , transparent 100%);
   background-repeat: no-repeat;
   background-size: 0% 100%;
-  animation: drawHighlight 6s ease-in-out infinite; /* Total animation duration is 12 seconds */
+  animation: drawHighlight 4s ease-in-out infinite; /* Total animation duration is 12 seconds */
   display: inline-block;
   padding: 0 5px;
   border-radius: 8px; /* Rounded corners for the highlight */
