@@ -179,7 +179,7 @@ const Services = () => {
                         <p>OOPS</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="./vscode1.png" alt="Angular" /></div>
+                        <div className="icon-container"><img src="./Vscode.png" alt="Angular" /></div>
                         <p>VS Code</p>
                     </div>
                     <div className="skill">
@@ -199,7 +199,7 @@ const Services = () => {
                         <p>Docker</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="./websocket1.png" alt="Android" /></div>
+                        <div className="icon-container"><img src="./websocket.png" alt="Android" /></div>
                         <p>WebSocket</p>
                     </div>
 
