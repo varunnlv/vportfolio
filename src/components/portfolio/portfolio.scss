@@ -229,7 +229,7 @@ font-size: 1rem;
   background: linear-gradient(transparent 0%, yellow 0%, yellow 100%, transparent 100%);
   background-repeat: no-repeat;
   background-size: 0% 100%;
-  animation: drawHighlight 6s ease-in-out infinite; /* Total animation duration is 12 seconds */
+  animation: drawHighlight 4s ease-in-out infinite; /* Total animation duration is 12 seconds */
   display: inline-block;
   padding: 0 5px;
   border-radius: 8px; /* Rounded corners for the highlight */
@@ -240,87 +240,87 @@ font-size: 1rem;
 }
 
 .highlight-text:nth-child(2) {
-  animation-delay: 6s; /* Second span starts after the first completes */
+  animation-delay: 4s; /* Second span starts after the first completes */
 }
 
 .highlight-text:nth-child(3) {
-  animation-delay: 12s; /* Third span starts after the second completes */
+  animation-delay: 8s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(4) {
-  animation-delay: 18s; /* Third span starts after the second completes */
+  animation-delay: 12s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(5) {
-  animation-delay: 24s; /* Third span starts after the second completes */
+  animation-delay: 16s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(6) {
-  animation-delay: 30s; /* Third span starts after the second completes */
+  animation-delay: 20s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(7) {
-  animation-delay: 36s; /* Third span starts after the second completes */
+  animation-delay: 24s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(8) {
-  animation-delay: 42s; /* Third span starts after the second completes */
+  animation-delay: 28s; /* Third span starts after the second completes */
 }
 
 
 .highlight-text:nth-child(9) {
-  animation-delay: 48s; /* Third span starts after the second completes */
+  animation-delay: 32s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(10) {
-  animation-delay: 54s; /* Third span starts after the second completes */
+  animation-delay: 36s; /* Third span starts after the second completes */
 }
 
 
 .highlight-text:nth-child(11) {
-  animation-delay: 60s; /* Third span starts after the second completes */
+  animation-delay: 40s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(12) {
-  animation-delay: 66s; /* Third span starts after the second completes */
+  animation-delay: 44s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(13) {
-  animation-delay: 72s; /* Third span starts after the second completes */
+  animation-delay: 48s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(14) {
-  animation-delay: 78s; /* Third span starts after the second completes */
+  animation-delay: 52s; /* Third span starts after the second completes */
 }
 
 
 
 .highlight-text:nth-child(15) {
-  animation-delay: 84s; /* Third span starts after the second completes */
+  animation-delay: 56s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(16) {
-  animation-delay: 90s; /* Third span starts after the second completes */
+  animation-delay: 60s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(17) {
-  animation-delay: 96s; /* Third span starts after the second completes */
+  animation-delay: 64s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(18) {
-  animation-delay: 102s; /* Third span starts after the second completes */
+  animation-delay: 68s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(19) {
-  animation-delay: 108s; /* Third span starts after the second completes */
+  animation-delay: 72s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(20) {
-  animation-delay: 114s; /* Third span starts after the second completes */
+  animation-delay: 76s; /* Third span starts after the second completes */
 }
 
 .highlight-text:nth-child(21) {
-  animation-delay: 120s; /* Third span starts after the second completes */
+  animation-delay: 80s; /* Third span starts after the second completes */
 }
 
 
