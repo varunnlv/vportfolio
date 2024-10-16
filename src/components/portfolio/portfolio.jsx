@@ -35,6 +35,7 @@ const items = [
         id: 4,
         title: "Filmpire",
        images: [
+           "./PFW2.gif",
             "./VPORTFOLIO1.png",
             "./VPORTFOLIO2.png",
             "./VPORTFOLIO3.png",
@@ -45,6 +46,7 @@ const items = [
         id: 5,
         title: "Filmpire",
        images: [
+           "./PFWM.gif",
             "./PF1.png",
             "./PF2.png",
             "./PF3.png",
@@ -54,6 +56,7 @@ const items = [
         id: 6,
         title: "Filmpire",
        images: [
+           "./EXPTR.gif",
             "./ExTracker1.png",
             "./ExTracker2.png",
             "./ExTracker3.png",
@@ -63,6 +66,7 @@ const items = [
         id: 7,
         title: "Filmpire",
        images: [
+           "./FPIRE.gif",
             "./FLMPIRE1.png",
             "./FLMPIRE2.png",
             "./FLMPIRE3.png",
@@ -72,6 +76,7 @@ const items = [
         id: 8,
         title: "Filmpire",
        images: [
+           "./DSAVIZ.gif",
             "./DSAVIZ1.png",
             "./DSAVIZ2.png",
             "./DSAVIZ3.png",
