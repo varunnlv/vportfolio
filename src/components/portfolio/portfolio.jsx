@@ -1128,7 +1128,7 @@ const Portfolio = () => {
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}
                                 >
-                                  {items[3].images.map((image, index) => (
+                                  {items[7].images.map((image, index) => (
                                     <img key={index} src={image} alt="" />
                                   ))}
                                 </Slider>
