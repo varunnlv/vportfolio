@@ -137,16 +137,7 @@ const Portfolio = () => {
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
                 <div className="tabs-container">
                     <div className="tabs">
-                        {/* <button className="tab active">Stand Alone Project</button>
-                        <button className="tab">Stand Alone Project</button>
-                        <button className="tab">Web Development Project</button>
-                        <button className="tab">FilmBook</button>
-                        <button className="tab">Vportfolio</button>
-                        <button className="tab">portfoliom</button>
-                        <button className="tab">Expense Tracker</button>
-                        <button className="tab">Path Finder</button>
-                        <button className="tab">Credit Analyser</button>
-                        <button className="tab">more</button> */}
+  
 
                                 <button
                         className={`tab ${activeTab === 'Summary' ? 'active' : ''}`}
@@ -154,14 +145,6 @@ const Portfolio = () => {
                         >
                         Summary
                         </button>
-{/*                         <button
-                        className={`tab ${activeTab === 'StandAloneProject1' ? 'active' : ''}`}
-                        onClick={() => setActiveTab('StandAloneProject1')}
-                        >
-                        Stand Alone Project
-                        </button> */}
-
-
                          <button
                         className={`tab ${activeTab === 'FilmBook' ? 'active' : ''}`}
                         onClick={() => setActiveTab('FilmBook')}
@@ -385,7 +368,6 @@ const Portfolio = () => {
                 
             )}
 
-
               {activeTab === 'Worklogsystem' && (
                 <motion.div 
                 class="ui-container"
@@ -400,9 +382,11 @@ const Portfolio = () => {
                               <h2>Worklog System</h2>
                               <h3>Summary</h3>
                               <p>
-                                The Structural Design Automation System project has significantly enhanced my web development skills, particularly in utilizing the <b>React</b> framework to build a responsive and dynamic frontend. By implementing React, I gained hands-on experience in creating component-based user interfaces that enhance user engagement and interactivity. Additionally, I utilized <b>HTML</b>, <b>CSS</b>, <b>SCSS</b>, and <b>Tailwind CSS</b> to ensure a visually appealing and responsive design. The project incorporated <b>MongoDB</b> for data storage, providing me with insights into NoSQL databases and effective data management techniques. Utilizing <b>REST APIs</b> enabled me to render real-time graphical outputs, while the integration of <b>JavaFX Drawing APIs</b> offered valuable experience in rendering graphics in web applications. I also developed a secure <b>User Management</b> system that utilized <b>email services</b> for password recovery and <b>Apache POI and iText</b> for generating reports in various formats, further improving my skills in backend integration and data handling. This project not only solidified my understanding of full-stack development but also allowed me to apply best practices in a real-world context.                    
-                                This is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly web interface with User Management that automates the design process, enhancing efficiency and accuracy, and generating reports in different file formats.
-                              </p>  
+                                    The <b>Worklog System</b> project focuses on efficient project hours management, utilizing the <b>Angular</b> framework to deliver a dynamic and responsive frontend. Through Angular, I gained practical experience in creating component-based user interfaces, which significantly enhance user interaction. The system includes a <b>Kanban-style drag-and-drop</b> functionality that allows users to visually manage tasks and project workflows. To store and manage data, the project leverages <b>REST APIs</b>, offering seamless data interaction between the frontend and backend. 
+                                
+                                    Additionally, the Worklog System generates detailed <b>timesheet reports in Excel format</b>, providing insights into project hours and resource allocation. The project list is efficiently managed, ensuring that all current and past projects are easily accessible for quick reference. This system emphasizes modern web development practices, enhancing productivity and streamlining project management. 
+                                </p>
+
            
                              </div>
                           
@@ -463,10 +447,11 @@ const Portfolio = () => {
                         <div className="gallery-text">
                           <h2>Worklog System</h2>
                           <h3>Summary</h3>
-                            <p>
-                                The Structural Design Automation System project has significantly enhanced my web development skills, particularly in utilizing the <b>React</b> framework to build a responsive and dynamic frontend. By implementing React, I gained hands-on experience in creating component-based user interfaces that enhance user engagement and interactivity. Additionally, I utilized <b>HTML</b>, <b>CSS</b>, <b>SCSS</b>, and <b>Tailwind CSS</b> to ensure a visually appealing and responsive design. The project incorporated <b>MongoDB</b> for data storage, providing me with insights into NoSQL databases and effective data management techniques. Utilizing <b>REST APIs</b> enabled me to render real-time graphical outputs, while the integration of <b>JavaFX Drawing APIs</b> offered valuable experience in rendering graphics in web applications. I also developed a secure <b>User Management</b> system that utilized <b>email services</b> for password recovery and <b>Apache POI and iText</b> for generating reports in various formats, further improving my skills in backend integration and data handling. This project not only solidified my understanding of full-stack development but also allowed me to apply best practices in a real-world context.                    
-                                This is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly web interface with User Management that automates the design process, enhancing efficiency and accuracy, and generating reports in different file formats.
-                              </p>  
+                             <p>
+                                    The <b>Worklog System</b> project focuses on efficient project hours management, utilizing the <b>Angular</b> framework to deliver a dynamic and responsive frontend. Through Angular, I gained practical experience in creating component-based user interfaces, which significantly enhance user interaction. The system includes a <b>Kanban-style drag-and-drop</b> functionality that allows users to visually manage tasks and project workflows. To store and manage data, the project leverages <b>REST APIs</b>, offering seamless data interaction between the frontend and backend. 
+                                
+                                    Additionally, the Worklog System generates detailed <b>timesheet reports in Excel format</b>, providing insights into project hours and resource allocation. The project list is efficiently managed, ensuring that all current and past projects are easily accessible for quick reference. This system emphasizes modern web development practices, enhancing productivity and streamlining project management. 
+                                </p>
                             
                             
                         </div>
