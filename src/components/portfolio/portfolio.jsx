@@ -465,12 +465,12 @@ const Portfolio = () => {
                               
                             <div className="image-item" >
                                 <img 
-                                    src="./reactl.png" 
+                                    src="./Angular.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
                                 <div>
-                                    <b>React</b>   
+                                    <b>Angular</b>   
                                     <p>for building the frontend web application.</p>
                                 </div>
                                 
