@@ -1442,8 +1442,8 @@ const Portfolio = () => {
                              <h3>Summary</h3>
                               <p>
                                <b>Expense Tracker</b> is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
-                               This project showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.                            
-                             </p> 
+                               This project showcases my proficiency in <b>react routing</b> using <b>React</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                              </p> 
 
                              <button class="visit-website-btn" onClick={() => window.open('https://expense-v-tracker.netlify.app/', '_blank')}>
                                 Visit Website
@@ -1462,7 +1462,7 @@ const Portfolio = () => {
                                    <img src="./userm1.png" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                    <div>
                                        <b>User Management</b>   
-                                       <p>Secure login system to store and retrieve user profiles and their associated expenses.</p>
+                                       <p><span style={{ color: 'green', fontWeight: 'bold' }}>Secure login system </span> to store and retrieve user profiles and their associated expenses.</p>
                                    </div>
                                    
                                </div>
@@ -1470,7 +1470,7 @@ const Portfolio = () => {
                                     <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Expense Management</b> 
-                                       <p>Intuitive forms for users to input expense details, including date, category, amount, and description.</p>
+                                       <p><span style={{ color: 'green', fontWeight: 'bold' }}>Intuitive forms </span>for users to input expense details, including date, category, amount, and description.</p>
                                    </div>
                                    
                                </div>
@@ -1481,7 +1481,7 @@ const Portfolio = () => {
                                         <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Expense Retrieval</b> 
-                                        <p>Users can view and retrieve their past expenses after logging in.</p>
+                                        <p>Users can <span style={{ color: 'green', fontWeight: 'bold' }}>view and retrieve </span>their past expenses after logging in.</p>
                                     </div>
                                     
                                 </div>
@@ -1489,7 +1489,7 @@ const Portfolio = () => {
                                     <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Data Storage</b>
-                                        <p>Uses JSON Server to store user data and expenses, ensuring easy data management and retrieval.</p>
+                                        <p>Uses <span style={{ color: 'green', fontWeight: 'bold' }}>JSON Server</span> to store user data and expenses, ensuring easy data management and retrieval.</p>
                                     </div>
                                     
                                 </div>
@@ -1500,7 +1500,7 @@ const Portfolio = () => {
                                     <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Modern Design</b> 
-                                        <p>A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
+                                        <p>A <span style={{ color: 'green', fontWeight: 'bold' }}>sleek and responsive design</span> using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
                                     </div>
                                 </div>
                                     
@@ -1524,7 +1524,7 @@ const Portfolio = () => {
                              <h3>Summary</h3>
                              <p>
                                <b>Expense Tracker</b> is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
-                               This project showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                               This project showcases my proficiency in <b>react routing</b> using <b>React</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
                             
                              </p> 
 
