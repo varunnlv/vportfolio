@@ -491,7 +491,7 @@ const Portfolio = () => {
                                 
                             </div>
                             <div className="image-item">
-                                 <img src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                 <img src="./mongodb1.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
                                 <div>
                                     <b>MongoDB</b> 
                                     <p>NoSQL database for storing user data and project data.</p>
