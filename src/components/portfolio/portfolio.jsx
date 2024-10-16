@@ -480,7 +480,7 @@ const Portfolio = () => {
                               
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    src="./reactl.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -510,7 +510,7 @@ const Portfolio = () => {
                                 
                             </div>
                             <div className="image-item">
-                                <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                <img src="./mail.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                 <div>
                                     <b>Email Service</b> 
                                     <p>for forgot password recovery.</p>
