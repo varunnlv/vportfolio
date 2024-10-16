@@ -942,9 +942,9 @@ const Portfolio = () => {
                             <div className="gallery-text5">
                                 <h2>PORTFOLIOM</h2>
                                 <h3>Summary</h3>
-                                <p>
-                                The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
-                                </p>  
+                                       <p>
+                              This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation. This is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
+                             </p> 
 
                                 <button 
                                     class="visit-website-btn" 
@@ -952,11 +952,6 @@ const Portfolio = () => {
                                 >
                                     Visit Website
                                 </button>
-
-
-                                <p>
-                                This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
-                                </p> 
 
                             </div>
    
@@ -1029,7 +1024,7 @@ const Portfolio = () => {
 
                              <h3>Summary</h3>
                              <p>
-                             The Portfolio Project is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
+                              This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation. This is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
                              </p> 
 
                              <button 
@@ -1039,9 +1034,7 @@ const Portfolio = () => {
                                 Visit Website
                             </button>
 
-                             <p>
-                             This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
-                             </p> 
+                 
                                
                            </div>
 
