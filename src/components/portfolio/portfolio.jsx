@@ -35,7 +35,7 @@ const items = [
         id: 4,
         title: "Filmpire",
        images: [
-           "./PFW2.gif",
+           "./PFWM.gif",
             "./VPORTFOLIO1.png",
             "./VPORTFOLIO2.png",
             "./VPORTFOLIO3.png",
@@ -46,7 +46,7 @@ const items = [
         id: 5,
         title: "Filmpire",
        images: [
-           "./PFWM.gif",
+           "./PFW2.gif",
             "./PF1.png",
             "./PF2.png",
             "./PF3.png",
@@ -926,7 +926,7 @@ const Portfolio = () => {
                                   {...{
                                     ...settings, 
                                     autoplay: true,        // Enables automatic sliding
-                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    autoplaySpeed: 5000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}
                                 >
@@ -1115,7 +1115,7 @@ const Portfolio = () => {
                                   {...{
                                     ...settings, 
                                     autoplay: true,        // Enables automatic sliding
-                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    autoplaySpeed: 5000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}
                                 >
@@ -1277,7 +1277,7 @@ const Portfolio = () => {
                                 <Slider {...{
                                     ...settings, 
                                     autoplay: true,        // Enables automatic sliding
-                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    autoplaySpeed: 5000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}>
                                     {items[4].images.map((image, index) => (
@@ -1443,7 +1443,7 @@ const Portfolio = () => {
                                 <Slider {...{
                                     ...settings, 
                                     autoplay: true,        // Enables automatic sliding
-                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    autoplaySpeed: 5000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}>
                                     {items[5].images.map((image, index) => (
@@ -1641,7 +1641,7 @@ const Portfolio = () => {
                                 <Slider             {...{
                                     ...settings, 
                                     autoplay: true,        // Enables automatic sliding
-                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    autoplaySpeed: 5000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}>
                                     {items[6].images.map((image, index) => (
