@@ -1287,7 +1287,7 @@ const Portfolio = () => {
                                    <img src="./userm1.png" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                    <div>
                                        <b>Personal Information</b>   
-                                       <p>A section to display your personal details, including your bio, skills, and contact information.</p>
+                                       <p>A section to <span style={{ color: 'green', fontWeight: 'bold' }}>displayed personal details, including bio, skills, and contact information</span>.</p>
                                    </div>
                                    
                                </div>
@@ -1295,7 +1295,7 @@ const Portfolio = () => {
                                     <img src="./gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Projects Showcase</b> 
-                                       <p>Sections to highlight your personal and professional projects with descriptions and screenshots.</p>
+                                       <p>Sections to <span style={{ color: 'green', fontWeight: 'bold' }}>highlight your personal and professional projects </span> with descriptions and screenshots.</p>
                                    </div>
                                    
                                </div>
@@ -1306,7 +1306,7 @@ const Portfolio = () => {
                                         <img src="./canvas.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Interactive Elements</b> 
-                                        <p>Utilizes Framer Motion for interactive animations and transitions, enhancing the user experience.</p>
+                                        <p>Utilizes Framer Motion for <span style={{ color: 'green', fontWeight: 'bold' }}>interactive animations and transitions, enhancing the user experience</span>.</p>
                                     </div>
                                     
                                 </div>
@@ -1314,7 +1314,7 @@ const Portfolio = () => {
                                     <img src="./datam1.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Contact Form</b>
-                                        <p>Integrated contact form using Nodemailer for sending emails directly from the website.</p>
+                                        <p>Integrated contact form using Nodemailer for <span style={{ color: 'green', fontWeight: 'bold' }}>sending emails</span> directly from the website.</p>
                                     </div>
                                     
                                 </div>
@@ -1325,7 +1325,7 @@ const Portfolio = () => {
                                     <img src="./bitm.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Modern Design</b> 
-                                        <p>A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
+                                        <p>A <span style={{ color: 'green', fontWeight: 'bold' }}>sleek and responsive design</span> using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
                                     </div>
                                 </div>
                                     
