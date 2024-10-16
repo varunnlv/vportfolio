@@ -1110,7 +1110,7 @@ const Portfolio = () => {
                          <div className="gallery-content">
    
                             <div className="gallery-text5">
-                             <h2>PATH FINDER</h2>
+                             <h2>DSA VISUALIZER</h2>
 
 {/*                              <div class="slider-container">
                                 <Slider {...settings}>
@@ -1650,7 +1650,8 @@ const Portfolio = () => {
                              
                              <h3>Summary</h3>
                              <p>
-                             Filmbook is a real-time movie ticket booking website designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
+                             The Filmbook project is a highly responsive, real-time movie ticket booking platform designed to handle large-scale traffic while providing a seamless user experience. The platform is built using modern technologies like <b>React</b> for the frontend, ensuring sleek and responsive design, and <b>Spring Boot</b> in the backend to provide scalable, high-performance microservices architecture. To ensure real-time seat availability, <b>WebSocket</b> is used, and <b>state management</b> is efficiently handled using <b>Redux toolkit</b>, ensuring smooth interactions and data consistency across the system. A secure <b>User Management</b> system is integrated using MongoDB for storage, supporting login and profile management functionalities. Payment processing features are also integrated with retry mechanisms for failed transactions, along with a QR code-based e-ticket system for easy verification.
+                             This was designed with a robust architecture to handle high traffic and ensure seamless user experience. The platform leverages modern technologies to offer secure authentication, efficient state management, real-time seat updates, and scalable backend services.
                              </p> 
 
                              <div class="progress-label">
@@ -1660,10 +1661,6 @@ const Portfolio = () => {
                                 <button class="visit-website-btn" onClick={() => window.open('https://filmpire-v.netlify.app/', '_blank')}>
                                 Visit Website
                                 </button>
-
-                                <p>
-                                The Filmbook project is a highly responsive, real-time movie ticket booking platform designed to handle large-scale traffic while providing a seamless user experience. The platform is built using modern technologies like <b>React</b> for the frontend, ensuring sleek and responsive design, and <b>Spring Boot</b> in the backend to provide scalable, high-performance microservices architecture. To ensure real-time seat availability, <b>WebSocket</b> is used, and <b>state management</b> is efficiently handled using <b>Redux toolkit</b>, ensuring smooth interactions and data consistency across the system. A secure <b>User Management</b> system is integrated using MongoDB for storage, supporting login and profile management functionalities. Payment processing features are also integrated with retry mechanisms for failed transactions, along with a QR code-based e-ticket system for easy verification.
-                                </p> 
 
                             </div>
    
