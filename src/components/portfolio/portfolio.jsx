@@ -60,7 +60,7 @@ const items = [
         ],
     },
     {
-        id: 8,
+        id: 7,
         title: "DSAVisulaizer",
        images: [
             "./DSAVIZ1.png",
@@ -1111,7 +1111,7 @@ const Portfolio = () => {
                                     autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}>
-                                    {items[8].images.map((image, index) => (
+                                    {items[7].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
