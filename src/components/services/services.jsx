@@ -223,7 +223,7 @@ const Services = () => {
                         <p>Maven</p>
                     </div>
                     <div className="skill">
-                        <div className="icon-container"><img src="./juint1.png" alt="Android" /></div>
+                        <div className="icon-container"><img src="./junit6.png" alt="Android" /></div>
                         <p>JUnit</p>
                     </div>
                     <div className="skill">
