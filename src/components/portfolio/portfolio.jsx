@@ -1668,7 +1668,7 @@ const Portfolio = () => {
                                 <div className="image-row">
                                  
                                <div className="image-item" >
-                                   <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                   <img src="./userman.png" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                    <div>
                                        <b>User Management</b>   
                                        <p>Secure <span style={{ color: 'green', fontWeight: 'bold' }}>login system</span> to store and retrieve user profiles and their associated account details.</p>
@@ -1676,7 +1676,7 @@ const Portfolio = () => {
                                    
                                </div>
                                <div className="image-item">
-                                    <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <img src="./realtimeseatupdates.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Real-Time Seat Updates</b> 
                                        <p>The system provides <span style={{ color: 'green', fontWeight: 'bold' }}>real-time updates on seat availability</span> using <span style={{ color: 'green', fontWeight: 'bold' }}>websocket</span> to ensure accurate booking information.</p>
@@ -1687,7 +1687,7 @@ const Portfolio = () => {
                                 <div className="image-row">
                                     
                                 <div className="image-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/3344/3344704.png" alt="JavaFX" style={{ width: '40px', height: '40px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                        <img src="./dataman.png" alt="JavaFX" style={{ width: '40px', height: '40px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Efficient data Management</b> 
                                         <p>Utilizes advanced <span style={{ color: 'green', fontWeight: 'bold' }}>state management</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>Redux toolkit</span> techniques to ensure smooth user interactions and data consistency.</p>
@@ -1695,7 +1695,7 @@ const Portfolio = () => {
                                     
                                 </div>
                                 <div className="image-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3668/3668474.png" alt="JavaFX" style={{ width: '40px', height: '40px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <img src="./scalablebackend.png" alt="JavaFX" style={{ width: '40px', height: '40px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Scalable Backend</b>
                                         <p>The backend services using Spring Boot are designed to handle high traffic and scale according to demand by following <span style={{ color: 'green', fontWeight: 'bold' }}>Microservices architecture</span>.</p>
@@ -1707,7 +1707,7 @@ const Portfolio = () => {
                                 <div className="image-row">
                                     
                                 <div className="image-item">
-                                        <img src="https://www.pngitem.com/pimgs/m/353-3532433_payment-gateway-payment-gateways-icon-png-transparent-png.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                        <img src="./payment.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Payment Integration and Retry mechanism</b> 
                                         <p>integrated payment for movie tickets in <span style={{ color: 'green', fontWeight: 'bold' }}>payment service providers</span> and includes <span style={{ color: 'green', fontWeight: 'bold' }}>Payment failure retry mecahnism</span> if anything goes wrong while transacting.</p>
@@ -1715,7 +1715,7 @@ const Portfolio = () => {
                                     
                                 </div>
                                 <div className="image-item">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Responsive_Web_Design_Logo.svg/1024px-Responsive_Web_Design_Logo.svg.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <img src="./Responsive.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Responsive Design</b> 
                                         <p>A<span style={{ color: 'green', fontWeight: 'bold' }}> sleek and responsive design </span>using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
@@ -1726,7 +1726,7 @@ const Portfolio = () => {
                                 <div className="experience">
                                 <div className="experience-text">
         
-                                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <img src="./gmail.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Notification Service</b> 
                                         <p>Able to generate movie ticket after successful payment as <span style={{ color: 'green', fontWeight: 'bold' }}>QR code</span> and it will be sent as <span style={{ color: 'green', fontWeight: 'bold' }}> E-ticket mail as a confirmation</span>.</p>
@@ -1765,7 +1765,7 @@ const Portfolio = () => {
                               
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    src="./reactl.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -1778,7 +1778,7 @@ const Portfolio = () => {
 
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
+                                    src="./JavaScriptl.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -1794,7 +1794,7 @@ const Portfolio = () => {
 
                                 <div className="image-item">
                                   <img 
-                                    src="https://static-00.iconduck.com/assets.00/react-router-icon-2048x1116-jfeevj0l.png" 
+                                    src="./reactrouterl.png" 
                                     alt="HTML,CSS,SCSS,TAILWIND" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
                                     />
@@ -1807,7 +1807,7 @@ const Portfolio = () => {
                               
                                <div className="image-item">
                                   <img 
-                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    src="./csshtml.png" 
                                     alt="HTML,CSS,SCSS,TAILWIND" 
                                     style={{ width: '54px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
                                     />
