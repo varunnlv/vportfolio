@@ -921,11 +921,20 @@ const Portfolio = () => {
                 >
            
                     <div class="slider-container">
-                                <Slider {...settings}>
-                                    {items[3].images.map((image, index) => (
-                                        <img key={index} src={image} alt="" />
-                                    ))}
+
+                                <Slider 
+                                  {...{
+                                    ...settings, 
+                                    autoplay: true,        // Enables automatic sliding
+                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    infinite: true,        // Allows the slider to loop infinitely
+                                  }}
+                                >
+                                  {items[3].images.map((image, index) => (
+                                    <img key={index} src={image} alt="" />
+                                  ))}
                                 </Slider>
+
                     </div>     
 
                     <div className="small-gallery-container">
@@ -1112,13 +1121,18 @@ const Portfolio = () => {
                             <div className="gallery-text5">
                              <h2>DSA VISUALIZER</h2>
 
-{/*                              <div class="slider-container">
-                                <Slider {...settings}>
+                             <div class="slider-container">
+                                <Slider {...{
+                                    ...settings, 
+                                    autoplay: true,        // Enables automatic sliding
+                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    infinite: true,        // Allows the slider to loop infinitely
+                                  }}>
                                     {items[3].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
-                             </div>      */}
+                             </div>     
 
                              
                              <h3>Summary</h3>
@@ -1173,16 +1187,7 @@ const Portfolio = () => {
 
 
                            <div className="gallery-text">
-                             <h2>DSA VISUALIZER</h2>
-
-{/*                              <div class="slider-container">
-                                <Slider {...settings}>
-                                    {items[3].images.map((image, index) => (
-                                        <img key={index} src={image} alt="" />
-                                    ))}
-                                </Slider>
-                            </div>      */}
-                             
+                             <h2>DSA VISUALIZER</h2>                        
                              <h3>Summary</h3>
                              <p>
                              Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
@@ -1265,7 +1270,12 @@ const Portfolio = () => {
                 >
     
                     <div class="slider-container">
-                                <Slider {...settings}>
+                                <Slider {...{
+                                    ...settings, 
+                                    autoplay: true,        // Enables automatic sliding
+                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    infinite: true,        // Allows the slider to loop infinitely
+                                  }}>
                                     {items[4].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
@@ -1443,7 +1453,12 @@ const Portfolio = () => {
                 >
         
                     <div class="slider-container">
-                                <Slider {...settings}>
+                                <Slider {...{
+                                    ...settings, 
+                                    autoplay: true,        // Enables automatic sliding
+                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    infinite: true,        // Allows the slider to loop infinitely
+                                  }}>
                                     {items[5].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
