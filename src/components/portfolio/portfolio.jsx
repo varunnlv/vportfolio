@@ -502,7 +502,7 @@ const Portfolio = () => {
                           <div className="image-row">
                               
                             <div className="image-item">
-                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                <img src="./rest.png" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                 <div>
                                     <b>Rest Api</b>                         
                                     <p>for rendering real-time graphical outputs on the canvas.</p>
@@ -669,7 +669,7 @@ const Portfolio = () => {
                              <div className="image-row">
                                  
                                <div className="image-item">
-                                   <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                   <img src="./rest.png" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                    <div>
                                        <b>Rest Api</b>                         
                                        <p>ffor rendering real-time graphical outputs on the canvas.</p>
@@ -851,7 +851,7 @@ const Portfolio = () => {
                           <div className="image-row">
                               
                             <div className="image-item">
-                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                <img src="./rest.png" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                 <div>
                                     <b>Rest Api</b>                         
                                     <p>for rendering real-time graphical outputs on the canvas.</p>
