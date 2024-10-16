@@ -386,7 +386,7 @@ const Portfolio = () => {
             )}
 
 
-              {activeTab === 'WorklogSystem' && (
+              {activeTab === 'Worklogsystem' && (
                 <motion.div 
                 class="ui-container"
                 variants={textVariants}
@@ -1117,18 +1117,24 @@ const Portfolio = () => {
                 initial="initial"
                 whileInView="animate"
                 >
-                     <div class="slider-container">
-                                <Slider {...{
+
+                       <div class="slider-container">
+
+                                <Slider 
+                                  {...{
                                     ...settings, 
                                     autoplay: true,        // Enables automatic sliding
                                     autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
-                                  }}>
-                                    {items[8].images.map((image, index) => (
-                                        <img key={index} src={image} alt="" />
-                                    ))}
+                                  }}
+                                >
+                                  {items[3].images.map((image, index) => (
+                                    <img key={index} src={image} alt="" />
+                                  ))}
                                 </Slider>
-                        </div>   
+
+                    </div>     
+                   
 
                     <div className="small-gallery-container">
                          <div className="gallery-content">
