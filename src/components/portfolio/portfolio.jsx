@@ -60,12 +60,17 @@ const items = [
         ],
     },
     {
-        id: 7,
-        title: "Filmpire",
+        id: 8,
+        title: "DSAVisulaizer",
        images: [
-            "./FLMPIRE1.png",
-            "./FLMPIRE2.png",
-            "./FLMPIRE3.png",
+            "./DSAVIZ1.png",
+            "./DSAVIZ2.png",
+            "./DSAVIZ3.png",
+            "./DSAVIZ4.png",
+            "./DSAVIZ5.png",
+            "./DSAVIZ6.png",
+            "./DSAVIZ7.png",
+            "./DSAVIZ8.png",
         ],
     },
 ];
