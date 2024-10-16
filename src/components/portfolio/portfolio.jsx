@@ -61,7 +61,16 @@ const items = [
     },
     {
         id: 7,
-        title: "DSAVisulaizer",
+        title: "Filmpire",
+       images: [
+            "./FLMPIRE1.png",
+            "./FLMPIRE2.png",
+            "./FLMPIRE3.png",
+        ],
+    },
+    {
+        id: 8,
+        title: "Filmpire",
        images: [
             "./DSAVIZ1.png",
             "./DSAVIZ2.png",
@@ -1115,7 +1124,7 @@ const Portfolio = () => {
                                     autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}>
-                                    {items[7].images.map((image, index) => (
+                                    {items[8].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
