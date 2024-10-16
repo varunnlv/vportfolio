@@ -1563,7 +1563,7 @@ const Portfolio = () => {
                               
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    src="./reactl.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -1576,7 +1576,7 @@ const Portfolio = () => {
 
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    src="./JavaScriptl.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -1592,7 +1592,7 @@ const Portfolio = () => {
 
                                 <div className="image-item">
                                   <img 
-                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    src="./reactrouterl.png" 
                                     alt="HTML,CSS,SCSS,TAILWIND" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
                                     />
@@ -1605,9 +1605,9 @@ const Portfolio = () => {
                               
                                <div className="image-item">
                                   <img 
-                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    src="./csshtml.png" 
                                     alt="HTML,CSS,SCSS,TAILWIND" 
-                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
+                                    style={{ width: '54px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
                                     />
                                     <div>
                                         <b>HTML & CSS</b>
