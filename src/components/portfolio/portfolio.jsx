@@ -382,7 +382,7 @@ const Portfolio = () => {
                               <h2>Worklog System</h2>
                               <h3>Summary</h3>
                               <p>
-                                    The <b>Worklog System</b> project focuses on efficient project hours management, utilizing the <b>Angular</b> framework to deliver a dynamic and responsive frontend. Through Angular, I gained practical experience in creating component-based user interfaces, which significantly enhance user interaction. The system includes a <b>Kanban-style drag-and-drop</b> functionality that allows users to visually manage tasks and project workflows. To store and manage data, the project leverages <b>REST APIs</b>, offering seamless data interaction between the frontend and backend. 
+                                    The <b>Worklog System</b> project focuses on efficient project hours management, utilizing the <b>Angular</b> framework to deliver a dynamic and responsive frontend. Through Angular, I gained practical experience in creating component-based user interfaces, which significantly enhance user interaction. The system includes a <b> drag-and-drop</b> functionality that allows users to visually manage tasks and project workflows. To store and manage data, the project leverages <b>REST APIs</b>, offering seamless data interaction between the frontend and backend. 
                                 
                                     Additionally, the Worklog System generates detailed <b>timesheet reports in Excel format</b>, providing insights into project hours and resource allocation. The project list is efficiently managed, ensuring that all current and past projects are easily accessible for quick reference. This system emphasizes modern web development practices, enhancing productivity and streamlining project management. 
                                 </p>
@@ -448,7 +448,7 @@ const Portfolio = () => {
                           <h2>Worklog System</h2>
                           <h3>Summary</h3>
                              <p>
-                                    The <b>Worklog System</b> project focuses on efficient project hours management, utilizing the <b>Angular</b> framework to deliver a dynamic and responsive frontend. Through Angular, I gained practical experience in creating component-based user interfaces, which significantly enhance user interaction. The system includes a <b>Kanban-style drag-and-drop</b> functionality that allows users to visually manage tasks and project workflows. To store and manage data, the project leverages <b>REST APIs</b>, offering seamless data interaction between the frontend and backend. 
+                                    The <b>Worklog System</b> project focuses on efficient project hours management, utilizing the <b>Angular</b> framework to deliver a dynamic and responsive frontend. Through Angular, I gained practical experience in creating component-based user interfaces, which significantly enhance user interaction. The system includes a <b>drag-and-drop</b> functionality that allows users to visually manage tasks and project workflows. To store and manage data, the project leverages <b>REST APIs</b>, offering seamless data interaction between the frontend and backend. 
                                 
                                     Additionally, the Worklog System generates detailed <b>timesheet reports in Excel format</b>, providing insights into project hours and resource allocation. The project list is efficiently managed, ensuring that all current and past projects are easily accessible for quick reference. This system emphasizes modern web development practices, enhancing productivity and streamlining project management. 
                                 </p>
@@ -955,7 +955,7 @@ const Portfolio = () => {
                                 <div className="image-row">
                                  
                                <div className="image-item" >
-                                   <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                   <img src="./userm1.png" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                    <div>
                                        <b>Personal Information</b>   
                                        <p>A section to display your personal details, including your bio, skills, and contact information.</p>
@@ -963,7 +963,7 @@ const Portfolio = () => {
                                    
                                </div>
                                <div className="image-item">
-                                    <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <img src="./gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Projects Showcase</b> 
                                        <p>Sections to highlight your personal and professional projects with descriptions and screenshots.</p>
@@ -974,7 +974,7 @@ const Portfolio = () => {
                                 <div className="image-row">
                                     
                                 <div className="image-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                        <img src="./canvas.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Interactive Elements</b> 
                                         <p>Utilizes Framer Motion for interactive animations and transitions, enhancing the user experience.</p>
@@ -982,7 +982,7 @@ const Portfolio = () => {
                                     
                                 </div>
                                 <div className="image-item">
-                                    <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <img src="./datam1.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Contact Form</b>
                                         <p>Integrated contact form using Nodemailer for sending emails directly from the website.</p>
@@ -993,7 +993,7 @@ const Portfolio = () => {
                                 <div className="experience">
                                 <div className="experience-text">
         
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <img src="./bitm.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Modern Design</b> 
                                         <p>A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
@@ -1004,7 +1004,7 @@ const Portfolio = () => {
                                 <div className="experience">
                                 <div className="experience-text">
         
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <img src="./bitm.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Detailed Descriptions</b> 
                                         <p>In-depth explanations of the features, technologies used, challenges faced, and solutions implemented for each project.</p>
@@ -1142,7 +1142,7 @@ const Portfolio = () => {
                                <div className="image-row">
                                  
                                <div className="image-item">
-                                    <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <img src="./gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Interactive Grid Board</b> 
                                        <p>Users can click to set start and end points <span style={{ color: 'green', fontWeight: 'bold' }}>visually</span>.</p>
@@ -1284,7 +1284,7 @@ const Portfolio = () => {
                                 <div className="image-row">
                                  
                                <div className="image-item" >
-                                   <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                   <img src="./userm1.png" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                    <div>
                                        <b>Personal Information</b>   
                                        <p>A section to display your personal details, including your bio, skills, and contact information.</p>
@@ -1292,7 +1292,7 @@ const Portfolio = () => {
                                    
                                </div>
                                <div className="image-item">
-                                    <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <img src="./gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Projects Showcase</b> 
                                        <p>Sections to highlight your personal and professional projects with descriptions and screenshots.</p>
@@ -1303,7 +1303,7 @@ const Portfolio = () => {
                                 <div className="image-row">
                                     
                                 <div className="image-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                        <img src="./canvas.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Interactive Elements</b> 
                                         <p>Utilizes Framer Motion for interactive animations and transitions, enhancing the user experience.</p>
@@ -1311,7 +1311,7 @@ const Portfolio = () => {
                                     
                                 </div>
                                 <div className="image-item">
-                                    <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <img src="./datam1.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Contact Form</b>
                                         <p>Integrated contact form using Nodemailer for sending emails directly from the website.</p>
@@ -1322,7 +1322,7 @@ const Portfolio = () => {
                                 <div className="experience">
                                 <div className="experience-text">
         
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <img src="./bitm.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Modern Design</b> 
                                         <p>A sleek and responsive design using React, HTML, and CSS to ensure a seamless user experience across devices.</p>
@@ -1333,7 +1333,7 @@ const Portfolio = () => {
                                 <div className="experience">
                                 <div className="experience-text">
         
-                                    <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                    <img src="./bitm.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Output Formats</b> 
                                         <p>Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.</p>
