@@ -1129,17 +1129,15 @@ const Portfolio = () => {
 
                              
                              <h3>Summary</h3>
-                             <p>
-                             Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
-                             </p>  
+                                         <p>
+                              The Data Structure & Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
+                              This is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
+                             </p>
 
                              <button class="visit-website-btn" onClick={() => window.open('https://dsavis.vercel.app/', '_blank')}>
                             Visit Website
                             </button>
-                             <p>
-                             The Path Finder Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
-                             </p> 
-
+                          
                             </div>
         
                            <div className="gallery-images">
@@ -1183,16 +1181,13 @@ const Portfolio = () => {
                              <h2>DSA VISUALIZER</h2>                        
                              <h3>Summary</h3>
                              <p>
-                             Path Finder Algorithm Visualizer is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
+                              The Data Structure & Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
+                              This is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
                              </p>
 
                              <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
                                 Visit Website
-                            </button>
-
-                             <p>
-                             The Path Finder Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
-                             </p> 
+                            </button>                  
                                
                            </div>
                          </div>
@@ -1205,7 +1200,7 @@ const Portfolio = () => {
                               
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    src="./reactl.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -1218,7 +1213,7 @@ const Portfolio = () => {
 
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    src="./Javascriptl.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -1280,14 +1275,10 @@ const Portfolio = () => {
                             <div className="gallery-text5">
                                 <h2>VPORTFOLIO</h2>
                                 <h3>Summary</h3>
-                                <p>
-                                The Portfolio Website is a personal web-based application designed to showcase your personal and professional information, projects, and skills. It provides a platform to display project details with screenshots and interactive features to engage visitors.
-                                </p>  
-
-                                <p>
+                                  <p>
                                 This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
-                                </p> 
-
+                                This is a personal web-based application designed to showcase your personal and professional information, projects, and skills. It provides a platform to display project details with screenshots and interactive features to engage visitors.
+                             </p>       
                             </div>
    
                     
@@ -1356,24 +1347,11 @@ const Portfolio = () => {
 
                            <div className="gallery-text">
                              <h2>VPORTFOLIO</h2>
-
-                             {/* <div class="slider-container">
-                                <Slider {...settings}>
-                                    {items[4].images.map((image, index) => (
-                                        <img key={index} src={image} alt="" />
-                                    ))}
-                                </Slider>
-                             </div>    */}
-
                              <h3>Summary</h3>
                              <p>
-                                The Portfolio Website is a personal web-based application designed to showcase your personal and professional information, projects, and skills. It provides a platform to display project details with screenshots and interactive features to engage visitors.
-                             </p> 
-
-                             <p>
-                             This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
-                             </p> 
-                               
+                                This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                                This is a personal web-based application designed to showcase your personal and professional information, projects, and skills. It provides a platform to display project details with screenshots and interactive features to engage visitors.
+                             </p>                   
                            </div>
 
                          </div>
@@ -1386,7 +1364,7 @@ const Portfolio = () => {
                               
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    src="./react.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -1399,7 +1377,7 @@ const Portfolio = () => {
 
                             <div className="image-item" >
                                 <img 
-                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    src="./Javascriptl.png" 
                                     alt="React" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
@@ -1415,7 +1393,7 @@ const Portfolio = () => {
                               
                                <div className="image-item">
                                   <img 
-                                    src="https://cdn.sanity.io/images/ss02266c/production/f8270046c337979534b32edb529a2c9603765955-64x64.svg" 
+                                    src="./csshtml.png" 
                                     alt="HTML,CSS,SCSS,TAILWIND" 
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
                                     />
@@ -1644,7 +1622,12 @@ const Portfolio = () => {
                 >
         
                     <div class="slider-container">
-                                <Slider {...settings}>
+                                <Slider             {...{
+                                    ...settings, 
+                                    autoplay: true,        // Enables automatic sliding
+                                    autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
+                                    infinite: true,        // Allows the slider to loop infinitely
+                                  }}>
                                     {items[6].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
