@@ -958,7 +958,7 @@ const Portfolio = () => {
                                    <img src="./userm1.png" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                    <div>
                                        <b>Personal Information</b>   
-                                       <p>A section that <span style={{ color: 'green', fontWeight: 'bold' }}>displayed personal details, including bio, skills, and contact information</span>.</p>
+                                       <p>A section that displayed personal details, including bio, skills, and contact information.</p>
                                    </div>
                                    
                                </div>
@@ -966,7 +966,7 @@ const Portfolio = () => {
                                     <img src="./gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Projects Showcase</b> 
-                                       <p>Sections that <span style={{ color: 'green', fontWeight: 'bold' }}>highlighted personal and professional projects </span> with descriptions and screenshots.</p>
+                                       <p>Sections that highlighted personal and professional projects with descriptions and screenshots.</p>
                                    </div>
                                    
                                </div>
@@ -977,7 +977,7 @@ const Portfolio = () => {
                                         <img src="./canvas.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Interactive Elements</b> 
-                                        <p>Utilizes Framer Motion for interactive <span style={{ color: 'green', fontWeight: 'bold' }}>animations and transitions, enhancing the user experience </span>.</p>
+                                        <p>Utilizes Framer Motion for interactive <span style={{ color: 'green', fontWeight: 'bold' }}>animations and transitions</span>, enhancing the user experience.</p>
                                     </div>
                                     
                                 </div>
@@ -1007,7 +1007,7 @@ const Portfolio = () => {
                                     <img src="./bitm.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                     <div>
                                         <b>Detailed Descriptions</b> 
-                                        <p><span style={{ color: 'green', fontWeight: 'bold' }}>In-depth explanations of the features, technologies used, challenges faced, and solutions implemented </span>for each project.</p>
+                                        <p><span style={{ color: 'green', fontWeight: 'bold' }}>In-depth explanations </span> of the features, technologies used, challenges faced, and solutions implemented for each project.</p>
                                     </div>
                                 </div>
                                     
@@ -1283,11 +1283,11 @@ const Portfolio = () => {
                            <div className="gallery-images">
                                 <div className="image-row">
                                  
-                               <div className="image-item" >
+                                <div className="image-item" >
                                    <img src="./userm1.png" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                    <div>
                                        <b>Personal Information</b>   
-                                       <p>A section that <span style={{ color: 'green', fontWeight: 'bold' }}>displayed personal details, including bio, skills, and contact information</span>.</p>
+                                       <p>A section that displayed personal details, including bio, skills, and contact information.</p>
                                    </div>
                                    
                                </div>
@@ -1295,7 +1295,7 @@ const Portfolio = () => {
                                     <img src="./gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Projects Showcase</b> 
-                                       <p>Sections that <span style={{ color: 'green', fontWeight: 'bold' }}>highlighted personal and professional projects </span> with descriptions and screenshots.</p>
+                                       <p>Sections that highlighted personal and professional projects with descriptions and screenshots.</p>
                                    </div>
                                    
                                </div>
@@ -1306,7 +1306,7 @@ const Portfolio = () => {
                                         <img src="./canvas.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Interactive Elements</b> 
-                                        <p>Utilizes Framer Motion for <span style={{ color: 'green', fontWeight: 'bold' }}>interactive animations and transitions, enhancing the user experience</span>.</p>
+                                        <p>Utilizes Framer Motion for <span style={{ color: 'green', fontWeight: 'bold' }}>interactive animations and transitions </span>, enhancing the user experience.</p>
                                     </div>
                                     
                                 </div>
