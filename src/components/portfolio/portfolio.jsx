@@ -1110,7 +1110,7 @@ const Portfolio = () => {
                                     autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}>
-                                    {items[4].images.map((image, index) => (
+                                    {items[8].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
