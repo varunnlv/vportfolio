@@ -377,7 +377,7 @@ const Portfolio = () => {
             )}
 
 
-             {activeTab === 'Worklogsystem' && (
+              {activeTab === 'WorklogSystem' && (
                 <motion.div 
                 class="ui-container"
                 variants={textVariants}
@@ -419,14 +419,6 @@ const Portfolio = () => {
                           </div>
                           <div className="image-row">
                               
-                           <div className="experience-text">
-    
-                                <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
-                                <div>
-                                    <b>Api Management</b> 
-                                    <p>Ability to genbrate design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation as response by taking inputs as request.</p>
-                                </div>
-                            </div>
                             <div className="image-item">
                                 <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                 <div>
@@ -436,7 +428,17 @@ const Portfolio = () => {
                                 
                             </div>
                           </div>
-                          <div className="experience">                         
+                          <div className="experience">
+                            <div className="experience-text">
+    
+                                <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                <div>
+                                    <b>Api Management</b> 
+                                    <p>Ability to genbrate design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation as response by taking inputs as request.</p>
+                                </div>
+                            </div>
+                              
+                          </div>                 
                           <div className="experience">
                             <div className="experience-text">
     
@@ -474,7 +476,7 @@ const Portfolio = () => {
                                     style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
                                 />
                                 <div>
-                                    <b>Angular</b>   
+                                    <b>React</b>   
                                     <p>for building the frontend web application.</p>
                                 </div>
                                 
@@ -507,6 +509,9 @@ const Portfolio = () => {
                                 
                             </div>
                           </div>
+    
+                      
+    
                          <div className="image-row">
                               
                                <div className="image-item">
@@ -528,7 +533,6 @@ const Portfolio = () => {
                        
                       </div>
                     </div>
-                        </div>
 
                 </motion.div>
             )}
