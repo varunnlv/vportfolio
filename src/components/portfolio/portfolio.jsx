@@ -1100,27 +1100,24 @@ const Portfolio = () => {
                 initial="initial"
                 whileInView="animate"
                 >
-
-                    <div className="small-gallery-container">
-                         <div className="gallery-content">
-   
-                            <div className="gallery-text5">
-                             <h2>DSA VISUALIZER</h2>
-
-                             <div class="slider-container">
+                     <div class="slider-container">
                                 <Slider {...{
                                     ...settings, 
                                     autoplay: true,        // Enables automatic sliding
                                     autoplaySpeed: 3000,   // Time between slides in milliseconds (3 seconds)
                                     infinite: true,        // Allows the slider to loop infinitely
                                   }}>
-                                    {items[3].images.map((image, index) => (
+                                    {items[4].images.map((image, index) => (
                                         <img key={index} src={image} alt="" />
                                     ))}
                                 </Slider>
-                             </div>     
+                        </div>   
 
-                             
+                    <div className="small-gallery-container">
+                         <div className="gallery-content">
+   
+                            <div className="gallery-text5">
+                             <h2>DSA VISUALIZER</h2>                    
                              <h3>Summary</h3>
                                          <p>
                               The Data Structure & Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
@@ -1435,17 +1432,16 @@ const Portfolio = () => {
                             <h2>EXPENSE TRACKER</h2>
                              
                              <h3>Summary</h3>
-                             <p>
-                             Expense Tracker is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
+                              <p>
+                               <b>Expense Tracker</b> is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
+                               This project showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.                            
                              </p> 
 
                              <button class="visit-website-btn" onClick={() => window.open('https://expense-v-tracker.netlify.app/', '_blank')}>
                                 Visit Website
-                                </button>
+                            </button>
 
-                                <p>
-                                This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
-                                </p> 
+                             
 
                             </div>
    
@@ -1519,17 +1515,15 @@ const Portfolio = () => {
                              
                              <h3>Summary</h3>
                              <p>
-                             Expense Tracker is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
+                               <b>Expense Tracker</b> is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
+                               This project showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                            
                              </p> 
 
                              <button class="visit-website-btn" onClick={() => window.open('https://expense-v-tracker.netlify.app/', '_blank')}>
                                 Visit Website
                                 </button>
-
-                             <p>
-                             This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
-                             </p> 
-                               
+                     
                            </div>
 
                         </div>
@@ -1606,6 +1600,10 @@ const Portfolio = () => {
                 </motion.div>
             )}
 
+
+
+
+            
             {activeTab === 'FilmBook' && (
                  <motion.div 
                 class="ui-container"
@@ -1813,61 +1811,7 @@ const Portfolio = () => {
                 </motion.div>
             )}
 
-            {activeTab === 'VKANBAN' && (
-                 <motion.div 
-                class="ui-container"
-                variants={textVariants}
-                initial="initial"
-                whileInView="animate"
-                >
            
-                    <div class="slider-container">
-                            <Slider {...settings}>
-                                {items[2].images.map((image, index) => (
-                                    <img key={index} src={image} alt="" />
-                                ))}
-                            </Slider>
-                    </div>
-                    <h2 style={{ marginTop: '20px' }}>VKANBAN</h2>
-    
-                    <button class="visit-website-btn" onClick={() => window.open('https://varunnlv.github.io/vprojecttracker/', '_blank')}>
-                    Visit Website
-                    </button>
-                        
-                    <div id="projectSectionh6" className="hidden fade-in-top" style={{ marginTop: '20px' }}>
-                        <h3 style={{ marginTop: '20px' }}>Summary</h3>
-                        <p className="card-text">
-                            VKANBAN is a static UI website designed to provide a visual task management system using the Kanban methodology. Similar to Jira, this application allows users to drag tasks between columns to track their status, making it easy to manage and visualize workflow.
-                        </p>
-                    
-                        <h3 style={{ marginTop: '20px' }}>Features</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>Task Management:</b> Users can create tasks with descriptions and assign them to columns representing different stages of a workflow (e.g., To Do, In Progress, Done).
-                            </li>
-                            <li>
-                                <b>Drag and Drop:</b> Tasks can be dragged and dropped between columns to update their status.
-                            </li>
-                            <li>
-                                <b>Dynamic UI:</b> The interface updates in real-time to reflect the current status of tasks.
-                            </li>
-                        </ul>
-                    
-                        <h3 style={{ marginTop: '20px' }}>Technologies Used</h3>
-                        <ul style={{ marginTop: '20px' }}>
-                            <li>
-                                <b>HTML & CSS:</b> For structuring and styling the web pages.
-                            </li>
-                            <li>
-                                <b>JavaScript:</b> For adding dynamic functionality, such as enabling drag-and-drop interactions and handling user input.
-                            </li>
-                        </ul>
-                    </div>
-
-         
-                </motion.div>
-            )}
-
             {activeTab === 'more' && (
                  <motion.div 
                 class="ui-container"
