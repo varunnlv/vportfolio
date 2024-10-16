@@ -1153,7 +1153,7 @@ const Portfolio = () => {
                                </div>
 
                                <div className="image-item">
-                                   <img src="./speed.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                   <img src="./speed1.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Animation Speed Control</b> 
                                        <p>Allows users to control the <span style={{ color: 'green', fontWeight: 'bold' }}>speed of the visualization.</span>.</p>
