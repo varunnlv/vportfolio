@@ -1151,6 +1151,15 @@ const Portfolio = () => {
                                    </div>
                                    
                                </div>
+
+                               <div className="image-item">
+                                   <div>
+                                       <b>Animation Speed Control</b> 
+                                       <p>Allows users to control the <span style={{ color: 'green', fontWeight: 'bold' }}>speed of the visualization.</span>.</p>
+                                   </div>
+                                   
+                               </div>
+                                   
                              </div>
                         
                              <div className="experience">
@@ -1158,7 +1167,7 @@ const Portfolio = () => {
     
                                    <div>
                                        <b>Search Algorithms</b> 
-                                       <p>Implement and visualize various pathfinding algorithms such as <span style={{ color: 'green', fontWeight: 'bold' }}>Dijkstra’s Algorithm</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>Depth-First Search (DFS)</span>.</p>
+                                       <p>Implement and visualize various search algorithms such as <span style={{ color: 'green', fontWeight: 'bold' }}>Dijkstra’s Algorithm</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>Depth-First Search (DFS)</span>.</p>
                                    </div>
                                </div>
                                  
@@ -1167,8 +1176,8 @@ const Portfolio = () => {
                                <div className="experience-text">
        
                                    <div>
-                                       <b>Animation Speed Control</b> 
-                                       <p>Allows users to control the speed of the visualization.</p>
+                                       <b>Sorting Algorithms</b> 
+                                       <p>Implement and visualize various sorting algorithms such as <span style={{ color: 'green', fontWeight: 'bold' }}>Quick sort Algorithm</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>Bubble sort Algorithm</span>.</p>
                                    </div>
                                </div>
                                  
