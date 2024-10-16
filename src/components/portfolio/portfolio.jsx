@@ -528,6 +528,7 @@ const Portfolio = () => {
                        
                       </div>
                     </div>
+                        </div>
 
                 </motion.div>
             )}
