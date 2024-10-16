@@ -938,8 +938,9 @@ const Portfolio = () => {
                                 <h2>PORTFOLIOM</h2>
                                 <h3>Summary</h3>
                                        <p>
-                              This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation. This is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
-                             </p> 
+                                            This project is a <b>Portfolio Website</b> designed to showcase all my project details, skills, and professional accomplishments. Developed using <b>HTML</b>, <b>CSS</b>, <b>React</b>, and <b>JavaScript</b>, this dynamic website provides an intuitive and visually engaging platform for presenting my work. Each section highlights key projects, the technologies I’ve used, and the skills I've honed through practical experience. The site serves as a comprehensive overview of my development journey, showcasing my ability to create responsive and interactive user interfaces with modern web technologies.
+                                        </p>
+
 
                                 <button 
                                     class="visit-website-btn" 
@@ -1018,9 +1019,9 @@ const Portfolio = () => {
                              <h2>PORTFOLIOM</h2>
 
                              <h3>Summary</h3>
-                             <p>
-                              This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation. This is a comprehensive web-based application designed to showcase detailed information about your various projects. This includes summaries, features, technologies used, and learning outcomes for each project. The portfolio serves as an in-depth professional presentation of your work and skills.
-                             </p> 
+                              <p>
+                                This project is a <b>Portfolio Website</b> designed to showcase all my project details, skills, and professional accomplishments. Developed using <b>HTML</b>, <b>CSS</b>, <b>React</b>, and <b>JavaScript</b>, this dynamic website provides an intuitive and visually engaging platform for presenting my work. Each section highlights key projects, the technologies I’ve used, and the skills I've honed through practical experience. The site serves as a comprehensive overview of my development journey, showcasing my ability to create responsive and interactive user interfaces with modern web technologies.
+                            </p>
 
                              <button 
                                 class="visit-website-btn" 
@@ -1127,10 +1128,11 @@ const Portfolio = () => {
                             <div className="gallery-text5">
                              <h2>DSA VISUALIZER</h2>                    
                              <h3>Summary</h3>
-                                         <p>
-                              The Data Structure & Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
-                              This is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
-                             </p>
+                                <p>
+                                    The <b>Data Structure & Algorithm Visualizer</b> is a comprehensive web-based application that I developed to enable users to visualize not only pathfinding algorithms but also a variety of <b>data structures</b> and <b>sorting algorithms</b> in real-time. This project enhanced my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm find the shortest path using techniques such as <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>. Beyond pathfinding, the project also includes visualizations for <b>data structures</b> like stacks and queues, as well as <b>sorting algorithms</b> such as <b>Bubble Sort</b> and <b>Merge Sort</b>, implemented in <b>JavaScript</b>. 
+                                    I also integrated an animation speed control feature, allowing users to customize the visualization speed for an enhanced experience. This project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, and it demonstrates my ability to create engaging and educational web applications with a focus on algorithmic principles and their practical applications.
+                                </p>
+
 
                              <button class="visit-website-btn" onClick={() => window.open('https://dsavis.vercel.app/', '_blank')}>
                             Visit Website
@@ -1179,9 +1181,10 @@ const Portfolio = () => {
                              <h2>DSA VISUALIZER</h2>                        
                              <h3>Summary</h3>
                              <p>
-                              The Data Structure & Algorithm Visualizer is a web-based application that I developed to enable users to visualize pathfinding algorithms in real-time. This project allowed me to enhance my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm finding the shortest path between the two points. I implemented various pathfinding algorithms, including <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>, using <b>JavaScript</b>, which deepened my understanding of algorithmic principles and their practical applications. Additionally, I integrated an animation speed control feature that enhances user experience by allowing them to customize the visualization speed. Overall, this project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, while also showcasing my ability to create engaging and educational web applications.
-                              This is a web-based application that allows users to visualize pathfinding algorithms in real-time. Users can set start and end points, place obstacles, and watch the algorithm find the shortest path between the two points on a grid.
-                             </p>
+                                The <b>Data Structure & Algorithm Visualizer</b> is a comprehensive web-based application that I developed to enable users to visualize not only pathfinding algorithms but also a variety of <b>data structures</b> and <b>sorting algorithms</b> in real-time. This project enhanced my web development skills, particularly through the use of the <b>React</b> framework for building a dynamic and interactive user interface. Users can easily set start and end points on an interactive grid board, place obstacles, and witness the algorithm find the shortest path using techniques such as <b>Dijkstra’s Algorithm</b> and <b>Depth-First Search (DFS)</b>. Beyond pathfinding, the project also includes visualizations for <b>data structures</b> like stacks and queues, as well as <b>sorting algorithms</b> such as <b>Bubble Sort</b> and <b>Merge Sort</b>, implemented in <b>JavaScript</b>. 
+                                I also integrated an animation speed control feature, allowing users to customize the visualization speed for an enhanced experience. This project significantly improved my proficiency in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, and it demonstrates my ability to create engaging and educational web applications with a focus on algorithmic principles and their practical applications.
+                            </p>
+
 
                              <button class="visit-website-btn" onClick={() => window.open('https://algochecker.vercel.app/', '_blank')}>
                                 Visit Website
@@ -1274,9 +1277,9 @@ const Portfolio = () => {
                                 <h2>VPORTFOLIO</h2>
                                 <h3>Summary</h3>
                                   <p>
-                                This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
-                                This is a personal web-based application designed to showcase your personal and professional information, projects, and skills. It provides a platform to display project details with screenshots and interactive features to engage visitors.
-                             </p>       
+                                        This project, a <b>Portfolio Website</b>, highlights my expertise in modern web development techniques, showcasing my personal and professional information, projects, and skills. The site incorporates numerous <b>highlighting features</b>, engaging <b>animations</b>, smooth <b>transitions</b>, and <b>Framer Motion</b> for interactive UI effects. Additionally, I implemented <b>image sliders</b> to present project visuals dynamically. The website is built using <b>HTML</b>, <b>CSS</b>, <b>React</b>, and <b>JavaScript</b>, combining these technologies to create a responsive and visually captivating portfolio that effectively showcases my work.
+                                    </p>
+       
                             </div>
    
                     
@@ -1347,9 +1350,9 @@ const Portfolio = () => {
                              <h2>VPORTFOLIO</h2>
                              <h3>Summary</h3>
                              <p>
-                                This project, <b>Structural Design Automation System</b>, showcases my proficiency in <b>GUI development</b> using <b>JavaFX</b> and handling <b>REST APIs</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
-                                This is a personal web-based application designed to showcase your personal and professional information, projects, and skills. It provides a platform to display project details with screenshots and interactive features to engage visitors.
-                             </p>                   
+                                This project, a <b>Portfolio Website</b>, highlights my expertise in modern web development techniques, showcasing my personal and professional information, projects, and skills. The site incorporates numerous <b>highlighting features</b>, engaging <b>animations</b>, smooth <b>transitions</b>, and <b>Framer Motion</b> for interactive UI effects. Additionally, I implemented <b>image sliders</b> to present project visuals dynamically. The website is built using <b>HTML</b>, <b>CSS</b>, <b>React</b>, and <b>JavaScript</b>, combining these technologies to create a responsive and visually captivating portfolio that effectively showcases my work.
+                            </p>
+                
                            </div>
 
                          </div>
@@ -1442,7 +1445,7 @@ const Portfolio = () => {
                              <h3>Summary</h3>
                               <p>
                                <b>Expense Tracker</b> is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
-                               This project showcases my proficiency in <b>react routing</b> using <b>React</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                               This project showcases my proficiency in <b>react routing</b> using <b>React</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
                               </p> 
 
                              <button class="visit-website-btn" onClick={() => window.open('https://expense-v-tracker.netlify.app/', '_blank')}>
@@ -1524,9 +1527,8 @@ const Portfolio = () => {
                              <h3>Summary</h3>
                              <p>
                                <b>Expense Tracker</b> is a web-based application designed to help users manage and track their expenses efficiently. Built with a modern and user-friendly interface, this system allows users to log in, input their expenses, and retrieve their data at any time.
-                               This project showcases my proficiency in <b>react routing</b> using <b>React</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual and textual design outputs. Additionally, I utilized <b>Apache POI</b> and <b>iText</b> for generating comprehensive reports in both .txt and .pdf formats. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
-                            
-                             </p> 
+                               This project showcases my proficiency in <b>react routing</b> using <b>React</b> for real-time graphical rendering on a dynamic canvas. I developed a secure <b>User Management</b> system integrated with <b>MongoDB</b> for storing and managing user profiles and project data, while implementing <b>forgot password recovery</b> through an email service. The project features intuitive input/output interfaces, allowing users to dynamically generate visual. The integration of these technologies enhanced my skills in modern <b>UI design</b>, real-time data handling, and efficient report generation.
+                              </p> 
 
                              <button class="visit-website-btn" onClick={() => window.open('https://expense-v-tracker.netlify.app/', '_blank')}>
                                 Visit Website
