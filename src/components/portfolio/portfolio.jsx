@@ -578,7 +578,7 @@ const Portfolio = () => {
                              <div className="image-row">
                                  
                                <div className="image-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                    <img src="./canvas.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                    <div>
                                        <b>Dynamic Canvas</b> 
                                        <p>A <span style={{ color: 'green', fontWeight: 'bold' }}>graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.</p>
@@ -674,7 +674,7 @@ const Portfolio = () => {
                              <div className="image-row">
                                  
                                <div className="image-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                    <img src="./pdf.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                    <div>
                                        <b>Apache POI and iText</b>
                                        <p>for generating .txt and .pdf reports</p>
@@ -682,7 +682,7 @@ const Portfolio = () => {
                                    
                                </div>
                                <div className="image-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                    <img src="./canvas.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                    <div>
                                        <b>JavaFX Drawing APIs</b>
                                        <p>for rendering real-time graphical outputs on the canvas.</p>
@@ -694,7 +694,7 @@ const Portfolio = () => {
                             <div className="image-row">
                                  
                                <div className="image-item">
-                                    <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="Spring Boot" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                    <img src="./spboot.png" alt="Spring Boot" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                    <div>
                                        <b>Spring Boot</b>
                                        <p>for rendering real-time graphical outputs on the canvas.</p>
@@ -755,7 +755,7 @@ const Portfolio = () => {
                           <div className="image-row">
                               
                             <div className="image-item">
-                                 <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                 <img src="./canvas.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                 <div>
                                     <b>Dynamic Canvas</b> 
                                     <p>A <span style={{ color: 'green', fontWeight: 'bold' }}>graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.</p>
@@ -856,7 +856,7 @@ const Portfolio = () => {
                           <div className="image-row">
                               
                             <div className="image-item">
-                                 <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                 <img src="./pdf.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                 <div>
                                     <b>Apache POI and iText</b>
                                     <p>for generating .txt and .pdf reports</p>
@@ -864,7 +864,7 @@ const Portfolio = () => {
                                 
                             </div>
                             <div className="image-item">
-                                 <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                 <img src="./canvas.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                 <div>
                                     <b>JavaFX Drawing APIs</b>
                                     <p>for rendering real-time graphical outputs on the canvas.</p>
@@ -876,7 +876,7 @@ const Portfolio = () => {
                          <div className="image-row">
                               
                             <div className="image-item">
-                                 <img src="https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png" alt="Spring Boot" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                                 <img src="./spboot.png" alt="Spring Boot" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                 <div>
                                     <b>Spring Boot</b>
                                     <p>Instead of using JDBC, a Spring Boot REST API approach is adopted for backend database connections.</p>
