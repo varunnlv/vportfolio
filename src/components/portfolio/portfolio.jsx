@@ -977,7 +977,7 @@ const Portfolio = () => {
                                         <img src="./canvas.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
                                     <div>
                                         <b>Interactive Elements</b> 
-                                        <p>Utilizes Framer Motion for interactive <span style={{ color: 'green', fontWeight: 'bold' }}>animations and transitions, enhancing the user experience <span>.</p>
+                                        <p>Utilizes Framer Motion for interactive <span style={{ color: 'green', fontWeight: 'bold' }}>animations and transitions, enhancing the user experience </span>.</p>
                                     </div>
                                     
                                 </div>
