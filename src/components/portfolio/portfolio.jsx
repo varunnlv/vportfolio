@@ -191,14 +191,14 @@ const Portfolio = () => {
                         >
                         Stand Alone Project
                         </button>
-                        
-                              
-{/*                         <button
-                        className={`tab ${activeTab === 'CreditAnalyser' ? 'active' : ''}`}
-                        onClick={() => setActiveTab('CreditAnalyser')}
+
+                        <button
+                        className={`tab ${activeTab === 'Worklogsystem' ? 'active' : ''}`}
+                        onClick={() => setActiveTab('Worklogsystem')}
                         >
-                        Credit Analyser
-                        </button> */}
+                        Worklog System
+                        </button>
+                        
                         <button
                         className={`tab ${activeTab === 'more' ? 'active' : ''}`}
                         onClick={() => setActiveTab('more')}
@@ -364,65 +364,63 @@ const Portfolio = () => {
                                     </div>
                                     
                                 
-                            </div>
-
-                 
-                            {/* <img src="./FilmBook.png" alt="User Management"/> */}
-                            
+                            </div>                          
                         </div>
                     </div>
                 </motion.div>
                 
             )}
-      
-             {activeTab === 'StandAloneProject1' && (
+
+
+             {activeTab === 'Worklogsystem' && (
                 <motion.div 
                 class="ui-container"
                 variants={textVariants}
                 initial="initial"
                 whileInView="animate"
                 >
-                 
                     <div className="small-gallery-container">
-                        <div className="gallery-content">
-
+                      <div className="gallery-content">
+    
                         <div className="gallery-text5">
-                            <h2>{items[0].title}</h2>
-                            <h3>Summary</h3>
-                            <p>
-                            The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
-                            </p>          
-                        </div>
-                            
+                              <h2>Worklog System</h2>
+                              <h3>Summary</h3>
+                              <p>
+                                The Structural Design Automation System project has significantly enhanced my web development skills, particularly in utilizing the <b>React</b> framework to build a responsive and dynamic frontend. By implementing React, I gained hands-on experience in creating component-based user interfaces that enhance user engagement and interactivity. Additionally, I utilized <b>HTML</b>, <b>CSS</b>, <b>SCSS</b>, and <b>Tailwind CSS</b> to ensure a visually appealing and responsive design. The project incorporated <b>MongoDB</b> for data storage, providing me with insights into NoSQL databases and effective data management techniques. Utilizing <b>REST APIs</b> enabled me to render real-time graphical outputs, while the integration of <b>JavaFX Drawing APIs</b> offered valuable experience in rendering graphics in web applications. I also developed a secure <b>User Management</b> system that utilized <b>email services</b> for password recovery and <b>Apache POI and iText</b> for generating reports in various formats, further improving my skills in backend integration and data handling. This project not only solidified my understanding of full-stack development but also allowed me to apply best practices in a real-world context.                    
+                                This is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly web interface with User Management that automates the design process, enhancing efficiency and accuracy, and generating reports in different file formats.
+                              </p>  
+           
+                             </div>
+                          
                         <div className="gallery-images">
                             <div className="image-row">
-                                
-                                <div className="image-item" >
-                                    <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
-                                    <div>
-                                        <b>User Management</b>   
-                                        <p>Secure <span style={{ color: 'green', fontWeight: 'bold' }}>login</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style={{ color: 'green', fontWeight: 'bold' }}>forgot password service</span> to ensure account recovery and accessibility.</p>
-                                    </div>
-                                    
-                                </div>
-                                <div className="image-item">
-                                        <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
-                                    <div>
-                                        <b>Input/Output Interface</b> 
-                                        <p>Intuitive forms for users to input design parameters and dynamically generate <span style={{ color: 'green', fontWeight: 'bold' }}>visual and textual outputs</span>.</p>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            <div className="image-row">
-                                
-                            <div className="image-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                              
+                            <div className="image-item" >
+                                <img src="https://www.shutterstock.com/image-vector/management-icon-teamwork-business-team-600nw-1051689107.jpg" alt="User Management" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                 <div>
-                                    <b>Dynamic Canvas</b> 
-                                    <p>A <span style={{ color: 'green', fontWeight: 'bold' }}>graphical canvas</span> that displays real-time, dynamic drawings based on user inputs, allowing for immediate visual feedback.</p>
+                                    <b>User Management</b>   
+                                    <p>Secure <span style={{ color: 'green', fontWeight: 'bold' }}>login</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>registration</span> system for storage and retrieval of user profiles and project data using MongoDB, along with a <span style={{ color: 'green', fontWeight: 'bold' }}>forgot password service</span> to ensure account recovery and accessibility.</p>
                                 </div>
                                 
+                            </div>
+                            <div className="image-item">
+                                 <img src="https://friconix.com/png/fi-xnluxx-gui.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                <div>
+                                    <b>Input/Output Interface</b> 
+                                    <p>Intuitive forms for users to input design parameters and dynamically generate <span style={{ color: 'green', fontWeight: 'bold' }}>visual and textual outputs</span>.</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                          <div className="image-row">
+                              
+                           <div className="experience-text">
+    
+                                <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
+                                <div>
+                                    <b>Api Management</b> 
+                                    <p>Ability to genbrate design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation as response by taking inputs as request.</p>
+                                </div>
                             </div>
                             <div className="image-item">
                                 <img src="https://png.pngtree.com/png-clipart/20230427/original/pngtree-data-management-line-icon-png-image_9117318.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '5px' }} />
@@ -432,61 +430,66 @@ const Portfolio = () => {
                                 </div>
                                 
                             </div>
-                            </div>
-                            <div className="experience">
+                          </div>
+                          <div className="experience">                         
+                          <div className="experience">
                             <div className="experience-text">
-
+    
                                 <img src="https://cdn-icons-png.flaticon.com/512/3460/3460831.png" alt="JavaFX" style={{ width: '50px', height: '44px', verticalAlign: 'middle', marginRight: '10px' }} />
                                 <div>
                                     <b>Output Formats</b> 
                                     <p>Ability to export design outputs as <span style={{ color: 'green', fontWeight: 'bold' }}>bitmaps for graphical representation</span> and <span style={{ color: 'green', fontWeight: 'bold' }}>text reports in both .txt and .pdf formats</span> for comprehensive documentation.</p>
                                 </div>
                             </div>
-                                
-                            </div>                                    
+                              
+                          </div>
                         </div>
-
-                            
                         <div className="gallery-text">
-                            <h2>{items[0].title}</h2>
-                            <h3>Summary</h3>
+                          <h2>Worklog System</h2>
+                          <h3>Summary</h3>
                             <p>
-                            The Structural Design Automation System is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly GUI with User Management that automates the design process, enhancing efficiency and accuracy and generating reports in different file formats.
-                            </p>          
-                        </div>
+                                The Structural Design Automation System project has significantly enhanced my web development skills, particularly in utilizing the <b>React</b> framework to build a responsive and dynamic frontend. By implementing React, I gained hands-on experience in creating component-based user interfaces that enhance user engagement and interactivity. Additionally, I utilized <b>HTML</b>, <b>CSS</b>, <b>SCSS</b>, and <b>Tailwind CSS</b> to ensure a visually appealing and responsive design. The project incorporated <b>MongoDB</b> for data storage, providing me with insights into NoSQL databases and effective data management techniques. Utilizing <b>REST APIs</b> enabled me to render real-time graphical outputs, while the integration of <b>JavaFX Drawing APIs</b> offered valuable experience in rendering graphics in web applications. I also developed a secure <b>User Management</b> system that utilized <b>email services</b> for password recovery and <b>Apache POI and iText</b> for generating reports in various formats, further improving my skills in backend integration and data handling. This project not only solidified my understanding of full-stack development but also allowed me to apply best practices in a real-world context.                    
+                                This is an innovative project aimed at revolutionizing the traditional design procedures for structural items. This system provides a modern, user-friendly web interface with User Management that automates the design process, enhancing efficiency and accuracy, and generating reports in different file formats.
+                              </p>  
+                            
                             
                         </div>
+                      </div>
                     </div>
-
+    
                     <div className="small-gallery-container">
-                        <div className="gallery-content">
+                      <div className="gallery-content">
                         <div className="gallery-images">
                             <div className="image-row">
-                                
+                              
                             <div className="image-item" >
-                                <img src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2021/07/communityIcon_4v21sx0aiam41.png?fit=256%2C171&ssl=1" alt="JavaFX" style={{ width: '60px',height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                <img 
+                                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 
+                                    alt="React" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} 
+                                />
                                 <div>
-                                    <b>JavaFX</b>   
-                                    <p>for GUI design and development.</p>
+                                    <b>Angular</b>   
+                                    <p>for building the frontend web application.</p>
                                 </div>
                                 
                             </div>
                             <div className="image-item">
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                 <img src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-2945120.png?f=webp" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
                                 <div>
                                     <b>MongoDB</b> 
                                     <p>NoSQL database for storing user data and project data.</p>
                                 </div>
                                 
                             </div>
-                            </div>
-                            <div className="image-row">
-                                
+                          </div>
+                          <div className="image-row">
+                              
                             <div className="image-item">
-                                    <img src="https://cdn.sanity.io/images/ss02266c/production/806fba67631087cd76ed2a963210feadd164c7fa-64x64.svg" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '5px' }} />
+                                <img src="https://www.opc-router.de/wp-content/uploads/2020/05/REST_socialmedia.jpg" alt="REST API" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
                                 <div>
-                                    <b>Redis</b>                         
-                                    <p>for distributed caching.</p>
+                                    <b>Rest Api</b>                         
+                                    <p>for rendering real-time graphical outputs on the canvas.</p>
                                 </div>
                                 
                             </div>
@@ -498,38 +501,33 @@ const Portfolio = () => {
                                 </div>
                                 
                             </div>
-                            </div>
-
-                            <div className="image-row">
-                                
-                            <div className="image-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
+                          </div>
+                         <div className="image-row">
+                              
+                               <div className="image-item">
+                                  <img 
+                                    src="./csshtml.png" 
+                                    alt="HTML,CSS,SCSS,TAILWIND" 
+                                    style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} 
+                                />
                                 <div>
-                                    <b>Apache POI and iText</b>
-                                    <p>for generating .txt and .pdf reports</p>
+                                    <b>HTML,CSS,SCSS,TAILWIND</b>
+                                    <p>for frontend UI.</p>
                                 </div>
                                 
                             </div>
-                            <div className="image-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/512/73/73812.png" alt="JavaFX" style={{ width: '60px', height: '54px', verticalAlign: 'middle', marginRight: '25px' }} />
-                                <div>
-                                    <b>JavaFX Drawing APIs</b>
-                                    <p>for rendering real-time graphical outputs on the canvas.</p>
-                                </div>
-                                
-                            </div>
-                            </div>
-                            
+                    
+                          </div>
+                         
                         </div>
-                        
-                        </div>
+                       
+                      </div>
                     </div>
 
-  
-
                 </motion.div>
-                
             )}
+      
+             
 
             {activeTab === 'StandAloneProject2' && (
                 <motion.div 
