@@ -158,7 +158,7 @@ const Portfolio = () => {
                         className={`tab ${activeTab === 'PathFinder' ? 'active' : ''}`}
                         onClick={() => setActiveTab('PathFinder')}
                         >
-                        Path Finder
+                        DSA Visualizer
                         </button>
                           <button
                         className={`tab ${activeTab === 'ExpenseTracker' ? 'active' : ''}`}
@@ -286,7 +286,7 @@ const Portfolio = () => {
 
                                 <div className="image-item4" >
                                         <div>
-                                            <h3>PATH FINDER</h3>     
+                                            <h3>DSA VISUALIZER</h3>     
                                         </div>
                                         
                                     </div>
@@ -349,7 +349,7 @@ const Portfolio = () => {
 
                                 <div className="image-item4" >
                                         <div>
-                                            <h3>PROJECT MANAGEMENT WEBSITE</h3>     
+                                            <h3> WORKLOG SYSTEM WEBSITE</h3>     
                                         </div>
                                         
                                     </div>
@@ -1173,7 +1173,7 @@ const Portfolio = () => {
 
 
                            <div className="gallery-text">
-                             <h2>PATH FINDER</h2>
+                             <h2>DSA VISUALIZER</h2>
 
 {/*                              <div class="slider-container">
                                 <Slider {...settings}>
